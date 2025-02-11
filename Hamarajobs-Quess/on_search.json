@@ -1,0 +1,1494 @@
+{
+    "context":
+    {
+        "domain": "ONDC:ONEST10",
+        "action": "on_search",
+        "version": "2.0.0",
+        "bap_id": "onest-mock-service.ondc.org",
+        "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
+        "bpp_id": "preprod-ondc.hamarajobs.ai",
+        "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
+        "transaction_id": "de528659-c60e-4837-84d4-632ed2b14446",
+        "message_id": "14f71881-5a8f-45aa-af0b-7e32396282dd",
+        "timestamp": "2025-02-11T13:37:18.146Z",
+        "ttl": "PT30S",
+        "location":
+        {
+            "city":
+            {
+                "code": "std:080"
+            },
+            "country":
+            {
+                "code": "IND"
+            }
+        }
+    },
+    "message":
+    {
+        "catalog":
+        {
+            "descriptor":
+            {
+                "name": "Quess Jobs"
+            },
+            "providers":
+            [
+                {
+                    "id": "1",
+                    "descriptor":
+                    {
+                        "name": "Quess Jobs",
+                        "short_desc": "Quess",
+                        "images":
+                        []
+                    },
+                    "fulfillments":
+                    [
+                        {
+                            "id": "F1",
+                            "type": "lead"
+                        }
+                    ],
+                    "locations":
+                    [
+                        {
+                            "id": "L1",
+                            "city":
+                            {
+                                "code": "std:080"
+                            },
+                            "state":
+                            {
+                                "code": "KA"
+                            }
+                        }
+                    ],
+                    "items":
+                    [
+                        {
+                            "id": "0d131999-d0fe-4929-91ea-bea9d985ec64",
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Delivery Boy ",
+                                "long_desc": "- Delivering food orders to customers promptly and accurately\n- Handling cash and card payments from customers\n- Ensuring proper handling and delivery of food orders to maintain food quality\n- Keeping track of delivery schedules and managing time efficiently\n- Communicating with customers to address any issues or concerns with their orders\n- Ensuring the cleanliness and maintenance of the delivery vehicle\n- Following traffic rules and regulations while driving to ensure safety\n- Collaborating with the restaurant staff to coordinate delivery orders\n- Providing excellent customer service and maintaining a professional image at all times.",
+                                "short_desc": "- Delivering food orders to customers promptly and accurately\n- Handling cash and card payments from customers\n- Ensuring proper handling and delivery of food orders to maintain food quality\n- Keeping track of delivery schedules and managing time efficiently\n- Communicating with customers to address any issues or concerns with their orders\n- Ensuring the cleanliness and maintenance of the delivery vehicle\n- Following traffic rules and regulations while driving to ensure safety\n- Collaborating with the restaurant staff to coordinate delivery orders\n- Providing excellent customer service and maintaining a professional image at all times.",
+                                "images":
+                                [],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 20
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2024-09-03 14:21:22",
+                                "range":
+                                {
+                                    "start": "2024-09-02T18:30:00.000Z",
+                                    "end": "2025-03-31T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    []
+                                },
+                                "address": "",
+                                "state":
+                                [],
+                                "city":
+                                [],
+                                "contact":
+                                []
+                            },
+                            "tags":
+                            [],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            }
+                        },
+                        {
+                            "id": "55c81e90-be98-41ef-9c2e-3b0b983fb7f7",
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Ac Technician",
+                                "long_desc": "Job DescriptionJob DescriptionJob DescriptionJob DescriptionJob DescriptionJob DescriptionJob DescriptionJob DescriptionJob DescriptionJob DescriptionJob DescriptionJob DescriptionJob Description",
+                                "short_desc": "Job DescriptionJob DescriptionJob DescriptionJob DescriptionJob DescriptionJob DescriptionJob DescriptionJob DescriptionJob DescriptionJob DescriptionJob DescriptionJob DescriptionJob Description",
+                                "images":
+                                [],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 20
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2024-09-03 15:52:55",
+                                "range":
+                                {
+                                    "start": "2024-09-02T18:30:00.000Z",
+                                    "end": "2025-03-31T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    []
+                                },
+                                "address": "",
+                                "state":
+                                [],
+                                "city":
+                                [],
+                                "contact":
+                                []
+                            },
+                            "tags":
+                            [],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            }
+                        },
+                        {
+                            "id": "4b390deb-527f-48ce-b211-c3720f7606cc",
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Accountant",
+                                "long_desc": "Responsibilities:\n\n- Manage all accounting transactions, including accounts payable, accounts receivable, and general ledger entries\n- Reconcile financial discrepancies by collecting and analyzing account information\n- Prepare financial statements and reports for management review\n- Ensure compliance with financial regulations and company policies\n- Assist with budget preparation and financial forecasting\n- Handle tax filings and audits\n- Monitor and analyze financial data to identify areas for process improvement\n- Provide guidance and support to team members on accounting practices and procedures\n- Maintain accurate and up-to-date records of financial transactions\n- Collaborate with other departments to streamline financial processes and improve overall efficiency of the organization.",
+                                "short_desc": "Responsibilities:\n\n- Manage all accounting transactions, including accounts payable, accounts receivable, and general ledger entries\n- Reconcile financial discrepancies by collecting and analyzing account information\n- Prepare financial statements and reports for management review\n- Ensure compliance with financial regulations and company policies\n- Assist with budget preparation and financial forecasting\n- Handle tax filings and audits\n- Monitor and analyze financial data to identify areas for process improvement\n- Provide guidance and support to team members on accounting practices and procedures\n- Maintain accurate and up-to-date records of financial transactions\n- Collaborate with other departments to streamline financial processes and improve overall efficiency of the organization.",
+                                "images":
+                                [],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 20
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2024-09-03 17:01:38",
+                                "range":
+                                {
+                                    "start": "2024-09-02T18:30:00.000Z",
+                                    "end": "2025-03-31T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    []
+                                },
+                                "address": "",
+                                "state":
+                                [],
+                                "city":
+                                [],
+                                "contact":
+                                []
+                            },
+                            "tags":
+                            [],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            }
+                        },
+                        {
+                            "id": "d8fd25d5-4a68-43bf-965c-09216926b994",
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Accountant",
+                                "long_desc": "Responsibilities:\n- Prepare and maintain financial records and statements\n- Process accounts payable and accounts receivable transactions\n- Manage payroll and tax filing responsibilities\n- Conduct financial analysis and reporting\n- Support budgeting and forecasting activities\n- Ensure compliance with financial regulations and company policies.",
+                                "short_desc": "Responsibilities:\n- Prepare and maintain financial records and statements\n- Process accounts payable and accounts receivable transactions\n- Manage payroll and tax filing responsibilities\n- Conduct financial analysis and reporting\n- Support budgeting and forecasting activities\n- Ensure compliance with financial regulations and company policies.",
+                                "images":
+                                [],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 20
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-01-08 13:14:54",
+                                "range":
+                                {
+                                    "start": "2025-01-07T18:30:00.000Z",
+                                    "end": "2025-03-31T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    []
+                                },
+                                "address": "",
+                                "state":
+                                [],
+                                "city":
+                                [],
+                                "contact":
+                                []
+                            },
+                            "tags":
+                            [],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            }
+                        },
+                        {
+                            "id": "a7edbf9a-b456-4d23-8d6a-a9b5dbfb4ef7",
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Sales Executive",
+                                "long_desc": "<p>- Prospect and generate new sales opportunities through networking, cold calling, and social media<br /> - Build and maintain relationships with potential and existing clients to drive sales growth<br /> - Meet or exceed sales targets by effectively selling the company's products or services<br /> - Provide exceptional customer service and support to clients throughout the sales process<br /> - Conduct product demonstrations and presentations to showcase the features and benefits of the company's offerings<br /> - Stay up-to-date on industry trends and competitors to identify new business opportunities<br /> - Collaborate with the marketing team to develop promotional materials and campaigns to support sales efforts<br /> - Prepare and submit sales reports and forecasts to management on a regular basis<br /> <br /> Requirements:<br /> <br /> - Proven track record of success in sales, with 2-3 years of experience in a similar role<br /> - Strong communication and interpersonal skills to build rapport with clients and colleagues<br /> - Ability to work independently and as part of a team in a fast-paced environment<br /> - Knowledge of sales techniques and strategies to close deals and achieve sales goals<br />- Familiarity with the BANGALORE market and industry trends to effectively identify sales opportunities<br /> - Bachelor's degree in business, marketing, or related field preferred<br /> - Willingness to travel within BANGALORE for client meetings and sales presentations.</p>",
+                                "short_desc": "<p>- Prospect and generate new sales opportunities through networking, cold calling, and social media<br /> - Build and maintain relationships with potential and existing clients to drive sales growth<br /> - Meet or exceed sales targets by effectively selling the company's products or services<br /> - Provide exceptional customer service and support to clients throughout the sales process<br /> - Conduct product demonstrations and presentations to showcase the features and benefits of the company's offerings<br /> - Stay up-to-date on industry trends and competitors to identify new business opportunities<br /> - Collaborate with the marketing team to develop promotional materials and campaigns to support sales efforts<br /> - Prepare and submit sales reports and forecasts to management on a regular basis<br /> <br /> Requirements:<br /> <br /> - Proven track record of success in sales, with 2-3 years of experience in a similar role<br /> - Strong communication and interpersonal skills to build rapport with clients and colleagues<br /> - Ability to work independently and as part of a team in a fast-paced environment<br /> - Knowledge of sales techniques and strategies to close deals and achieve sales goals<br />- Familiarity with the BANGALORE market and industry trends to effectively identify sales opportunities<br /> - Bachelor's degree in business, marketing, or related field preferred<br /> - Willingness to travel within BANGALORE for client meetings and sales presentations.</p>",
+                                "images":
+                                [],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 40
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-01-16 10:48:53",
+                                "range":
+                                {
+                                    "start": "2025-01-15T18:30:00.000Z",
+                                    "end": "2025-03-31T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    []
+                                },
+                                "address": "",
+                                "state":
+                                [],
+                                "city":
+                                [],
+                                "contact":
+                                []
+                            },
+                            "tags":
+                            [],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            }
+                        },
+                        {
+                            "id": "09fbc379-76a8-47fd-aab6-3dc499b2a8ad",
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Accountant",
+                                "long_desc": "Responsibilities:\n- Prepare and maintain financial records\n- Assist with budget preparation and financial planning\n- Analyze financial data and prepare reports\n- Ensure compliance with financial regulations\n- Monitor expenses and prepare reimbursement reports\n- Assist with audits and financial reviews\n\nNote: Job location is Bengaluru.",
+                                "short_desc": "Responsibilities:\n- Prepare and maintain financial records\n- Assist with budget preparation and financial planning\n- Analyze financial data and prepare reports\n- Ensure compliance with financial regulations\n- Monitor expenses and prepare reimbursement reports\n- Assist with audits and financial reviews\n\nNote: Job location is Bengaluru.",
+                                "images":
+                                [],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 20
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-01-16 17:05:47",
+                                "range":
+                                {
+                                    "start": "2025-01-15T18:30:00.000Z",
+                                    "end": "2025-03-31T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    []
+                                },
+                                "address": "",
+                                "state":
+                                [],
+                                "city":
+                                [],
+                                "contact":
+                                []
+                            },
+                            "tags":
+                            [],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            }
+                        },
+                        {
+                            "id": "b58c454b-9eef-4b88-ac31-2011833a322e",
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Ac Technician",
+                                "long_desc": "Responsibilities:\n- Repair and maintain air conditioning systems\n- Perform routine maintenance and inspections\n- Troubleshoot and diagnose issues with AC units\n- Install new AC units as needed\n- Maintain accurate records of work performed\n- Ensure customer satisfaction with quality of work",
+                                "short_desc": "Responsibilities:\n- Repair and maintain air conditioning systems\n- Perform routine maintenance and inspections\n- Troubleshoot and diagnose issues with AC units\n- Install new AC units as needed\n- Maintain accurate records of work performed\n- Ensure customer satisfaction with quality of work",
+                                "images":
+                                [],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 20
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-01-16 17:12:56",
+                                "range":
+                                {
+                                    "start": "2025-01-15T18:30:00.000Z",
+                                    "end": "2025-03-31T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    []
+                                },
+                                "address": "",
+                                "state":
+                                [],
+                                "city":
+                                [],
+                                "contact":
+                                []
+                            },
+                            "tags":
+                            [],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            }
+                        },
+                        {
+                            "id": "22a20cb1-e012-418f-9efd-ef63f67d0af2",
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Accountant",
+                                "long_desc": "Responsibilities:\n- Manage accounts payable and receivable processes\n- Prepare and analyze financial reports\n- Ensure compliance with legal and financial regulations\n- Perform budgeting and forecasting activities\n- Assist in the preparation of tax documents\n- Conduct financial audits\n- Provide recommendations for improving financial processes\n- Communicate financial information to management and stakeholders",
+                                "short_desc": "Responsibilities:\n- Manage accounts payable and receivable processes\n- Prepare and analyze financial reports\n- Ensure compliance with legal and financial regulations\n- Perform budgeting and forecasting activities\n- Assist in the preparation of tax documents\n- Conduct financial audits\n- Provide recommendations for improving financial processes\n- Communicate financial information to management and stakeholders",
+                                "images":
+                                [],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 20
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-01-16 17:36:55",
+                                "range":
+                                {
+                                    "start": "2025-01-15T18:30:00.000Z",
+                                    "end": "2025-03-31T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    []
+                                },
+                                "address": "",
+                                "state":
+                                [],
+                                "city":
+                                [],
+                                "contact":
+                                []
+                            },
+                            "tags":
+                            [],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            }
+                        },
+                        {
+                            "id": "40406bfb-9b86-4414-a5d9-fbfca2e45219",
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Delivery Boy ",
+                                "long_desc": "Responsibilities:\n- Delivering orders to customers in a timely manner\n- Ensuring accuracy of orders and collecting payments\n- Providing excellent customer service during deliveries\n- Following all safety protocols while driving and delivering orders\n- Maintaining cleanliness and organization of delivery vehicle\n- Reporting any issues or concerns to the management team in a timely manner\n\nNote: This position is based in Bengaluru.",
+                                "short_desc": "Responsibilities:\n- Delivering orders to customers in a timely manner\n- Ensuring accuracy of orders and collecting payments\n- Providing excellent customer service during deliveries\n- Following all safety protocols while driving and delivering orders\n- Maintaining cleanliness and organization of delivery vehicle\n- Reporting any issues or concerns to the management team in a timely manner\n\nNote: This position is based in Bengaluru.",
+                                "images":
+                                [],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 20
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-01-17 10:56:58",
+                                "range":
+                                {
+                                    "start": "2025-01-16T18:30:00.000Z",
+                                    "end": "2025-03-31T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    []
+                                },
+                                "address": "",
+                                "state":
+                                [],
+                                "city":
+                                [],
+                                "contact":
+                                []
+                            },
+                            "tags":
+                            [],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            }
+                        },
+                        {
+                            "id": "1f548c5e-0fec-4a50-8ee5-c5dcfcf6a6d5",
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Delivery Boy ",
+                                "long_desc": "Responsibilities:\n- Delivering packages to customers in a timely manner\n- Ensuring the safety and security of the packages during delivery\n- Providing excellent customer service to recipients\n- Following all traffic laws and regulations while driving\n- Maintaining a clean and organized delivery vehicle\n- Communicating effectively with the dispatch team for updates and instructions\n- Reporting any incidents or issues encountered during delivery.",
+                                "short_desc": "Responsibilities:\n- Delivering packages to customers in a timely manner\n- Ensuring the safety and security of the packages during delivery\n- Providing excellent customer service to recipients\n- Following all traffic laws and regulations while driving\n- Maintaining a clean and organized delivery vehicle\n- Communicating effectively with the dispatch team for updates and instructions\n- Reporting any incidents or issues encountered during delivery.",
+                                "images":
+                                [],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 80
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-01-17 12:40:19",
+                                "range":
+                                {
+                                    "start": "2025-01-16T18:30:00.000Z",
+                                    "end": "2025-03-31T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    []
+                                },
+                                "address": "",
+                                "state":
+                                [],
+                                "city":
+                                [],
+                                "contact":
+                                []
+                            },
+                            "tags":
+                            [],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            }
+                        },
+                        {
+                            "id": "754b89fe-f46c-4dec-b6dc-534901a10e24",
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Ac Technician",
+                                "long_desc": "- Install, maintain, and repair air conditioning systems\n- Perform regular inspections and preventive maintenance on AC units\n- Troubleshoot and diagnose issues with cooling systems\n- Replace or repair defective components as needed\n- Ensure that all work is completed in compliance with safety standards and regulations\n- Keep accurate records of all maintenance and repair work\n- Provide excellent customer service and communication\n- Work collaboratively with team members to achieve department goals",
+                                "short_desc": "- Install, maintain, and repair air conditioning systems\n- Perform regular inspections and preventive maintenance on AC units\n- Troubleshoot and diagnose issues with cooling systems\n- Replace or repair defective components as needed\n- Ensure that all work is completed in compliance with safety standards and regulations\n- Keep accurate records of all maintenance and repair work\n- Provide excellent customer service and communication\n- Work collaboratively with team members to achieve department goals",
+                                "images":
+                                [],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 20
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-01-20 12:23:03",
+                                "range":
+                                {
+                                    "start": "2025-01-19T18:30:00.000Z",
+                                    "end": "2025-03-31T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    []
+                                },
+                                "address": "",
+                                "state":
+                                [],
+                                "city":
+                                [],
+                                "contact":
+                                []
+                            },
+                            "tags":
+                            [],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            }
+                        },
+                        {
+                            "id": "fa7b893b-b2cb-47aa-a43a-00f449015293",
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Ac Technician",
+                                "long_desc": "- Install, maintain, and repair air conditioning systems \n- Inspect and test system components, such as compressors, motors, and thermostats\n- Perform preventative maintenance on HVAC equipment\n- Respond to service calls and troubleshoot issues with air conditioning systems\n- Keep accurate records of work performed and parts used\n- Ensure compliance with safety standards and regulations",
+                                "short_desc": "- Install, maintain, and repair air conditioning systems \n- Inspect and test system components, such as compressors, motors, and thermostats\n- Perform preventative maintenance on HVAC equipment\n- Respond to service calls and troubleshoot issues with air conditioning systems\n- Keep accurate records of work performed and parts used\n- Ensure compliance with safety standards and regulations",
+                                "images":
+                                [],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 20
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-01-20 15:05:48",
+                                "range":
+                                {
+                                    "start": "2025-01-19T18:30:00.000Z",
+                                    "end": "2025-03-31T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    []
+                                },
+                                "address": "",
+                                "state":
+                                [],
+                                "city":
+                                [],
+                                "contact":
+                                []
+                            },
+                            "tags":
+                            [],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            }
+                        },
+                        {
+                            "id": "21f4d006-0f05-4288-81b9-7965cfe55517",
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Ac Technician",
+                                "long_desc": "- Install, maintain, and repair air conditioning systems\n- Perform routine maintenance on AC units\n- Troubleshoot issues with systems and determine necessary repairs\n- Test AC systems for proper functioning\n- Provide customer service and answer questions about AC systems and maintenance",
+                                "short_desc": "- Install, maintain, and repair air conditioning systems\n- Perform routine maintenance on AC units\n- Troubleshoot issues with systems and determine necessary repairs\n- Test AC systems for proper functioning\n- Provide customer service and answer questions about AC systems and maintenance",
+                                "images":
+                                [],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 20
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-01-20 17:36:52",
+                                "range":
+                                {
+                                    "start": "2025-01-19T18:30:00.000Z",
+                                    "end": "2025-03-31T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    []
+                                },
+                                "address": "",
+                                "state":
+                                [],
+                                "city":
+                                [],
+                                "contact":
+                                []
+                            },
+                            "tags":
+                            [],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            }
+                        },
+                        {
+                            "id": "6bdfcb14-4452-46dd-8e4f-0226b0d9f921",
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Accountant",
+                                "long_desc": "Responsibilities:\n- Prepare and maintain financial records\n- Analyze financial information to ensure accurate reporting\n- Prepare and submit financial reports\n- Assist with budget planning and monitoring\n- Handle accounts payable and receivable\n- Reconcile bank statements and financial transactions\n- Assist in tax preparation and filing\n- Maintain confidentiality of financial information.",
+                                "short_desc": "Responsibilities:\n- Prepare and maintain financial records\n- Analyze financial information to ensure accurate reporting\n- Prepare and submit financial reports\n- Assist with budget planning and monitoring\n- Handle accounts payable and receivable\n- Reconcile bank statements and financial transactions\n- Assist in tax preparation and filing\n- Maintain confidentiality of financial information.",
+                                "images":
+                                [],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 20
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-01-21 11:01:26",
+                                "range":
+                                {
+                                    "start": "2025-01-20T18:30:00.000Z",
+                                    "end": "2025-03-31T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    []
+                                },
+                                "address": "",
+                                "state":
+                                [],
+                                "city":
+                                [],
+                                "contact":
+                                []
+                            },
+                            "tags":
+                            [],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            }
+                        },
+                        {
+                            "id": "c785e3f0-1ac0-4ccd-a998-75f986e03639",
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Delivery Boy ",
+                                "long_desc": "- Deliver a wide variety of items to different addresses in Bengaluru\n- Load and unload goods from vehicle in a safe and timely manner\n- Follow delivery routes and time schedules\n- Collect payments from customers when required\n- Maintain a clean and organized vehicle\n- Adhere to all traffic and delivery laws and regulations",
+                                "short_desc": "- Deliver a wide variety of items to different addresses in Bengaluru\n- Load and unload goods from vehicle in a safe and timely manner\n- Follow delivery routes and time schedules\n- Collect payments from customers when required\n- Maintain a clean and organized vehicle\n- Adhere to all traffic and delivery laws and regulations",
+                                "images":
+                                [],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 20
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-01-21 11:45:37",
+                                "range":
+                                {
+                                    "start": "2025-01-20T18:30:00.000Z",
+                                    "end": "2025-03-31T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    []
+                                },
+                                "address": "",
+                                "state":
+                                [],
+                                "city":
+                                [],
+                                "contact":
+                                []
+                            },
+                            "tags":
+                            [],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            }
+                        },
+                        {
+                            "id": "33f33db3-ccb3-4d42-bc43-86e2ad8b7be5",
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Ac Technician",
+                                "long_desc": "- Install, maintain, and repair air conditioning systems\n- Perform routine maintenance on HVAC equipment\n- Troubleshoot and resolve air conditioning issues\n- Keep detailed records of work performed and parts used\n- Adhere to safety regulations and guidelines\n- Communicate effectively with clients and supervisors\n- Stay updated on industry trends and advancements in AC technology",
+                                "short_desc": "- Install, maintain, and repair air conditioning systems\n- Perform routine maintenance on HVAC equipment\n- Troubleshoot and resolve air conditioning issues\n- Keep detailed records of work performed and parts used\n- Adhere to safety regulations and guidelines\n- Communicate effectively with clients and supervisors\n- Stay updated on industry trends and advancements in AC technology",
+                                "images":
+                                [],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 20
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-01-21 11:47:02",
+                                "range":
+                                {
+                                    "start": "2025-01-20T18:30:00.000Z",
+                                    "end": "2025-03-31T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    []
+                                },
+                                "address": "",
+                                "state":
+                                [],
+                                "city":
+                                [],
+                                "contact":
+                                []
+                            },
+                            "tags":
+                            [],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            }
+                        },
+                        {
+                            "id": "3edb68ce-7087-4fe1-bef2-c94aeccbc508",
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Delivery Boy ",
+                                "long_desc": "Responsibilities:\n\n- Delivering orders to customers in a timely manner\n- Ensuring the safety of the products during transportation\n- Handling cash transactions and processing payments accurately\n- Providing excellent customer service and resolving any issues or complaints promptly\n- Maintaining a clean and organized delivery vehicle\n- Adhering to all traffic and delivery regulations and guidelines",
+                                "short_desc": "Responsibilities:\n\n- Delivering orders to customers in a timely manner\n- Ensuring the safety of the products during transportation\n- Handling cash transactions and processing payments accurately\n- Providing excellent customer service and resolving any issues or complaints promptly\n- Maintaining a clean and organized delivery vehicle\n- Adhering to all traffic and delivery regulations and guidelines",
+                                "images":
+                                [],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 20
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-02-10 11:57:30",
+                                "range":
+                                {
+                                    "start": "2025-02-09T18:30:00.000Z",
+                                    "end": "2025-03-12T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    []
+                                },
+                                "address": "",
+                                "state":
+                                [],
+                                "city":
+                                [],
+                                "contact":
+                                []
+                            },
+                            "tags":
+                            [],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            }
+                        },
+                        {
+                            "id": "b47f86de-71a6-41f3-b7bb-515b573dc265",
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Sales Representative",
+                                "long_desc": "- Present, promote and sell products/services to existing and prospective customers\n- Establish, develop and maintain positive business and customer relationships\n- Reach out to customer leads through cold calling\n- Achieve agreed upon sales targets and outcomes within schedule\n- Coordinate sales effort with team members and other departments\n- Analyze the territory/market's potential, track sales and status reports\n- Supply management with reports on customer needs, problems, interests, competitive activities, and potential for new products and services\n- Keep abreast of best practices and promotional trends",
+                                "short_desc": "- Present, promote and sell products/services to existing and prospective customers\n- Establish, develop and maintain positive business and customer relationships\n- Reach out to customer leads through cold calling\n- Achieve agreed upon sales targets and outcomes within schedule\n- Coordinate sales effort with team members and other departments\n- Analyze the territory/market's potential, track sales and status reports\n- Supply management with reports on customer needs, problems, interests, competitive activities, and potential for new products and services\n- Keep abreast of best practices and promotional trends",
+                                "images":
+                                [],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 20
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-02-10 12:10:14",
+                                "range":
+                                {
+                                    "start": "2025-02-09T18:30:00.000Z",
+                                    "end": "2025-03-12T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    []
+                                },
+                                "address": "",
+                                "state":
+                                [],
+                                "city":
+                                [],
+                                "contact":
+                                []
+                            },
+                            "tags":
+                            [],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            }
+                        },
+                        {
+                            "id": "b66a048f-d5fc-47c9-9a21-a5c7500c52d0",
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Ac Technician",
+                                "long_desc": "Responsibilities:\n- Install, maintain, repair, and troubleshoot air conditioning systems\n- Perform routine maintenance tasks such as cleaning filters and checking refrigerant levels\n- Diagnose and repair electrical and mechanical issues with AC units\n- Follow safety protocols and regulations while working on air conditioning systems\n- Provide excellent customer service and effectively communicate with clients about AC system issues.",
+                                "short_desc": "Responsibilities:\n- Install, maintain, repair, and troubleshoot air conditioning systems\n- Perform routine maintenance tasks such as cleaning filters and checking refrigerant levels\n- Diagnose and repair electrical and mechanical issues with AC units\n- Follow safety protocols and regulations while working on air conditioning systems\n- Provide excellent customer service and effectively communicate with clients about AC system issues.",
+                                "images":
+                                [],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 20
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-02-10 12:50:52",
+                                "range":
+                                {
+                                    "start": "2025-02-09T18:30:00.000Z",
+                                    "end": "2025-03-12T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    []
+                                },
+                                "address": "",
+                                "state":
+                                [],
+                                "city":
+                                [],
+                                "contact":
+                                []
+                            },
+                            "tags":
+                            [],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            }
+                        },
+                        {
+                            "id": "c01d8026-a884-4130-8b10-264021d60d3b",
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Accountant",
+                                "long_desc": "Responsibilities:\n- Prepare financial statements and reports\n- Maintain accurate and up-to-date financial records\n- Analyze and reconcile financial data\n- Ensure compliance with financial regulations\n- Assist with budget preparation and monitoring\n- Support audit processes\n- Provide financial insights and recommendations to management\n- Identify and implement process improvements\n- Collaborate with team members to achieve financial goals",
+                                "short_desc": "Responsibilities:\n- Prepare financial statements and reports\n- Maintain accurate and up-to-date financial records\n- Analyze and reconcile financial data\n- Ensure compliance with financial regulations\n- Assist with budget preparation and monitoring\n- Support audit processes\n- Provide financial insights and recommendations to management\n- Identify and implement process improvements\n- Collaborate with team members to achieve financial goals",
+                                "images":
+                                [],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 20
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-02-10 14:11:39",
+                                "range":
+                                {
+                                    "start": "2025-02-09T18:30:00.000Z",
+                                    "end": "2025-03-12T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    []
+                                },
+                                "address": "",
+                                "state":
+                                [],
+                                "city":
+                                [],
+                                "contact":
+                                []
+                            },
+                            "tags":
+                            [],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
