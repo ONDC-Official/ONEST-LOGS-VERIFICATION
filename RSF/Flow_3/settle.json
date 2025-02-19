@@ -1,0 +1,58 @@
+{
+  "context": {
+    "domain": "ONDC:NTS10",
+    "location": {
+      "country": {
+        "code": "IND"
+      },
+      "city": {
+        "code": "*"
+      }
+    },
+    "version": "2.0.0",
+    "action": "settle",
+   "bap_id": "staging-ondc.hamarajobs.ai",
+    "bap_uri": "https://staging-ondc.hamarajobs.ai/bpp",
+    "bpp_id": "sa_nocs.nbbl.com",
+    "bpp_uri": "https://sa_nocs.nbbl.com/nocs_test",
+    "transaction_id": "45278754-7918-4c8b-9e95-f293f2b65f66",
+    "message_id": "2ee1cf9b-797d-46ed-ba6d-8faca5277c24",
+    "timestamp": "2024-05-19T18:41:51.897Z",
+    "ttl": "P1D"
+  },
+  "message": {
+      "collector_app_id": "sa_nocs.nbbl.com",
+      "receiver_app_id": "staging-ondc.hamarajobs.ai",
+      "settlement": {
+        "type": "NP-NP",
+        "orders": [
+          {
+            "inter_participant": {
+              "amount": {
+                "value": "0",
+                "currency": "INR"
+              },
+              "settled_amount": {
+                "value": "0",
+                "currency": "INR"
+              }
+            },
+            "collector": {
+              "amount": {
+                "value": "0",
+                "currency": "INR"
+              }
+            },
+            "self": {
+              "amount": {
+                "value": "0",
+                "currency": "INR"
+              }
+            },
+            "id": "cae6ea80-025c-4783-a67d-08df96845267"
+          }
+        ],
+        "id": "6ba614bd-10db-4b8e-ad5d-d879b34d48ce"
+      }
+    }
+}

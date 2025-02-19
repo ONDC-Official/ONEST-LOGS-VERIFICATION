@@ -47,6 +47,22 @@
                             ]
                         }
                     ]
+                },
+				{
+                    "id": "6fa7de56-d18a-4454-b2ce-201d968e691f",
+                    "tags": [
+                        {
+                            "descriptor": {
+                                "code": "NP_FEES"
+                            },
+                            "list": [
+                                {
+                                    "code": "ID",
+                                    "value": "1"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }

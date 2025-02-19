@@ -1,0 +1,62 @@
+{
+  "context": {
+    "domain": "ONDC:NTS10",
+    "location": {
+      "country": {
+        "code": "IND"
+      },
+      "city": {
+        "code": "*"
+      }
+    },
+    "version": "2.0.0",
+    "action": "recon",
+   "bap_id": "staging-ondc.hamarajobs.ai",
+    "bap_uri": "https://staging-ondc.hamarajobs.ai/bpp",
+    "bpp_id": "sa_nocs.nbbl.com",
+    "bpp_uri": "https://sa_nocs.nbbl.com/nocs_test",
+    "transaction_id": "3eae62f8-fe0d-4d50-a9aa-f3476abc138a",
+    "message_id": "53bb958d-f6f0-4e32-80f5-4db31a15923f",
+    "timestamp": "2024-05-19T08:41:51.897Z",
+    "ttl": "P1D"
+  },
+  "message": {
+      "orders": [{
+        "settlements": [
+          {
+            "payment_id": "6a8a2f42-1344-40cb-a287-2b7ab39e2e91",
+            "status": "PENDING",
+            "amount": {
+                "currency": "INR",
+                "value": "0"
+            },
+            "commission": {
+                "currency": "INR",
+                "value": "0"
+            },
+            "withholding_amount": {
+                "currency": "INR",
+                "value": "0.00"
+            },
+            "tcs": {
+                "currency": "INR",
+                "value": "0.00"
+            },
+            "tds": {
+                "currency": "INR",
+                "value": "0.00"
+            },
+            "updated_at": "2025-02-19T12:38:19.386Z",
+            "id": "eb65bdc7-f6c0-46fe-9432-c31fb1bb8b52"
+          }
+        ],
+        "amount": {
+					"currency": "INR",
+					"value": "0"
+				},
+        "id": "cae6ea80-025c-4783-a67d-08df96845267"
+      }
+      ]
+    }
+    
+}
