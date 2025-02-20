@@ -61,34 +61,6 @@
                                 {
                                     "code": "ID",
                                     "value": "1"
-                                },
-                                {
-                                    "code": "COMMERCIAL_TYPE",
-                                    "value": "amount"
-                                },
-                                {
-                                    "code": "COMMERCIAL_VALUE",
-                                    "value": "0"
-                                },
-                                {
-                                    "code": "COMMERCIAL_NAME",
-                                    "value": "lead"
-                                },
-                                {
-                                    "code": "COMMERCIAL_TRIGGERING_STATE",
-                                    "value": "APPLICATION_SUBMITTED"
-                                },
-                                {
-                                    "code": "COMPENSATION_TYPE",
-                                    "value": "CTC"
-                                },
-                                {
-                                    "code": "COMPENSATION_TRANSFER_PERIOD",
-                                    "value": "P1M"
-                                },
-                                {
-                                    "code": "COMPENSATION_PERCENTAGE_SPLIT",
-                                    "value": "100"
                                 }
                             ]
                         }

@@ -39,7 +39,7 @@
                     "tags": [
                         {
                             "descriptor": {
-                                "code": "ACADEMIC_ELIGIBILITY"
+                                "code": "ACADEMIC_QUALIFICATIONS"
                             },
                             "list": [
                                 {
@@ -63,21 +63,9 @@
                             "list": [
                                 {
                                     "descriptor": {
-                                        "code": "REQ_EXPERIENCE_MIN"
+                                        "code": "REQ_EXPERIENCE"
                                     },
                                     "value": "0"
-                                },
-                                {
-                                    "descriptor": {
-                                        "code": "REQ_EXPERIENCE_MAX"
-                                    },
-                                    "value": "0"
-                                },
-                                {
-                                    "descriptor": {
-                                        "code": "REQ_GENDER"
-                                    },
-                                    "value": "both"
                                 }
                             ]
                         },
@@ -86,12 +74,6 @@
                                 "code": "JOB_DETAILS"
                             },
                             "list": [
-                                {
-                                    "descriptor": {
-                                        "code": "CATEGORY"
-                                    },
-                                    "value": "Delivery"
-                                },
                                 {
                                     "descriptor": {
                                         "code": "JOB_ROLE"
@@ -106,28 +88,34 @@
                                 },
                                 {
                                     "descriptor": {
-                                        "code": "SHIFT_TYPE"
+                                        "code": "GENDER_PREFERENCE"
                                     },
-                                    "value": "Day / Night"
+                                    "value": "Male"
                                 }
                             ]
                         },
                         {
                             "descriptor": {
-                                "code": "SALARY_INFO"
+                                "code": "COMPENSATION"
                             },
                             "list": [
                                 {
                                     "descriptor": {
-                                        "code": "SALARY_MIN"
+                                        "code": "TYPE"
                                     },
-                                    "value": "11100"
+                                    "value": "ctc"
                                 },
                                 {
                                     "descriptor": {
-                                        "code": "SALARY_MAX"
+                                        "code": "MIN"
                                     },
-                                    "value": "22200"
+                                    "value": "900000"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "MAX"
+                                    },
+                                    "value": "1200000"
                                 }
                             ]
                         },
@@ -139,34 +127,6 @@
                                 {
                                     "code": "ID",
                                     "value": "1"
-                                },
-                                {
-                                    "code": "COMMERCIAL_TYPE",
-                                    "value": "amount"
-                                },
-                                {
-                                    "code": "COMMERCIAL_VALUE",
-                                    "value": "0"
-                                },
-                                {
-                                    "code": "COMMERCIAL_NAME",
-                                    "value": "lead"
-                                },
-                                {
-                                    "code": "COMMERCIAL_TRIGGERING_STATE",
-                                    "value": "APPLICATION_SUBMITTED"
-                                },
-                                {
-                                    "code": "COMPENSATION_TYPE",
-                                    "value": "CTC"
-                                },
-                                {
-                                    "code": "COMPENSATION_TRANSFER_PERIOD",
-                                    "value": "P1M"
-                                },
-                                {
-                                    "code": "COMPENSATION_PERCENTAGE_SPLIT",
-                                    "value": "100"
                                 }
                             ]
                         }

@@ -120,99 +120,87 @@
                             },
                             "tags": [
                                 {
-                            "descriptor": {
-                                "code": "ACADEMIC_ELIGIBILITY"
-                            },
-                            "list": [
-                                {
                                     "descriptor": {
-                                        "code": "COURSE_LEVEL"
+                                        "code": "ACADEMIC_QUALIFICATIONS"
                                     },
-                                    "value": "Graduation"
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "code": "COURSE_LEVEL"
+                                            },
+                                            "value": "Graduation"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "MANDATORY_ELIGIBILITY"
+                                            },
+                                            "value": "true"
+                                        }
+                                    ]
                                 },
                                 {
                                     "descriptor": {
-                                        "code": "MANDATORY_ELIGIBILITY"
+                                        "code": "JOB_REQUIREMENT"
                                     },
-                                    "value": "true"
-                                }
-                            ]
-                        },
-                        {
-                            "descriptor": {
-                                "code": "JOB_REQUIREMENT"
-                            },
-                            "list": [
-                                {
-                                    "descriptor": {
-                                        "code": "REQ_EXPERIENCE_MIN"
-                                    },
-                                    "value": "0"
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "code": "REQ_EXPERIENCE"
+                                            },
+                                            "value": "0"
+                                        }
+                                    ]
                                 },
                                 {
                                     "descriptor": {
-                                        "code": "REQ_EXPERIENCE_MAX"
+                                        "code": "JOB_DETAILS"
                                     },
-                                    "value": "0"
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "code": "JOB_ROLE"
+                                            },
+                                            "value": "Delivery Boy"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "JOB_TYPE"
+                                            },
+                                            "value": "Full-time"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "GENDER_PREFERENCE"
+                                            },
+                                            "value": "Male"
+                                        }
+                                    ]
                                 },
                                 {
                                     "descriptor": {
-                                        "code": "REQ_GENDER"
+                                        "code": "COMPENSATION"
                                     },
-                                    "value": "both"
-                                }
-                            ]
-                        },
-                        {
-                            "descriptor": {
-                                "code": "JOB_DETAILS"
-                            },
-                            "list": [
-                                {
-                                    "descriptor": {
-                                        "code": "CATEGORY"
-                                    },
-                                    "value": "Delivery"
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "code": "TYPE"
+                                            },
+                                            "value": "ctc"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "MIN"
+                                            },
+                                            "value": "900000"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "MAX"
+                                            },
+                                            "value": "1200000"
+                                        }
+                                    ]
                                 },
-                                {
-                                    "descriptor": {
-                                        "code": "JOB_ROLE"
-                                    },
-                                    "value": "Delivery Boy"
-                                },
-                                {
-                                    "descriptor": {
-                                        "code": "JOB_TYPE"
-                                    },
-                                    "value": "Full-time"
-                                },
-                                {
-                                    "descriptor": {
-                                        "code": "SHIFT_TYPE"
-                                    },
-                                    "value": "Day / Night"
-                                }
-                            ]
-                        },
-                        {
-                            "descriptor": {
-                                "code": "SALARY_INFO"
-                            },
-                            "list": [
-                                {
-                                    "descriptor": {
-                                        "code": "SALARY_MIN"
-                                    },
-                                    "value": "11100"
-                                },
-                                {
-                                    "descriptor": {
-                                        "code": "SALARY_MAX"
-                                    },
-                                    "value": "22200"
-                                }
-                            ]
-                        },
                                 {
                                     "descriptor": {
                                         "code": "NP_FEES"
