@@ -208,7 +208,7 @@
                     "type": "lead",
                     "state": {
                         "descriptor": {
-                            "code": "APPLICATION_ACCEPTED"
+                            "code": "APPLICATION_SUBMITTED"
                         },
                         "updated_at": "2025-02-20T10:11:59.146Z"
                     },

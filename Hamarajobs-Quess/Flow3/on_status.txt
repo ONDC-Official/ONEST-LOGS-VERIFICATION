@@ -176,7 +176,7 @@
                     "type": "lead",
                     "state": {
                         "descriptor": {
-                            "code": "OFFER_EXTENDED"
+                            "code": "APPLICATION_REJECTED"
                         },
                         "updated_at": "2025-02-20T10:11:58.921Z"
                     }
