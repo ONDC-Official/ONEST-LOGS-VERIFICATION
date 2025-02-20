@@ -7,9 +7,9 @@
         "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
         "bpp_id": "preprod-ondc.hamarajobs.ai",
         "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
-        "transaction_id": "c9fb4ff8-9cbd-4144-b525-d32068e2740d",
-        "message_id": "35402b41-76ec-467a-82c4-df328fe9620e",
-        "timestamp": "2025-02-19T12:06:54.107Z",
+        "transaction_id": "ae51239d-45b2-41e1-a250-fbd79e82945c",
+        "message_id": "e07e9134-d040-40a7-8c74-62853f24bf98",
+        "timestamp": "2025-02-20T09:53:00.719Z",
         "ttl": "PT30S",
         "location": {
             "city": {

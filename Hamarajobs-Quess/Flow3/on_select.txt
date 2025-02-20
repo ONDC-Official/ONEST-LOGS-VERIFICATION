@@ -7,9 +7,9 @@
         "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
         "bpp_id": "preprod-ondc.hamarajobs.ai",
         "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
-        "transaction_id": "c9fb4ff8-9cbd-4144-b525-d32068e2740d",
-        "message_id": "35402b41-76ec-467a-82c4-df328fe9620e",
-        "timestamp": "2025-02-19T12:06:54.293Z",
+        "transaction_id": "ae51239d-45b2-41e1-a250-fbd79e82945c",
+        "message_id": "e07e9134-d040-40a7-8c74-62853f24bf98",
+        "timestamp": "2025-02-20T09:53:01.024Z",
         "ttl": "PT30S",
         "location": {
             "city": {
@@ -38,97 +38,6 @@
                         "F1"
                     ],
                     "tags": [
-                        {
-                            "display": "1",
-                            "descriptor": {
-                                "code": "academic-eligibility",
-                                "name": "Academic eligibility"
-                            },
-                            "list": [
-                                {
-                                    "code": "course-level",
-                                    "value": "Graduation",
-                                    "display": 1
-                                },
-                                {
-                                    "code": "mandatory-eligibility",
-                                    "value": "true",
-                                    "display": 1
-                                }
-                            ]
-                        },
-                        {
-                            "display": "1",
-                            "descriptor": {
-                                "code": "job-requirements",
-                                "name": "Job requirements"
-                            },
-                            "list": [
-                                {
-                                    "code": "req-experience-min",
-                                    "value": "0",
-                                    "display": 1
-                                },
-                                {
-                                    "code": "req-experience-max",
-                                    "value": "0",
-                                    "display": 1
-                                },
-                                {
-                                    "code": "req-gender",
-                                    "value": "both",
-                                    "display": 1
-                                }
-                            ]
-                        },
-                        {
-                            "display": "1",
-                            "descriptor": {
-                                "code": "listing-details",
-                                "name": "Listing details"
-                            },
-                            "list": [
-                                {
-                                    "code": "category",
-                                    "value": "Delivery",
-                                    "display": 1
-                                },
-                                {
-                                    "code": "job-role",
-                                    "value": "Delivery Boy ",
-                                    "display": 1
-                                },
-                                {
-                                    "code": "employment-type",
-                                    "value": "Full-time",
-                                    "display": 1
-                                },
-                                {
-                                    "code": "shift-type",
-                                    "value": "Day / Night",
-                                    "display": 1
-                                }
-                            ]
-                        },
-                        {
-                            "display": "1",
-                            "descriptor": {
-                                "code": "salary-info",
-                                "name": "Salary information"
-                            },
-                            "list": [
-                                {
-                                    "code": "salary-min",
-                                    "value": "11100",
-                                    "display": 1
-                                },
-                                {
-                                    "code": "salary-max",
-                                    "value": "22200",
-                                    "display": 1
-                                }
-                            ]
-                        },
                         {
                             "descriptor": {
                                 "code": "NP_FEES"
@@ -189,7 +98,7 @@
                     },
                     {
                         "item": {
-                            "id": "45dcaad1-9a35-4e67-afa0-0cfa7889b3a7",
+                            "id": "239e91a0-62a5-4612-9a57-439c630f139e",
                             "price": {
                                 "currency": "INR",
                                 "value": "0"

@@ -7,9 +7,9 @@
         "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
         "bpp_id": "preprod-ondc.hamarajobs.ai",
         "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
-        "transaction_id": "c9fb4ff8-9cbd-4144-b525-d32068e2740d",
-        "message_id": "7e7c911c-9a60-4c7d-bc43-6d18b055ba1e",
-        "timestamp": "2025-02-19T13:12:33.498Z",
+        "transaction_id": "ae51239d-45b2-41e1-a250-fbd79e82945c",
+        "message_id": "48c1efea-289b-4007-858a-6fa378182cb4",
+        "timestamp": "2025-02-20T10:19:57.124Z",
         "ttl": "PT30S",
         "location": {
             "city": {
@@ -23,7 +23,7 @@
     "message": {
         "order": {
             "status": "Active",
-            "id": "a52bf3c8-b9f6-4e72-87d3-8476a23dc62f",
+            "id": "4a2b226b-7012-4489-83a7-968056e52a80",
             "provider": {
                 "id": "1"
             },
@@ -35,93 +35,96 @@
                     ],
                     "tags": [
                         {
-                            "display": "1",
                             "descriptor": {
-                                "code": "academic-eligibility",
-                                "name": "Academic eligibility"
+                                "code": "ACADEMIC_ELIGIBILITY"
                             },
                             "list": [
                                 {
-                                    "code": "course-level",
-                                    "value": "Graduation",
-                                    "display": 1
+                                    "descriptor": {
+                                        "code": "COURSE_LEVEL"
+                                    },
+                                    "value": "Graduation"
                                 },
                                 {
-                                    "code": "mandatory-eligibility",
-                                    "value": "true",
-                                    "display": 1
+                                    "descriptor": {
+                                        "code": "MANDATORY_ELIGIBILITY"
+                                    },
+                                    "value": "true"
                                 }
                             ]
                         },
                         {
-                            "display": "1",
                             "descriptor": {
-                                "code": "job-requirements",
-                                "name": "Job requirements"
+                                "code": "JOB_REQUIREMENT"
                             },
                             "list": [
                                 {
-                                    "code": "req-experience-min",
-                                    "value": "0",
-                                    "display": 1
+                                    "descriptor": {
+                                        "code": "REQ_EXPERIENCE_MIN"
+                                    },
+                                    "value": "0"
                                 },
                                 {
-                                    "code": "req-experience-max",
-                                    "value": "0",
-                                    "display": 1
+                                    "descriptor": {
+                                        "code": "REQ_EXPERIENCE_MAX"
+                                    },
+                                    "value": "0"
                                 },
                                 {
-                                    "code": "req-gender",
-                                    "value": "both",
-                                    "display": 1
+                                    "descriptor": {
+                                        "code": "REQ_GENDER"
+                                    },
+                                    "value": "both"
                                 }
                             ]
                         },
                         {
-                            "display": "1",
                             "descriptor": {
-                                "code": "listing-details",
-                                "name": "Listing details"
+                                "code": "JOB_DETAILS"
                             },
                             "list": [
                                 {
-                                    "code": "category",
-                                    "value": "Delivery",
-                                    "display": 1
+                                    "descriptor": {
+                                        "code": "CATEGORY"
+                                    },
+                                    "value": "Delivery"
                                 },
                                 {
-                                    "code": "job-role",
-                                    "value": "Delivery Boy ",
-                                    "display": 1
+                                    "descriptor": {
+                                        "code": "JOB_ROLE"
+                                    },
+                                    "value": "Delivery Boy"
                                 },
                                 {
-                                    "code": "employment-type",
-                                    "value": "Full-time",
-                                    "display": 1
+                                    "descriptor": {
+                                        "code": "JOB_TYPE"
+                                    },
+                                    "value": "Full-time"
                                 },
                                 {
-                                    "code": "shift-type",
-                                    "value": "Day / Night",
-                                    "display": 1
+                                    "descriptor": {
+                                        "code": "SHIFT_TYPE"
+                                    },
+                                    "value": "Day / Night"
                                 }
                             ]
                         },
                         {
-                            "display": "1",
                             "descriptor": {
-                                "code": "salary-info",
-                                "name": "Salary information"
+                                "code": "SALARY_INFO"
                             },
                             "list": [
                                 {
-                                    "code": "salary-min",
-                                    "value": "11100",
-                                    "display": 1
+                                    "descriptor": {
+                                        "code": "SALARY_MIN"
+                                    },
+                                    "value": "11100"
                                 },
                                 {
-                                    "code": "salary-max",
-                                    "value": "22200",
-                                    "display": 1
+                                    "descriptor": {
+                                        "code": "SALARY_MAX"
+                                    },
+                                    "value": "22200"
                                 }
                             ]
                         },
@@ -173,9 +176,9 @@
                     "type": "lead",
                     "state": {
                         "descriptor": {
-                            "code": "APPLICATION_ACCEPTED"
+                            "code": "OFFER_EXTENDED"
                         },
-                        "updated_at": "2025-02-19T13:01:11.245Z"
+                        "updated_at": "2025-02-20T10:11:58.921Z"
                     }
                 }
             ],
@@ -197,7 +200,7 @@
                     },
                     {
                         "item": {
-                            "id": "45dcaad1-9a35-4e67-afa0-0cfa7889b3a7",
+                            "id": "239e91a0-62a5-4612-9a57-439c630f139e",
                             "price": {
                                 "currency": "INR",
                                 "value": "0"
@@ -259,11 +262,11 @@
                     "params": {
                         "amount": "0",
                         "currency": "INR",
-                        "transaction_id": "319e6463-53d7-4bd2-ad74-472d3a057f62"
+                        "transaction_id": "f0aaa748-c57f-4d94-aab1-0b2a6e6a5c71"
                     }
                 }
             ],
-            "updated_at": "2025-02-19T13:12:33.500Z"
+            "updated_at": "2025-02-20T10:19:57.129Z"
         }
     }
 }
