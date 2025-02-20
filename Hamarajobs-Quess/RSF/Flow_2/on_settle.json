@@ -1,4 +1,4 @@
- {
+{
     "context": {
       "bap_id": "staging-ondc.hamarajobs.ai",
       "bap_uri": "https://staging-ondc.hamarajobs.ai/bpp",
@@ -12,9 +12,9 @@
           "code": "*"
         }
       },
-      "transaction_id": "3eae62f8-fe0d-4d50-a9aa-f3476abc138a",
-      "message_id": "53bb958d-f6f0-4e32-80f5-4db31a15923f",
-      "timestamp": "2025-02-19T13:09:23.611Z",
+      "transaction_id": "bf89da69-f803-4932-94d4-c688f503d94e",
+      "message_id": "f24010f8-7d7d-4e19-8f56-9c5dc2bfdac0",
+      "timestamp": "2025-02-20T11:35:41.457Z",
       "domain": "ONDC:NTS10",
       "version": "2.0.0",
       "ttl": "PT10M",
@@ -37,7 +37,7 @@
                 "currency": "INR"
               },
               "status": "NOT_SETTLED",
-              "reference_no": "916745b2-596b-4f14-bb0d-8676eb913066",
+              "reference_no": "1238683618634",
               "error": {
                 "code": "70024",
                 "message": "Interparticipant value mismatch"
@@ -55,16 +55,16 @@
                 "currency": "INR"
               },
               "status": "NOT_SETTLED",
-              "reference_no": "916745b2-596b-4f14-bb0d-8676eb913066",
+              "reference_no": "1238683618634",
               "error": {
                 "code": "70024",
                 "message": "Interparticipant value mismatch"
               }
             },
-            "_id": "cae6ea80-025c-4783-a67d-08df96845267"
+            "id": "cae6ea80-025c-4783-a67d-08df96845267"
           }
         ],
-        "_id": "eb65bdc7-f6c0-46fe-9432-c31fb1bb8b52"
+        "id": "4c03837b-e797-4f8b-b3a5-d8967b5bbb72"
       }
     }
   }

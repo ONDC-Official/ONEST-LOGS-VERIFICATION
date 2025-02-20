@@ -12,9 +12,9 @@
           "code": "*"
         }
       },
-      "transaction_id": "45278754-7918-4c8b-9e95-f293f2b65f66",
-      "message_id": "f4098f9c-6b44-4694-b463-a9f854c92148",
-      "timestamp": "2025-02-19T17:59:35.336Z",
+      "transaction_id": "44205640-8122-4fd4-bf57-b352f0ed86c0",
+      "message_id": "4a1791b4-d35c-4950-b908-b70c0adec7f4",
+      "timestamp": "2025-02-20T12:33:23.233Z",
       "domain": "ONDC:NTS10",
       "version": "2.0.0",
       "ttl": "PT10M",
@@ -58,11 +58,11 @@
                 "diff_value": "0"
               },
               "updated_at": "2025-02-19T18:38:19.386Z",
-              "due_date": "2025-02-21",
-              "_id": "cae6ea80-025c-4783-a67d-08df96845267"
+              "due_date": "2025-02-22",
+              "id": "cae6ea80-025c-4783-a67d-08df96845267"
             }
           ],
-          "_id": "6ba614bd-10db-4b8e-ad5d-d879b34d48ce"
+          "id": "6ba614bd-10db-4b8e-ad5d-d879b34d48ce"
         }
       ]
     }

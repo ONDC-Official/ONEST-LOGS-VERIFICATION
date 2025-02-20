@@ -12,9 +12,9 @@
           "code": "*"
         }
       },
-      "transaction_id": "45278754-7918-4c8b-9e95-f293f2b65f66",
-      "message_id": "1a0c0558-996d-465e-8d9e-9f26bcaa68b4",
-      "timestamp": "2025-02-19T17:51:33.174Z",
+      "transaction_id": "44205640-8122-4fd4-bf57-b352f0ed86c0",
+      "message_id": "95da1676-5b0d-4d88-a6ee-e559668f68f6",
+      "timestamp": "2025-02-20T12:25:31.947Z",
       "domain": "ONDC:NTS10",
       "version": "2.0.0",
       "ttl": "PT10M",
@@ -37,7 +37,7 @@
                 "currency": "INR"
               },
               "status": "NOT_SETTLED",
-              "reference_no": "c268745c-939b-4a22-b68a-19f9f4050ed7"
+              "reference_no": "1238683618634"
             },
             "collector": {
               "amount": {
@@ -51,16 +51,20 @@
                 "currency": "INR"
               },
               "status": "NOT_SETTLED",
-              "reference_no": "c268745c-939b-4a22-b68a-19f9f4050ed7"
+              "reference_no": "1238683618634"
+            },
+            "provider": {
+              "status": "NOT_SETTLED",
+              "reference_no": "1238683618634"
             },
             "error": {
               "code": "70023",
-              "message": "Collector value mismatch"
+              "message": "Interparticipant value mismatch"
             },
-            "_id": "cae6ea80-025c-4783-a67d-08df96845267"
+            "id": "cae6ea80-025c-4783-a67d-08df96845267"
           }
         ],
-        "_id": "6ba614bd-10db-4b8e-ad5d-d879b34d48ce"
+        "id": "4c03837b-e797-4f8b-b3a5-d8967b5bbb72"
       }
     }
   }

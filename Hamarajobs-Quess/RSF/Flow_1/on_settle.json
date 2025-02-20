@@ -12,9 +12,9 @@
           "code": "*"
         }
       },
-      "transaction_id": "a52a51b3-f5ea-4128-a8bd-bb4c799e97ce",
-      "message_id": "ddb89c6d-f09f-4ed8-894d-401a620e6dd5",
-      "timestamp": "2025-02-19T11:51:02.801Z",
+      "transaction_id": "722058b0-613c-49fe-b634-46c1c7360b41",
+      "message_id": "f24010f8-7d7d-4e19-8f56-9c5dc2bfdac0",
+      "timestamp": "2025-02-20T11:09:04.463Z",
       "domain": "ONDC:NTS10",
       "version": "2.0.0",
       "ttl": "PT10M",
@@ -37,7 +37,7 @@
                 "currency": "INR"
               },
               "status": "SETTLED",
-              "reference_no": "47de8ccb-2c1d-470a-a8f4-8cd37789cc80"
+              "reference_no": "1238683618634"
             },
             "collector": {
               "amount": {
@@ -51,12 +51,12 @@
                 "currency": "INR"
               },
               "status": "SETTLED",
-              "reference_no": "47de8ccb-2c1d-470a-a8f4-8cd37789cc80"
+              "reference_no": "1238683618634"
             },
-            "_id": "cae6ea80-025c-4783-a67d-08df96845267"
+            "id": "cae6ea80-025c-4783-a67d-08df96845267"
           }
         ],
-        "_id": "e25d5e9d-ba0a-4a73-89d7-110f8f31d4b8"
+        "id": "fa8a3725-a5b2-4491-8547-dc71e0e58b3e"
       }
     }
   }

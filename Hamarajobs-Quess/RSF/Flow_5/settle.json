@@ -15,8 +15,8 @@
     "bap_uri": "https://staging-ondc.hamarajobs.ai/bpp",
     "bpp_id": "sa_nocs.nbbl.com",
     "bpp_uri": "https://sa_nocs.nbbl.com/nocs_test",
-    "transaction_id": "6207e271-16dd-47f7-b996-3ee614ecdc29",
-    "message_id": "64d32ab1-475f-4143-85a8-04342198077e",
+    "transaction_id": "6207e271-16dd-47f7-3ee614ecdc29",
+    "message_id": "64d32ab1-475f-4143-04342198077e",
     "timestamp": "2024-05-19T06:36:51.897Z",
     "ttl": "P1D"
   },

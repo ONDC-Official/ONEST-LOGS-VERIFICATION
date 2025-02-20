@@ -15,13 +15,13 @@
     "bap_uri": "https://staging-ondc.hamarajobs.ai/bpp",
     "bpp_id": "sa_nocs.nbbl.com",
     "bpp_uri": "https://sa_nocs.nbbl.com/nocs_test",
-    "transaction_id": "45278754-7918-4c8b-9e95-f293f2b65f66",
-    "message_id": "1a0c0558-996d-465e-8d9e-9f26bcaa68b4",
-    "timestamp": "2024-05-19T18:45:51.897Z",
+    "transaction_id": "44205640-8122-4fd4-bf57-b352f0ed86c0",
+    "message_id": "95da1676-5b0d-4d88-a6ee-e559668f68f6",
+    "timestamp": "2025-02-20T09:59:51.897Z",
     "ttl": "P1D"
   },
   "message": {
-      "ref_transaction_id": "45278754-7918-4c8b-9e95-f293f2b65f66",
-      "ref_message_id": "2ee1cf9b-797d-46ed-ba6d-8faca5277c24"
+      "ref_transaction_id": "44205640-8122-4fd4-bf57-b352f0ed86c0",
+      "ref_message_id": "9cfcab0e-cd5c-48a7-8aab-36579fa9e35d"
     }
 }
