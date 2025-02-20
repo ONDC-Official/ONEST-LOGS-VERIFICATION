@@ -85,12 +85,6 @@
                                         "code": "JOB_TYPE"
                                     },
                                     "value": "Full-time"
-                                },
-                                {
-                                    "descriptor": {
-                                        "code": "GENDER_PREFERENCE"
-                                    },
-                                    "value": "Male"
                                 }
                             ]
                         },
@@ -268,6 +262,11 @@
             ],
             "payments": [
                 {
+                    "params": {
+                        "currency": "INR",
+                        "transaction_id": "f0aaa748-c57f-4d94-aab1-0b2a6e6a5c71",
+                        "amount": "0"
+                    },
                     "status": "PAID",
                     "type": "ON-ORDER",
                     "collected_by": "BAP",
@@ -281,6 +280,30 @@
                                     "code": "SETTLEMENT_COUNTERPARTY"
                                 },
                                 "value": "seller-app"
+                            },
+                            {
+                                "descriptor": {
+                                    "code": "SETTLEMENT_PHASE"
+                                },
+                                "value": "sale-amount"
+                            },
+                            {
+                                "descriptor": {
+                                    "code": "SETTLEMENT_TYPE"
+                                },
+                                "value": "neft"
+                            },
+                            {
+                                "descriptor": {
+                                    "code": "SETTLEMENT_BASIS"
+                                },
+                                "value": "lead & recruitment"
+                            },
+                            {
+                                "descriptor": {
+                                    "code": "SETTLEMENT_WINDOW"
+                                },
+                                "value": "P3M"
                             },
                             {
                                 "descriptor": {
@@ -313,11 +336,6 @@
                                 "value": "xxxx"
                             }
                         ]
-                    },
-                    "params": {
-                        "amount": 0,
-                        "currency": "INR",
-                        "transaction_id": "f0aaa748-c57f-4d94-aab1-0b2a6e6a5c71"
                     }
                 }
             ],

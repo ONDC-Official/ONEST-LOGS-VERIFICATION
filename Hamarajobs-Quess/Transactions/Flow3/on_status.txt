@@ -22,7 +22,7 @@
     },
     "message": {
         "order": {
-            "status": "Active",
+            "status": "Completed",
             "id": "4a2b226b-7012-4489-83a7-968056e52a80",
             "provider": {
                 "id": "1"
@@ -82,12 +82,6 @@
                                         "code": "JOB_TYPE"
                                     },
                                     "value": "Full-time"
-                                },
-                                {
-                                    "descriptor": {
-                                        "code": "GENDER_PREFERENCE"
-                                    },
-                                    "value": "Male"
                                 }
                             ]
                         },
