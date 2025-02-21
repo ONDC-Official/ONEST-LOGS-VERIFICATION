@@ -8,7 +8,7 @@
         "bpp_id": "preprod-ondc.hamarajobs.ai",
         "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
         "transaction_id": "ae51239d-45b2-41e1-a250-fbd79e82945c",
-        "message_id": "48c1efea-289b-4007-858a-6fa378182cb4",
+        "message_id": "djiy8620-289b-03398-858a-6fa378182cb4",
         "timestamp": "2025-02-20T10:19:57.124Z",
         "ttl": "PT30S",
         "location": {
