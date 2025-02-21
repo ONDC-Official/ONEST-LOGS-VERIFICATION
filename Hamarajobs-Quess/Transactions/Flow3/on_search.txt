@@ -247,6 +247,21 @@
                                 "maximum_value": "0"
                             }
                         }
+                    ],
+                    "tags": [
+                        {
+                            "descriptor": {
+                                "code": "LOCATION"
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "code": "ADDRESS"
+                                    },
+                                    "value": "Quess House,/3/2 Bellandur Gate, Sarjapur Road, Bengaluru 560103,Karnataka, India"
+                                }
+                            ]
+                        }
                     ]
                 }
             ]
