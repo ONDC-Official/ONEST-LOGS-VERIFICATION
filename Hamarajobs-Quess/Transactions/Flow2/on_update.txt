@@ -97,32 +97,7 @@
                                     "value": "Male"
                                 }
                             ]
-                        },
-                        {
-                            "descriptor": {
-                                "code": "COMPENSATION"
-                            },
-                            "list": [
-                                {
-                                    "descriptor": {
-                                        "code": "TYPE"
-                                    },
-                                    "value": "ctc"
-                                },
-                                {
-                                    "descriptor": {
-                                        "code": "MIN"
-                                    },
-                                    "value": "900000"
-                                },
-                                {
-                                    "descriptor": {
-                                        "code": "MAX"
-                                    },
-                                    "value": "1200000"
-                                }
-                            ]
-                        },
+                        },                        
                         {
                             "descriptor": {
                                 "code": "NP_FEES"
