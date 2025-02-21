@@ -1,0 +1,27 @@
+{
+  "context": {
+    "domain": "ONDC:NTS10",
+    "location": {
+      "country": {
+        "code": "IND"
+      },
+      "city": {
+        "code": "*"
+      }
+    },
+    "version": "2.0.0",
+    "action": "report",
+   "bap_id": "staging-ondc.hamarajobs.ai",
+    "bap_uri": "https://staging-ondc.hamarajobs.ai/bpp",
+    "bpp_id": "sa_nocs.nbbl.com",
+    "bpp_uri": "https://sa_nocs.nbbl.com/nocs_test",
+    "transaction_id": "722058b0-613c-49fe-b634-46c1c7360b41",
+    "message_id": "c5607549-c8f6-4f36-8eb7-7b3c237061af",
+    "timestamp": "2025-02-20T07:45:51.897Z",
+    "ttl": "P1D"
+  },
+  "message": {
+      "ref_transaction_id": "722058b0-613c-49fe-b634-46c1c7360b41",
+      "ref_message_id": "f24010f8-7d7d-4e19-8f56-9c5dc2bfdac0"
+    }
+}

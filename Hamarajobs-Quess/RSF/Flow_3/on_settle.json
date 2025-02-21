@@ -1,0 +1,70 @@
+{
+    "context": {
+      "bap_id": "staging-ondc.hamarajobs.ai",
+      "bap_uri": "https://staging-ondc.hamarajobs.ai/bpp",
+      "bpp_id": "sa_nocs.nbbl.com",
+      "bpp_uri": "https://sa_nocs.nbbl.com/nocs_test",
+      "location": {
+        "country": {
+          "code": "IND"
+        },
+        "city": {
+          "code": "*"
+        }
+      },
+      "transaction_id": "44205640-8122-4fd4-bf57-b352f0ed86c0",
+      "message_id": "9cfcab0e-cd5c-48a7-8aab-36579fa9e35d",
+      "timestamp": "2025-02-20T12:20:59.637Z",
+      "domain": "ONDC:NTS10",
+      "version": "2.0.0",
+      "ttl": "PT10M",
+      "action": "on_settle"
+    },
+    "message": {
+      "collector_app_id": "sa_nocs.nbbl.com",
+      "receiver_app_id": "staging-ondc.hamarajobs.ai",
+      "settlement": {
+        "type": "NP-NP",
+        "orders": [
+          {
+            "inter_participant": {
+              "amount": {
+                "value": "0",
+                "currency": "INR"
+              },
+              "settled_amount": {
+                "value": "0",
+                "currency": "INR"
+              },
+              "status": "NOT_SETTLED",
+              "reference_no": "1238683618634",
+              "error": {
+                "code": "70023",
+                "message": "Interparticipant value mismatch"
+              }
+            },
+            "collector": {
+              "amount": {
+                "value": "0",
+                "currency": "INR"
+              }
+            },
+            "self": {
+              "amount": {
+                "value": "0",
+                "currency": "INR"
+              },
+              "status": "NOT_SETTLED",
+              "reference_no": "1238683618634",
+              "error": {
+                "code": "70023",
+                "message": "Interparticipant value mismatch"
+              }
+            },
+            "id": "cae6ea80-025c-4783-a67d-08df96845267"
+          }
+        ],
+        "id": "4c03837b-e797-4f8b-b3a5-d8967b5bbb72"
+      }
+    }
+  }

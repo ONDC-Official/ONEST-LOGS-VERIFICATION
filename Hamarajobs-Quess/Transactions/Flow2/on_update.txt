@@ -1,0 +1,215 @@
+{
+    "context": {
+        "domain": "ONDC:ONEST10",
+        "action": "on_confirm",
+        "version": "2.0.0",
+        "bap_id": "onest-mock-service.ondc.org",
+        "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
+        "bpp_id": "preprod-ondc.hamarajobs.ai",
+        "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
+        "transaction_id": "ae51239d-45b2-41e1-a250-fbd79e82945c",
+        "message_id": "8a5ec8d6-a929-4a0b-9e52-47e2845df439",
+        "timestamp": "2025-02-17T10:49:57.331Z",
+        "ttl": "PT30S",
+        "location": {
+            "city": {
+                "code": "std:080"
+            },
+            "country": {
+                "code": "IND"
+            }
+        }
+    },
+    "message": {
+        "order": {
+            "id": "4a2b226b-7012-4489-83a7-968056e52a80",
+            "status": "Active",
+            "provider": {
+                "id": "1",
+                "descriptor": {
+                    "name": "Quess Jobs"
+                }
+            },
+            "items": [
+                {
+                    "id": "964dbed5-8df8-4361-afc5-a4dea6cfb17f",
+                    "descriptor": {
+                        "name": "Delivery Boy ",
+                        "long_desc": "- Delivering food orders to customers promptly and accurately\n- Handling cash and card payments from customers\n- Ensuring proper handling and delivery of food orders to maintain food quality\n- Keeping track of delivery schedules and managing time efficiently\n- Communicating with customers to address any issues or concerns with their orders\n- Ensuring the cleanliness and maintenance of the delivery vehicle\n- Following traffic rules and regulations while driving to ensure safety\n- Collaborating with the restaurant staff to coordinate delivery orders\n- Providing excellent customer service and maintaining a professional image at all times."
+                    },
+                    "fulfillment_ids": [
+                        "F1"
+                    ],
+                    "tags": [
+                        {
+                            "descriptor": {
+                                "code": "ACADEMIC_QUALIFICATIONS"
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "code": "COURSE_LEVEL"
+                                    },
+                                    "value": "Graduation"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "MANDATORY_ELIGIBILITY"
+                                    },
+                                    "value": "true"
+                                }
+                            ]
+                        },
+                        {
+                            "descriptor": {
+                                "code": "JOB_REQUIREMENT"
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "code": "REQ_EXPERIENCE"
+                                    },
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "descriptor": {
+                                "code": "JOB_DETAILS"
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "code": "JOB_ROLE"
+                                    },
+                                    "value": "Delivery Boy"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "JOB_TYPE"
+                                    },
+                                    "value": "Full-time"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "GENDER_PREFERENCE"
+                                    },
+                                    "value": "Male"
+                                }
+                            ]
+                        },                        
+                        {
+                            "descriptor": {
+                                "code": "NP_FEES"
+                            },
+                            "list": [
+                                {
+                                    "code": "ID",
+                                    "value": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "quote": {
+                "price": {
+                    "currency": "INR",
+                    "value": "0"
+                },
+                "breakup": [
+                    {
+                        "item": {
+                            "id": "964dbed5-8df8-4361-afc5-a4dea6cfb17f",
+                            "price": {
+                                "currency": "INR",
+                                "value": "0"
+                            },
+                            "title": "item"
+                        }
+                    },
+                    {
+                        "item": {
+                            "id": "45dcaad1-9a35-4e67-afa0-0cfa7889b3a7",
+                            "price": {
+                                "currency": "INR",
+                                "value": "0"
+                            },
+                            "title": "tax"
+                        }
+                    }
+                ],
+                "ttl": "P1D"
+            },
+            "fulfillments": [
+                {
+                    "id": "F1",
+                    "type": "lead",
+                    "state": {
+                        "descriptor": {
+                            "code": "OFFER_ACCEPTED"
+                        },
+                        "updated_at": "2025-02-17T10:49:57.340Z"
+                    }
+                    
+                }
+            ],
+            "payments": [
+                {
+                    "status": "PAID",
+                    "type": "ON-ORDER",
+                    "collected_by": "BAP",
+                    "tags": {
+                        "descriptor": {
+                            "code": "SETTLEMENT_DETAILS"
+                        },
+                        "list": [
+                            {
+                                "descriptor": {
+                                    "code": "SETTLEMENT_COUNTERPARTY"
+                                },
+                                "value": "seller-app"
+                            },
+                            {
+                                "descriptor": {
+                                    "code": "SETTLEMENT_BANK_ACCOUNT_NO"
+                                },
+                                "value": "XXXXXXXXXX"
+                            },
+                            {
+                                "descriptor": {
+                                    "code": "SETTLEMENT_IFSC_CODE"
+                                },
+                                "value": "XXXXXXXXX"
+                            },
+                            {
+                                "descriptor": {
+                                    "code": "BENEFICIARY_NAME"
+                                },
+                                "value": "xxxxx"
+                            },
+                            {
+                                "descriptor": {
+                                    "code": "BANK_NAME"
+                                },
+                                "value": "xxxx"
+                            },
+                            {
+                                "descriptor": {
+                                    "code": "BRANCH_NAME"
+                                },
+                                "value": "xxxx"
+                            }
+                        ]
+                    },
+                    "params": {
+                        "amount": 0,
+                        "currency": "INR",
+                        "transaction_id": "8ceec3d9-38fd-476a-a042-90a5badb9bf0"
+                    }
+                }
+            ],
+            "updated_at": "2025-02-17T10:49:57.340Z",            
+        }
+    }
+}
