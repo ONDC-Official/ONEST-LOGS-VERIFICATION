@@ -1,0 +1,69 @@
+{
+  "context": {
+    "bap_id": "skill-mantra-ondc-preprod.samhita.org",
+    "bap_uri": "https://skill-mantra-ondc-preprod.samhita.org/",
+    "bpp_id": "rsf-mock-service.ondc.org/seller_protocol_server_preprod",
+    "bpp_uri": "https://rsf-mock-service.ondc.org/seller_protocol_server_preprod/ondc",
+    "location": {
+      "country": {
+        "code": "IND"
+      },
+      "city": {
+        "code": "*"
+      }
+    },
+    "transaction_id": "77bff1d9-02e3-4b44-940b-fd96f7a37734",
+    "message_id": "d8fc286e-1ebf-4117-b141-feddcc2df222",
+    "timestamp": "2025-02-25T08:21:06.111Z",
+    "domain": "ONDC:ONEST10",
+    "version": "2.0.0",
+    "ttl": "PT10M",
+    "action": "on_recon"
+  },
+  "message": {
+    "orders": [
+      {
+        "id": "0c2be58d-4bfe-41f0-9811-13d5c756be12",
+        "amount": {
+          "value": "0.00",
+          "currency": "INR"
+        },
+        "recon_accord": false,
+        "settlements": [
+          {
+            "id": "7d095512-1c2e-4ceb-9a99-553edb98d95a",
+            "payment_id": "02a243dc-7140-4fe1-b18b-ce735f22f8c1",
+            "status": "PENDING",
+            "amount": {
+              "value": "0.00",
+              "currency": "INR",
+              "diff_value": "0"
+            },
+            "commission": {
+              "value": "0.00",
+              "currency": "INR",
+              "diff_value": "0"
+            },
+            "withholding_amount": {
+              "value": "0.00",
+              "currency": "INR",
+              "diff_value": "0"
+            },
+            "tcs": {
+              "value": "0.00",
+              "currency": "INR",
+              "diff_value": "0"
+            },
+            "tds": {
+              "value": "0.00",
+              "currency": "INR",
+              "diff_value": "0"
+            },
+            "updated_at": "2025-02-25T08:20:26.206205Z",
+            "due_date": "2025-02-27"
+          }
+        ]
+      }
+    ]
+  }
+}

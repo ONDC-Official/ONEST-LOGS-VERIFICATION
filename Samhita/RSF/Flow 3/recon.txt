@@ -1,0 +1,62 @@
+{
+  "context": {
+    "domain": "ONDC:NTS10",
+    "location": {
+      "country": {
+        "code": "IND"
+      },
+      "city": {
+        "code": "*"
+      }
+    },
+    "version": "2.0.0",
+    "action": "recon",
+    "bap_id": "skill-mantra-ondc-preprod.samhita.org",
+    "bap_uri": "https://skill-mantra-ondc-preprod.samhita.org/",
+    "bpp_id": "rsf-mock-service.ondc.org/seller_protocol_server_preprod",
+    "bpp_uri": "https://rsf-mock-service.ondc.org/seller_protocol_server_preprod/ondc",
+    "transaction_id": "77bff1d9-02e3-4b44-940b-fd96f7a37734",
+    "message_id": "c4deef92-3d72-4252-b405-d001ba59d125",
+    "timestamp": "2025-02-25T07:58:51.946610Z",
+    "ttl": "P1D"
+  },
+  "message": {
+    "orders": [
+      {
+        "id": "0c2be58d-4bfe-41f0-9811-13d5c756be12",
+        "amount": {
+          "currency": "INR",
+          "value": "0.00"
+        },
+        "settlements": [
+          {
+            "id": "bea1429b-7c41-484b-988c-4c13b0d8d562",
+            "payment_id": "08fc246d-da6d-40e6-b5ea-34a7595de351",
+            "status": "PENDING",
+            "amount": {
+              "currency": "INR",
+              "value": "0.00"
+            },
+            "commission": {
+              "currency": "INR",
+              "value": "0.00"
+            },
+            "withholding_amount": {
+              "currency": "INR",
+              "value": "0.00"
+            },
+            "tcs": {
+              "currency": "INR",
+              "value": "0.00"
+            },
+            "tds": {
+              "currency": "INR",
+              "value": "0.00"
+            },
+            "updated_at": "2025-02-25T07:58:51.946649Z"
+          }
+        ]
+      }
+    ]
+  }
+}
