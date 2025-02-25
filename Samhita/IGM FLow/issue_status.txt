@@ -1,0 +1,26 @@
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "location": {
+      "country": {
+        "code": "IND"
+      },
+      "city": {
+        "code": "*"
+      }
+    },
+    "action": "issue_status",
+    "core_version": "2.0.0",
+    "bap_id": "skill-mantra-ondc-preprod.samhita.org",
+    "bap_uri": "https://skill-mantra-ondc-preprod.samhita.org/",
+    "bpp_id": "preprod-ondc.hamarajobs.ai",
+    "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
+    "transaction_id": "13bd5a43-b2a6-478a-b8c0-734c2d8da156",
+    "message_id": "43196a6d-0e07-4198-9150-99396fa23a0b",
+    "timestamp": "2025-02-25T04:58:46.735321Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "issue_id": "ISSUE-1"
+  }
+}

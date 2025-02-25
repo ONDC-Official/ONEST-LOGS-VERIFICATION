@@ -1,0 +1,132 @@
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "on_init",
+    "version": "2.0.0",
+    "bap_id": "skill-mantra-ondc-preprod.samhita.org",
+    "bap_uri": "https://skill-mantra-ondc-preprod.samhita.org/",
+    "bpp_id": "preprod-ondc.hamarajobs.ai",
+    "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
+    "transaction_id": "13bd5a43-b2a6-478a-b8c0-734c2d8da156",
+    "message_id": "ef6bbbb1-de61-4ebd-b335-551fb21a9a8f",
+    "timestamp": "2025-02-25T04:10:59.839Z",
+    "ttl": "PT30S",
+    "location": {
+      "city": {
+        "code": "std:080"
+      },
+      "country": {
+        "code": "IND"
+      }
+    }
+  },
+  "message": {
+    "order": {
+      "provider": {
+        "id": "1"
+      },
+      "items": [
+        {
+          "id": "0c2be58d-4bfe-41f0-9811-13d5c756be12",
+          "fulfillment_ids": [
+            "F1"
+          ],
+          "xinput": {
+            "required": true,
+            "head": {
+              "descriptor": {
+                "name": "Application Form"
+              },
+              "index": {
+                "min": 1,
+                "cur": 1,
+                "max": 1
+              },
+              "headings": [
+                "Candidate Details"
+              ]
+            },
+            "form": {
+              "mime_type": "text/html",
+              "url": "https://qjobsindia.heptagon.tech/job/ondc-registration-form.php?id=13bd5a43-b2a6-478a-b8c0-734c2d8da156",
+              "resubmit": false
+            }
+          },
+          "tags": [
+            {
+              "descriptor": {
+                "code": "NP_FEES"
+              },
+              "list": [
+                {
+                  "code": "ID",
+                  "value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "quote": {
+        "price": {
+          "currency": "INR",
+          "value": "0"
+        },
+        "breakup": [
+          {
+            "item": {
+              "id": "0c2be58d-4bfe-41f0-9811-13d5c756be12",
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "title": "item"
+            }
+          },
+          {
+            "item": {
+              "id": "071537a0-9f81-4c82-a5f7-6460175832e3",
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "title": "tax"
+            }
+          }
+        ],
+        "ttl": "P1D"
+      },
+      "fulfillments": [
+        {
+          "id": "F1",
+          "type": "lead",
+          "state": {
+            "descriptor": {
+              "code": "APPLICATION_IN_PROGRESS"
+            },
+            "updated_at": "2025-02-25T04:10:59.869Z"
+          },
+          "customer": {
+            "person": {
+              "name": "Mohammed Musaddiq",
+              "gender": "Male",
+              "age": "26",
+              "skills": [],
+              "languages": [
+                {
+                  "code": "English",
+                  "name": "English"
+                }
+              ]
+            },
+            "contact": {
+              "phone": "+919632587456",
+              "email": "musaddiq.m1@yopmail.com"
+            }
+          }
+        }
+      ],
+      "payments": []
+    }
+  }
+}

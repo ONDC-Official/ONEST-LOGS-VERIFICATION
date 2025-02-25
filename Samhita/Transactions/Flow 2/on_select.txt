@@ -1,0 +1,114 @@
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "on_select",
+    "version": "2.0.0",
+    "bap_id": "skill-mantra-ondc-preprod.samhita.org",
+    "bap_uri": "https://skill-mantra-ondc-preprod.samhita.org/",
+    "bpp_id": "preprod-ondc.hamarajobs.ai",
+    "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
+    "transaction_id": "13bd5a43-b2a6-478a-b8c0-734c2d8da156",
+    "message_id": "2ce1c4fa-d6f2-4e44-9ff5-982925749b7f",
+    "timestamp": "2025-02-25T04:10:58.090Z",
+    "ttl": "PT30S",
+    "location": {
+      "city": {
+        "code": "std:080"
+      },
+      "country": {
+        "code": "IND"
+      }
+    }
+  },
+  "message": {
+    "order": {
+      "provider": {
+        "id": "1"
+      },
+      "fulfillments": [
+        {
+          "id": "F1",
+          "type": "lead"
+        }
+      ],
+      "items": [
+        {
+          "id": "0c2be58d-4bfe-41f0-9811-13d5c756be12",
+          "fulfillment_ids": [
+            "F1"
+          ],
+          "tags": [
+            {
+              "descriptor": {
+                "code": "NP_FEES"
+              },
+              "list": [
+                {
+                  "code": "ID",
+                  "value": "1"
+                },
+                {
+                  "code": "COMMERCIAL_TYPE",
+                  "value": "amount"
+                },
+                {
+                  "code": "COMMERCIAL_VALUE",
+                  "value": "0"
+                },
+                {
+                  "code": "COMMERCIAL_NAME",
+                  "value": "lead"
+                },
+                {
+                  "code": "COMMERCIAL_TRIGGERING_STATE",
+                  "value": "APPLICATION_SUBMITTED"
+                },
+                {
+                  "code": "COMPENSATION_TYPE",
+                  "value": "CTC"
+                },
+                {
+                  "code": "COMPENSATION_TRANSFER_PERIOD",
+                  "value": "P1M"
+                },
+                {
+                  "code": "COMPENSATION_PERCENTAGE_SPLIT",
+                  "value": "100"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "quote": {
+        "price": {
+          "currency": "INR",
+          "value": "0"
+        },
+        "breakup": [
+          {
+            "item": {
+              "id": "0c2be58d-4bfe-41f0-9811-13d5c756be12",
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "title": "item"
+            }
+          },
+          {
+            "item": {
+              "id": "071537a0-9f81-4c82-a5f7-6460175832e3",
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "title": "tax"
+            }
+          }
+        ],
+        "ttl": "P1D"
+      }
+    }
+  }
+}

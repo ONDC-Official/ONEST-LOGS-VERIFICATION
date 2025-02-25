@@ -1,0 +1,419 @@
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "on_search",
+    "version": "2.0.0",
+    "bap_id": "skill-mantra-ondc-preprod.samhita.org",
+    "bap_uri": "https://skill-mantra-ondc-preprod.samhita.org/",
+    "bpp_id": "preprod-ondc.hamarajobs.ai",
+    "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
+    "transaction_id": "13bd5a43-b2a6-478a-b8c0-734c2d8da156",
+    "message_id": "311f5c58-2f81-4873-9902-90c99efe6181",
+    "timestamp": "2025-02-25T04:10:33.953Z",
+    "ttl": "PT30S",
+    "location": {
+      "city": {
+        "code": "std:080"
+      },
+      "country": {
+        "code": "IND"
+      }
+    }
+  },
+  "message": {
+    "catalog": {
+      "descriptor": {
+        "name": "Quess Jobs"
+      },
+      "providers": [
+        {
+          "id": "1",
+          "descriptor": {
+            "name": "Quess Jobs",
+            "short_desc": "Quess",
+            "images": [
+              {
+                "url": "https://www.quesscorp.com/wp-content/uploads/2022/11/quessbluesvg.svg"
+              }
+            ]
+          },
+          "fulfillments": [
+            {
+              "id": "F1",
+              "type": "lead"
+            },
+            {
+              "id": "F2",
+              "type": "recruitment"
+            }
+          ],
+          "locations": [
+            {
+              "id": "L1",
+              "city": {
+                "code": "std:0422"
+              },
+              "state": {
+                "code": "TN"
+              },
+              "area_code": {
+                "code": "530068"
+              }
+            }
+          ],
+          "items": [
+            {
+              "id": "0c2be58d-4bfe-41f0-9811-13d5c756be12",
+              "category_ids": [
+                "Administration"
+              ],
+              "descriptor": {
+                "name": "Assistant Sales Manager",
+                "long_desc": "<p><br /> - Assist the sales manager in developing and implementing sales strategies to achieve sales targets.<br /> - Coordinate with sales team to ensure smooth operations and maximize sales opportunities.<br /> - Prepare sales reports and track sales performance on a regular basis.<br /> - Respond to customer inquiries and provide product information and pricing.<br /> - Follow up with customers to ensure satisfaction and resolve any issues.<br /> - Assist in the preparation of sales presentations and proposals.<br /> - Stay up to date on industry trends and competitor activities.<br /> - Attend sales meetings, trade shows, and conferences as required.<br /> <br /> Requirements:<br /> - Bachelor's degree in Business Administration or a related field.<br /> - Proven experience in sales, preferably in a similar industry.<br /> - Strong communication and interpersonal skills.<br /> - Ability to work in a fast-paced environment and multitask effectively.<br /> - Proficient in Microsoft Office Suite.<br /> - Knowledge of sales techniques and principles.<br /> - Self-motivated and detail-oriented.<br /> - Ability to work independently and as part of a team.<br /> - Willingness to travel as needed.</p>",
+                "short_desc": "<p><br /> - Assist the sales manager in developing and implementing sales strategies to achieve sales targets.<br /> - Coordinate with sales team to ensure smooth operations and maximize sales opportunities.<br /> - Prepare sales reports and track sales performance on a regular basis.<br /> - Respond to customer inquiries and provide product information and pricing.<br /> - Follow up with customers to ensure satisfaction and resolve any issues.<br /> - Assist in the preparation of sales presentations and proposals.<br /> - Stay up to date on industry trends and competitor activities.<br /> - Attend sales meetings, trade shows, and conferences as required.<br /> <br /> Requirements:<br /> - Bachelor's degree in Business Administration or a related field.<br /> - Proven experience in sales, preferably in a similar industry.<br /> - Strong communication and interpersonal skills.<br /> - Ability to work in a fast-paced environment and multitask effectively.<br /> - Proficient in Microsoft Office Suite.<br /> - Knowledge of sales techniques and principles.<br /> - Self-motivated and detail-oriented.<br /> - Ability to work independently and as part of a team.<br /> - Willingness to travel as needed.</p>",
+                "images": [
+                  {
+                    "url": "https://d39rd9v7wil94y.cloudfront.net/category_list/Retail_Countersales.png"
+                  }
+                ],
+                "media": []
+              },
+              "quantity": {
+                "available": {
+                  "count": 20
+                }
+              },
+              "time": {
+                "label": "enable",
+                "timestamp": "2024-07-11T08:24:09.000Z",
+                "range": {
+                  "start": "2024-07-10T18:30:00.000Z",
+                  "end": "2025-03-31T18:29:59.000Z"
+                }
+              },
+              "location_ids": [
+                "L1"
+              ],
+              "fulfillment_ids": [
+                "F1"
+              ],
+              "creator": {
+                "descriptor": {
+                  "name": "Quess",
+                  "code": "Q",
+                  "short_desc": "Quesscorp",
+                  "long_desc": "Quesscorp",
+                  "media": [],
+                  "images": [
+                    {
+                      "url": "https://www.quesscorp.com/wp-content/uploads/2022/11/quessbluesvg.svg"
+                    }
+                  ]
+                },
+                "address": "Quess House,/3/2 Bellandur Gate, Sarjapur Road, Bengaluru 560103,Karnataka, India",
+                "state": {
+                  "code": "KA"
+                },
+                "city": {
+                  "code": "BANGALORE"
+                },
+                "contact": {
+                  "phone": "+91-8147968533",
+                  "email": "sales@billioncareers.in"
+                }
+              },
+              "tags": [
+                {
+                  "descriptor": {
+                    "code": "ACADEMIC_QUALIFICATIONS"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "COURSE_LEVEL"
+                      },
+                      "value": "10th Standard / SSLC"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "MANDATORY_ELIGIBILITY"
+                      },
+                      "value": "true"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "JOB_REQUIREMENT"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "REQ_EXPERIENCE"
+                      },
+                      "value": "2"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "REQ_GENDER"
+                      },
+                      "value": "both"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "JOB_DETAILS"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "JOB_ROLE"
+                      },
+                      "value": "Retail Sales Executive"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "JOB_TYPE"
+                      },
+                      "value": "Full-time"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "GENDER_PREFERENCE"
+                      },
+                      "value": "both"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "COMPENSATION"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "TYPE"
+                      },
+                      "value": "ctc"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "MIN"
+                      },
+                      "value": "25000"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "MAX"
+                      },
+                      "value": "41600"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "NP_FEES"
+                  },
+                  "list": [
+                    {
+                      "code": "ID",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "price": {
+                "currency": "INR",
+                "value": "0",
+                "maximum_value": "0"
+              }
+            },
+            {
+              "id": "1826ac9e-2225-45f5-b0be-e0de06299f70",
+              "category_ids": [
+                "Administration"
+              ],
+              "descriptor": {
+                "name": "Assistant Sales Manager",
+                "long_desc": "<p>We are seeking a highly motivated and experienced individual to join our sales team as an Assistant Sales Manager. The ideal candidate will have 2-3 years of sales experience and a proven track record of achieving sales targets and driving business growth. <br /> <br /> Responsibilities:<br /> - Assist the sales team in developing and implementing sales strategies to achieve sales targets<br /> - Build and maintain strong relationships with existing and potential customers<br /> - Identify new business opportunities and market trends<br /> - Monitor sales performance and provide regular reports to the sales manager<br /> - Support the sales team in meeting customer needs and addressing any issues or concerns<br /> - Collaborate with internal teams to ensure customer satisfaction and drive business growth<br /> <br /> Requirements:<br /> - 2-3 years of sales experience in a similar role<br /> - Strong communication and negotiation skills<br /> - Proven track record of achieving sales targets and driving business growth<br /> - Excellent customer service and relationship-building skills<br /> - Ability to work independently and as part of a team<br /> - Knowledge of sales techniques and strategies<br /> - Bachelor's degree in business or a related field is preferred<br /> <br /> If you meet the qualifications listed above and are looking for a challenging and rewarding opportunity in sales, we encourage you to apply for this position.</p>",
+                "short_desc": "<p>We are seeking a highly motivated and experienced individual to join our sales team as an Assistant Sales Manager. The ideal candidate will have 2-3 years of sales experience and a proven track record of achieving sales targets and driving business growth. <br /> <br /> Responsibilities:<br /> - Assist the sales team in developing and implementing sales strategies to achieve sales targets<br /> - Build and maintain strong relationships with existing and potential customers<br /> - Identify new business opportunities and market trends<br /> - Monitor sales performance and provide regular reports to the sales manager<br /> - Support the sales team in meeting customer needs and addressing any issues or concerns<br /> - Collaborate with internal teams to ensure customer satisfaction and drive business growth<br /> <br /> Requirements:<br /> - 2-3 years of sales experience in a similar role<br /> - Strong communication and negotiation skills<br /> - Proven track record of achieving sales targets and driving business growth<br /> - Excellent customer service and relationship-building skills<br /> - Ability to work independently and as part of a team<br /> - Knowledge of sales techniques and strategies<br /> - Bachelor's degree in business or a related field is preferred<br /> <br /> If you meet the qualifications listed above and are looking for a challenging and rewarding opportunity in sales, we encourage you to apply for this position.</p>",
+                "images": [
+                  {
+                    "url": "https://d39rd9v7wil94y.cloudfront.net/category_list/Retail_Countersales.png"
+                  }
+                ],
+                "media": []
+              },
+              "quantity": {
+                "available": {
+                  "count": 20
+                }
+              },
+              "time": {
+                "label": "enable",
+                "timestamp": "2024-09-04T05:49:31.000Z",
+                "range": {
+                  "start": "2024-09-03T18:30:00.000Z",
+                  "end": "2025-03-31T18:29:59.000Z"
+                }
+              },
+              "location_ids": [
+                "L1"
+              ],
+              "fulfillment_ids": [
+                "F1"
+              ],
+              "creator": {
+                "descriptor": {
+                  "name": "Quess",
+                  "code": "Q",
+                  "short_desc": "Quesscorp",
+                  "long_desc": "Quesscorp",
+                  "media": [],
+                  "images": [
+                    {
+                      "url": "https://www.quesscorp.com/wp-content/uploads/2022/11/quessbluesvg.svg"
+                    }
+                  ]
+                },
+                "address": "Quess House,/3/2 Bellandur Gate, Sarjapur Road, Bengaluru 560103,Karnataka, India",
+                "state": {
+                  "code": "KA"
+                },
+                "city": {
+                  "code": "BANGALORE"
+                },
+                "contact": {
+                  "phone": "+91-8147968533",
+                  "email": "sales@billioncareers.in"
+                }
+              },
+              "tags": [
+                {
+                  "descriptor": {
+                    "code": "ACADEMIC_QUALIFICATIONS"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "COURSE_LEVEL"
+                      },
+                      "value": "Graduation"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "MANDATORY_ELIGIBILITY"
+                      },
+                      "value": "true"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "JOB_REQUIREMENT"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "REQ_EXPERIENCE"
+                      },
+                      "value": "3"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "REQ_GENDER"
+                      },
+                      "value": "both"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "JOB_DETAILS"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "JOB_ROLE"
+                      },
+                      "value": "Retail Sales Executive"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "JOB_TYPE"
+                      },
+                      "value": "Full-time"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "GENDER_PREFERENCE"
+                      },
+                      "value": "both"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "COMPENSATION"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "TYPE"
+                      },
+                      "value": "ctc"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "MIN"
+                      },
+                      "value": "20000"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "MAX"
+                      },
+                      "value": "25000"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "NP_FEES"
+                  },
+                  "list": [
+                    {
+                      "code": "ID",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "price": {
+                "currency": "INR",
+                "value": "0",
+                "maximum_value": "0"
+              }
+            }
+          ],
+          "tags": [
+            {
+              "descriptor": {
+                "code": "LOCATION"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "ADDRESS"
+                  },
+                  "value": "Quess House,/3/2 Bellandur Gate, Sarjapur Road, Bengaluru 560103,Karnataka, India"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
