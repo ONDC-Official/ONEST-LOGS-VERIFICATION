@@ -1,0 +1,211 @@
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "on_update",
+    "version": "2.0.0",
+    "bap_id": "skill-mantra-ondc-preprod.samhita.org",
+    "bap_uri": "https://skill-mantra-ondc-preprod.samhita.org/",
+    "bpp_id": "preprod-ondc.hamarajobs.ai",
+    "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
+    "transaction_id": "13bd5a43-b2a6-478a-b8c0-734c2d8da156",
+    "message_id": "931c63ff-94a5-4e55-b4bb-1a08a20dabb5",
+    "timestamp": "2025-02-25T04:16:32.084Z",
+    "ttl": "PT30S",
+    "location": {
+      "city": {
+        "code": "std:080"
+      },
+      "country": {
+        "code": "IND"
+      }
+    }
+  },
+  "message": {
+    "order": {
+      "id": "0ceed440-9c5e-4356-aab7-361d6cf07e4d",
+      "status": "Active",
+      "provider": {
+        "id": "1",
+        "descriptor": {
+          "name": "Quess Jobs"
+        }
+      },
+      "items": [
+        {
+          "id": "0c2be58d-4bfe-41f0-9811-13d5c756be12",
+          "fulfillment_ids": [
+            "F1"
+          ],
+          "tags": [
+            {
+              "descriptor": {
+                "code": "ACADEMIC_QUALIFICATIONS"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "COURSE_LEVEL"
+                  },
+                  "value": "10th Standard / SSLC"
+                },
+                {
+                  "descriptor": {
+                    "code": "MANDATORY_ELIGIBILITY"
+                  },
+                  "value": "true"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "code": "JOB_REQUIREMENT"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "REQ_EXPERIENCE"
+                  },
+                  "value": "2"
+                },
+                {
+                  "descriptor": {
+                    "code": "REQ_GENDER"
+                  },
+                  "value": "both"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "code": "JOB_DETAILS"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "JOB_ROLE"
+                  },
+                  "value": "Retail Sales Executive"
+                },
+                {
+                  "descriptor": {
+                    "code": "JOB_TYPE"
+                  },
+                  "value": "Full-time"
+                },
+                {
+                  "descriptor": {
+                    "code": "GENDER_PREFERENCE"
+                  },
+                  "value": "both"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "code": "COMPENSATION"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "TYPE"
+                  },
+                  "value": "ctc"
+                },
+                {
+                  "descriptor": {
+                    "code": "MIN"
+                  },
+                  "value": "25000"
+                },
+                {
+                  "descriptor": {
+                    "code": "MAX"
+                  },
+                  "value": "41600"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "code": "NP_FEES"
+              },
+              "list": [
+                {
+                  "code": "ID",
+                  "value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "quote": {
+        "price": {
+          "currency": "INR",
+          "value": "0"
+        },
+        "breakup": [
+          {
+            "item": {
+              "id": "0c2be58d-4bfe-41f0-9811-13d5c756be12",
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "title": "item"
+            }
+          },
+          {
+            "item": {
+              "id": "071537a0-9f81-4c82-a5f7-6460175832e3",
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "title": "tax"
+            }
+          }
+        ],
+        "ttl": "P1D"
+      },
+      "fulfillments": [
+        {
+          "id": "F1",
+          "type": "lead",
+          "state": {
+            "descriptor": {
+              "code": "APPLICATION_ACCEPTED"
+            },
+            "updated_at": "2025-02-25T04:11:03.691Z"
+          },
+          "customer": {
+            "contact": {
+              "email": "musaddiq.m1@yopmail.com",
+              "phone": "+919632587457"
+            },
+            "person": {
+              "age": "26",
+              "gender": "Male",
+              "languages": [
+                {
+                  "code": "English",
+                  "name": "English"
+                }
+              ],
+              "name": "Mohammed Musaddiq",
+              "skills": []
+            }
+          }
+        }
+      ],
+      "payments": [
+        {
+          "params": {
+            "amount": 0
+          }
+        }
+      ],
+      "updated_at": "2025-02-25T04:11:03.691Z"
+    }
+  }
+}

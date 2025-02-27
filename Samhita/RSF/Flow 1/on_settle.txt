@@ -1,0 +1,43 @@
+{
+  "context": {
+    "bap_id": "skill-mantra-ondc-preprod.samhita.org",
+    "bap_uri": "https://skill-mantra-ondc-preprod.samhita.org/",
+    "bpp_id": "rsf-mock-service.ondc.org/seller_protocol_server_preprod",
+    "bpp_uri": "https://rsf-mock-service.ondc.org/seller_protocol_server_preprod/ondc",
+    "location": {
+      "country": {
+        "code": "IND"
+      },
+      "city": {
+        "code": "*"
+      }
+    },
+    "transaction_id": "67519bf3-1783-4cbc-8b41-ccdbe672a639",
+    "message_id": "7bec4809-d554-49d3-98a4-af76ad9b8aa4",
+    "timestamp": "2025-02-25T07:23:00.521Z",
+    "domain": "ONDC:ONEST10",
+    "version": "2.0.0",
+    "ttl": "PT10M",
+    "action": "on_settle"
+  },
+  "message": {
+    "collector_app_id": "skill-mantra-ondc-preprod.samhita.org",
+    "receiver_app_id": "preprod-ondc.hamarajobs.ai",
+    "settlement": {
+      "type": "NP-NP",
+      "id": "ee7a6fdf-4738-4b67-a7ee-44bd8e0046ab",
+      "orders": [
+        {
+          "id": "0c2be58d-4bfe-41f0-9811-13d5c756be12",
+          "self": {
+            "status": "SETTLED",
+            "reference_no": "1238683618634"
+          },
+          "inter_participant": {
+            "status": "SETTLED"
+          }
+        }
+      ]
+    }
+  }
+}

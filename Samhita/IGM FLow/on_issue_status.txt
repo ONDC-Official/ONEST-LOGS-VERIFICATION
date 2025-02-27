@@ -1,0 +1,121 @@
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "location": {
+      "country": {
+        "code": "IND"
+      },
+      "city": {
+        "code": "*"
+      }
+    },
+    "action": "on_issue_status",
+    "core_version": "2.0.0",
+    "bap_id": "skill-mantra-ondc-preprod.samhita.org",
+    "bap_uri": "https://skill-mantra-ondc-preprod.samhita.org/",
+    "bpp_id": "preprod-ondc.hamarajobs.ai",
+    "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
+    "transaction_id": "13bd5a43-b2a6-478a-b8c0-734c2d8da156",
+    "message_id": "48f32109-fbbd-4f96-a9fc-0fb586069aa2",
+    "timestamp": "2025-02-25T05:11:36.329Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "issue": {
+      "id": "ISSUE-1",
+      "status": "CLOSED",
+      "level": "ISSUE",
+      "created_at": "2025-02-25T05:11:28.000Z",
+      "updated_at": "2025-02-25T05:11:28.000Z",
+      "expected_response_time": {
+        "duration": "PT2H"
+      },
+      "expected_resolution_time": {
+        "duration": "P1D"
+      },
+      "refs": [
+        {
+          "ref_id": "O1",
+          "ref_type": "ORDER"
+        }
+      ],
+      "source_id": "51b3a48e-b126-4897-b0ef-83d167a1a4ae",
+      "complainant_id": "51b3a48e-b126-4897-b0ef-83d167a1a4ae",
+      "respondent_ids": [
+        "NP2"
+      ],
+      "description": {
+        "code": "ISSUE-1",
+        "short_desc": "short desc",
+        "long_desc": "long desc",
+        "additional_desc": {
+          "content_type": "text/plain",
+          "url": "https://buyerapp.com/additonal-details/desc.txt"
+        },
+        "images": [
+          ""
+        ]
+      },
+      "last_action_id": "A4",
+      "actions": [
+        {
+          "id": "A1",
+          "description": {
+            "code": "OPEN",
+            "short_desc": "Complaint created"
+          },
+          "updated_at": "2025-02-25T04:45:12.901479Z",
+          "action_by": "51b3a48e-b126-4897-b0ef-83d167a1a4ae",
+          "actor_details": {
+            "name": "Mohammed Musaddiq"
+          }
+        },
+        {
+          "id": "A2",
+          "description": {
+            "code": "RESOLVED",
+            "name": "NO-ACTION",
+            "short_desc": "No action was required"
+          },
+          "updated_at": "2025-02-25T04:38:43.874Z",
+          "action_by": "NP2",
+          "actor_details": {
+            "name": "Mohammed Musaddiq"
+          },
+          "ref_id": "R1",
+          "ref_type": "NO-ACTION"
+        },
+        {
+          "id": "A3",
+          "description": {
+            "code": "CLOSED",
+            "short_desc": "Closing the complaint"
+          },
+          "updated_at": "2025-02-25T05:11:36.329Z",
+          "action_by": "NP1",
+          "actor_details": {
+            "name": "Mohammed Musaddiq"
+          }
+        }
+      ],
+      "actors": [
+        {
+          "id": "51b3a48e-b126-4897-b0ef-83d167a1a4ae",
+          "type": "",
+          "info": {
+            "org": {
+              "name": "skill-mantra-ondc-preprod.samhita.org::ONDC:ONEST10"
+            },
+            "person": {
+              "name": "Mohammed Musaddiq"
+            },
+            "contact": {
+              "phone": "+919632587456",
+              "email": "musaddiq.m1@yopmail.com"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
