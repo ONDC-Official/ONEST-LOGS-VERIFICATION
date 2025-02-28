@@ -1,0 +1,174 @@
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "on_status",
+    "version": "2.0.0",
+    "bap_id": "skill-mantra-ondc-preprod.samhita.org",
+    "bap_uri": "https://skill-mantra-ondc-preprod.samhita.org/",
+    "bpp_id": "preprod-ondc.hamarajobs.ai",
+    "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
+    "transaction_id": "f14efae6-4a8d-43c9-8c9e-a0ffd7fc50b0",
+    "message_id": "56c6875e-35ae-4e6f-92aa-076aeea2730d",
+    "timestamp": "2025-02-28T07:25:53.091Z",
+    "ttl": "PT30S",
+    "location": {
+      "city": {
+        "code": "std:080"
+      },
+      "country": {
+        "code": "IND"
+      }
+    }
+  },
+  "message": {
+    "order": {
+      "status": "Completed",
+      "provider": {
+        "id": "1"
+      },
+      "items": [
+        {
+          "fulfillment_ids": [
+            "F1"
+          ],
+          "tags": [
+            {
+              "descriptor": {
+                "code": "NP_FEES"
+              },
+              "list": [
+                {
+                  "code": "ID",
+                  "value": "1"
+                }
+              ]
+            }
+          ],
+          "id": "ca4c08e6-951f-470c-9923-d257e20cdc9a"
+        }
+      ],
+      "fulfillments": [
+        {
+          "state": {
+            "descriptor": {
+              "code": "APPLICATION_REJECTED"
+            },
+            "updated_at": "2025-02-28T06:58:34.099Z"
+          },
+          "type": "lead",
+          "id": "F1"
+        }
+      ],
+      "quote": {
+        "breakup": [
+          {
+            "item": {
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "title": "item",
+              "id": "ca4c08e6-951f-470c-9923-d257e20cdc9a"
+            }
+          },
+          {
+            "item": {
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "title": "tax",
+              "id": "d2fc8d59-c5d9-4997-88ff-ca129eab858e"
+            }
+          }
+        ],
+        "price": {
+          "currency": "INR",
+          "value": "0"
+        },
+        "ttl": "P1D"
+      },
+      "payments": [
+        {
+          "collected_by": "BAP",
+          "status": "PAID",
+          "tags": {
+            "descriptor": {
+              "code": "SETTLEMENT_DETAILS"
+            },
+            "list": [
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_COUNTERPARTY"
+                },
+                "value": "seller-app"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_PHASE"
+                },
+                "value": "sale-amount"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_TYPE"
+                },
+                "value": "neft"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_BASIS"
+                },
+                "value": "lead & recruitment"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_WINDOW"
+                },
+                "value": "P3M"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_BANK_ACCOUNT_NO"
+                },
+                "value": "XXXXXXXXXX"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_IFSC_CODE"
+                },
+                "value": "XXXXXXXXX"
+              },
+              {
+                "descriptor": {
+                  "code": "BENEFICIARY_NAME"
+                },
+                "value": "xxxxx"
+              },
+              {
+                "descriptor": {
+                  "code": "BANK_NAME"
+                },
+                "value": "xxxx"
+              },
+              {
+                "descriptor": {
+                  "code": "BRANCH_NAME"
+                },
+                "value": "xxxx"
+              }
+            ]
+          },
+          "type": "ON-ORDER",
+          "params": {
+            "currency": "INR",
+            "transaction_id": "7b59184a-7b0b-4600-993c-3f3426822adf",
+            "amount": "0"
+          }
+        }
+      ],
+      "updated_at": "2025-02-28T07:25:53.101Z",
+      "id": "58bec46f-649d-476b-8075-258effe93cbf"
+    }
+  }
+}

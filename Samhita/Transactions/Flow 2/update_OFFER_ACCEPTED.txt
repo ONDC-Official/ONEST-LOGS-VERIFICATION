@@ -7,8 +7,8 @@
     "bap_uri": "https://skill-mantra-ondc-preprod.samhita.org/",
     "bpp_id": "preprod-ondc.hamarajobs.ai",
     "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
-    "transaction_id": "13bd5a43-b2a6-478a-b8c0-734c2d8da156",
-    "message_id": "931c63ff-94a5-4e55-b4bb-1a08a20dabb5",
+    "transaction_id": "f14efae6-4a8d-43c9-8c9e-a0ffd7fc50b0",
+    "message_id": "30e585ca-40d0-42f0-b1a8-ed39a1e000d7",
     "location": {
       "city": {
         "code": "std:080"
@@ -17,20 +17,19 @@
         "code": "IND"
       }
     },
-    "timestamp": "2025-02-25T04:16:31.684Z",
-    "ttl": "PT30M"
+    "timestamp": "2025-02-28T07:56:27.348Z",
+    "ttl": "PT30S"
   },
   "message": {
     "update_target": "fulfillment",
     "order": {
-      "id": "0ceed440-9c5e-4356-aab7-361d6cf07e4d",
+      "id": "58bec46f-649d-476b-8075-258effe93cbf",
       "fulfillments": [
         {
-          "id": "F3",
-          "customer": {
-            "contact": {
-              "email": "musaddiq.m1@yopmail.com",
-              "phone": "+919632587457"
+          "id": "F1",
+          "state": {
+            "descriptor": {
+              "code": "OFFER_ACCEPTED"
             }
           }
         }
