@@ -7,8 +7,8 @@
     "bap_uri": "https://skill-mantra-ondc-preprod.samhita.org/",
     "bpp_id": "preprod-ondc.hamarajobs.ai",
     "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
-    "transaction_id": "13bd5a43-b2a6-478a-b8c0-734c2d8da156",
-    "message_id": "a45c7526-75da-4539-8992-dd771d303f76",
+    "transaction_id": "f14efae6-4a8d-43c9-8c9e-a0ffd7fc50b0",
+    "message_id": "8fa2e672-61d7-405e-ae18-ae80ce0bd278",
     "location": {
       "city": {
         "code": "std:080"
@@ -17,12 +17,10 @@
         "code": "IND"
       }
     },
-    "timestamp": "2025-02-25T04:11:11.638Z",
+    "timestamp": "2025-02-28T07:38:19.341Z",
     "ttl": "PT30S"
   },
   "message": {
-    "order": {
-      "id": "0ceed440-9c5e-4356-aab7-361d6cf07e4d"
-    }
+    "order_id": "58bec46f-649d-476b-8075-258effe93cbf"
   }
 }

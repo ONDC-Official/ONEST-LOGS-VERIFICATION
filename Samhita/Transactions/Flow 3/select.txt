@@ -13,9 +13,9 @@
         "code": "IND"
       }
     },
-    "timestamp": "2025-02-25T04:10:57.835Z",
-    "message_id": "2ce1c4fa-d6f2-4e44-9ff5-982925749b7f",
-    "transaction_id": "13bd5a43-b2a6-478a-b8c0-734c2d8da156",
+    "timestamp": "2025-02-28T06:57:55.362Z",
+    "message_id": "cdf447c7-c828-4737-8665-1130b6aa4f01",
+    "transaction_id": "f14efae6-4a8d-43c9-8c9e-a0ffd7fc50b0",
     "ttl": "PT30S",
     "bpp_id": "preprod-ondc.hamarajobs.ai",
     "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp"
@@ -33,131 +33,8 @@
       ],
       "items": [
         {
-          "category_ids": [
-            "Administration"
-          ],
-          "creator": {
-            "address": "Quess House,/3/2 Bellandur Gate, Sarjapur Road, Bengaluru 560103,Karnataka, India",
-            "city": {
-              "code": "BANGALORE"
-            },
-            "contact": {
-              "email": "sales@billioncareers.in",
-              "phone": "+91-8147968533"
-            },
-            "descriptor": {
-              "code": "Q",
-              "images": [
-                {
-                  "url": "https://www.quesscorp.com/wp-content/uploads/2022/11/quessbluesvg.svg"
-                }
-              ],
-              "long_desc": "Quesscorp",
-              "media": [],
-              "name": "Quess",
-              "short_desc": "Quesscorp"
-            },
-            "state": {
-              "code": "KA"
-            }
-          },
-          "descriptor": {
-            "images": [
-              {
-                "url": "https://d39rd9v7wil94y.cloudfront.net/category_list/Retail_Countersales.png"
-              }
-            ],
-            "long_desc": "<p><br /> - Assist the sales manager in developing and implementing sales strategies to achieve sales targets.<br /> - Coordinate with sales team to ensure smooth operations and maximize sales opportunities.<br /> - Prepare sales reports and track sales performance on a regular basis.<br /> - Respond to customer inquiries and provide product information and pricing.<br /> - Follow up with customers to ensure satisfaction and resolve any issues.<br /> - Assist in the preparation of sales presentations and proposals.<br /> - Stay up to date on industry trends and competitor activities.<br /> - Attend sales meetings, trade shows, and conferences as required.<br /> <br /> Requirements:<br /> - Bachelor's degree in Business Administration or a related field.<br /> - Proven experience in sales, preferably in a similar industry.<br /> - Strong communication and interpersonal skills.<br /> - Ability to work in a fast-paced environment and multitask effectively.<br /> - Proficient in Microsoft Office Suite.<br /> - Knowledge of sales techniques and principles.<br /> - Self-motivated and detail-oriented.<br /> - Ability to work independently and as part of a team.<br /> - Willingness to travel as needed.</p>",
-            "media": [],
-            "name": "Assistant Sales Manager",
-            "short_desc": "<p><br /> - Assist the sales manager in developing and implementing sales strategies to achieve sales targets.<br /> - Coordinate with sales team to ensure smooth operations and maximize sales opportunities.<br /> - Prepare sales reports and track sales performance on a regular basis.<br /> - Respond to customer inquiries and provide product information and pricing.<br /> - Follow up with customers to ensure satisfaction and resolve any issues.<br /> - Assist in the preparation of sales presentations and proposals.<br /> - Stay up to date on industry trends and competitor activities.<br /> - Attend sales meetings, trade shows, and conferences as required.<br /> <br /> Requirements:<br /> - Bachelor's degree in Business Administration or a related field.<br /> - Proven experience in sales, preferably in a similar industry.<br /> - Strong communication and interpersonal skills.<br /> - Ability to work in a fast-paced environment and multitask effectively.<br /> - Proficient in Microsoft Office Suite.<br /> - Knowledge of sales techniques and principles.<br /> - Self-motivated and detail-oriented.<br /> - Ability to work independently and as part of a team.<br /> - Willingness to travel as needed.</p>"
-          },
-          "fulfillment_ids": [
-            "F1"
-          ],
-          "id": "0c2be58d-4bfe-41f0-9811-13d5c756be12",
-          "location_ids": [
-            "L1"
-          ],
-          "price": {
-            "currency": "INR",
-            "maximum_value": "0",
-            "value": "0"
-          },
-          "quantity": {
-            "available": {
-              "count": 20
-            }
-          },
+          "id": "ca4c08e6-951f-470c-9923-d257e20cdc9a",
           "tags": [
-            {
-              "descriptor": {
-                "code": "ACADEMIC_QUALIFICATIONS"
-              },
-              "list": [
-                {
-                  "value": "10th Standard / SSLC",
-                  "code": "COURSE_LEVEL"
-                },
-                {
-                  "value": "true",
-                  "code": "MANDATORY_ELIGIBILITY"
-                }
-              ]
-            },
-            {
-              "descriptor": {
-                "code": "JOB_REQUIREMENT"
-              },
-              "list": [
-                {
-                  "value": "2",
-                  "code": "REQ_EXPERIENCE"
-                },
-                {
-                  "value": "both",
-                  "code": "REQ_GENDER"
-                }
-              ]
-            },
-            {
-              "descriptor": {
-                "code": "JOB_DETAILS"
-              },
-              "list": [
-                {
-                  "value": "Retail Sales Executive",
-                  "code": "JOB_ROLE"
-                },
-                {
-                  "value": "Full-time",
-                  "code": "JOB_TYPE"
-                },
-                {
-                  "value": "both",
-                  "code": "GENDER_PREFERENCE"
-                }
-              ]
-            },
-            {
-              "descriptor": {
-                "code": "COMPENSATION"
-              },
-              "list": [
-                {
-                  "value": "ctc",
-                  "code": "TYPE"
-                },
-                {
-                  "value": "25000",
-                  "code": "MIN"
-                },
-                {
-                  "value": "41600",
-                  "code": "MAX"
-                }
-              ]
-            },
             {
               "descriptor": {
                 "code": "NP_FEES"
@@ -165,19 +42,39 @@
               "list": [
                 {
                   "code": "ID",
-                  "value": "1"
+                  "value": "3"
+                },
+                {
+                  "code": "COMMERCIAL_TYPE",
+                  "value": "amount"
+                },
+                {
+                  "code": "COMMERCIAL_VALUE",
+                  "value": "0"
+                },
+                {
+                  "code": "COMMERCIAL_NAME",
+                  "value": "lead"
+                },
+                {
+                  "code": "COMMERCIAL_TRIGGERING_STATE",
+                  "value": "APPLICATION_SUBMITTED"
+                },
+                {
+                  "code": "COMPENSATION_TYPE",
+                  "value": "CTC"
+                },
+                {
+                  "code": "COMPENSATION_TRANSFER_PERIOD",
+                  "value": "P1M"
+                },
+                {
+                  "code": "COMPENSATION_PERCENTAGE_SPLIT",
+                  "value": "100"
                 }
               ]
             }
-          ],
-          "time": {
-            "label": "enable",
-            "range": {
-              "end": "2025-03-31T18:29:59.000Z",
-              "start": "2024-07-10T18:30:00.000Z"
-            },
-            "timestamp": "2024-07-11T08:24:09.000Z"
-          }
+          ]
         }
       ]
     }

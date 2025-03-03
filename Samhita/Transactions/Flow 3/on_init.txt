@@ -7,9 +7,9 @@
     "bap_uri": "https://skill-mantra-ondc-preprod.samhita.org/",
     "bpp_id": "preprod-ondc.hamarajobs.ai",
     "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
-    "transaction_id": "13bd5a43-b2a6-478a-b8c0-734c2d8da156",
-    "message_id": "ef6bbbb1-de61-4ebd-b335-551fb21a9a8f",
-    "timestamp": "2025-02-25T04:10:59.839Z",
+    "transaction_id": "f14efae6-4a8d-43c9-8c9e-a0ffd7fc50b0",
+    "message_id": "d1e87191-fb98-402e-b9c4-7c06dc981094",
+    "timestamp": "2025-02-28T06:58:29.544Z",
     "ttl": "PT30S",
     "location": {
       "city": {
@@ -27,7 +27,7 @@
       },
       "items": [
         {
-          "id": "0c2be58d-4bfe-41f0-9811-13d5c756be12",
+          "id": "ca4c08e6-951f-470c-9923-d257e20cdc9a",
           "fulfillment_ids": [
             "F1"
           ],
@@ -48,7 +48,7 @@
             },
             "form": {
               "mime_type": "text/html",
-              "url": "https://qjobsindia.heptagon.tech/job/ondc-registration-form.php?id=13bd5a43-b2a6-478a-b8c0-734c2d8da156",
+              "url": "?id=f14efae6-4a8d-43c9-8c9e-a0ffd7fc50b0",
               "resubmit": false
             }
           },
@@ -75,7 +75,7 @@
         "breakup": [
           {
             "item": {
-              "id": "0c2be58d-4bfe-41f0-9811-13d5c756be12",
+              "id": "ca4c08e6-951f-470c-9923-d257e20cdc9a",
               "price": {
                 "currency": "INR",
                 "value": "0"
@@ -85,7 +85,7 @@
           },
           {
             "item": {
-              "id": "071537a0-9f81-4c82-a5f7-6460175832e3",
+              "id": "d2fc8d59-c5d9-4997-88ff-ca129eab858e",
               "price": {
                 "currency": "INR",
                 "value": "0"
@@ -104,18 +104,101 @@
             "descriptor": {
               "code": "APPLICATION_IN_PROGRESS"
             },
-            "updated_at": "2025-02-25T04:10:59.869Z"
+            "updated_at": "2025-02-28T06:58:29.616Z"
           },
           "customer": {
             "person": {
               "name": "Mohammed Musaddiq",
               "gender": "Male",
               "age": "26",
-              "skills": [],
+              "skills": [
+                {
+                  "name": "AWS"
+                },
+                {
+                  "name": "GCP"
+                },
+                {
+                  "name": "Docker"
+                },
+                {
+                  "name": "GIT"
+                },
+                {
+                  "name": "Python"
+                },
+                {
+                  "name": "JavaScript"
+                }
+              ],
               "languages": [
                 {
-                  "code": "English",
-                  "name": "English"
+                  "name": "en"
+                },
+                {
+                  "name": "hi"
+                }
+              ],
+              "creds": [
+                {
+                  "id": "D1",
+                  "descriptor": {
+                    "name": "PAN_CARD",
+                    "short_desc": "PAN Card information",
+                    "long_desc": "Permanent Account Number"
+                  },
+                  "url": "https://example.com/pan_card.jpeg",
+                  "type": "jpeg"
+                },
+                {
+                  "id": "D2",
+                  "descriptor": {
+                    "name": "AADHAAR_CARD",
+                    "short_desc": "Aadhaar Card information",
+                    "long_desc": "Unique Identification Number"
+                  },
+                  "url": "https://example.com/aadhaar_card.pdf",
+                  "type": "pdf"
+                },
+                {
+                  "id": "D3",
+                  "descriptor": {
+                    "name": "VOTER_ID",
+                    "short_desc": "Voter ID information",
+                    "long_desc": "Election Commission ID"
+                  },
+                  "url": "https://example.com/voter_id.jpeg",
+                  "type": "jpeg"
+                },
+                {
+                  "id": "D4",
+                  "descriptor": {
+                    "name": "PASSPORT",
+                    "short_desc": "Passport information",
+                    "long_desc": "International Travel Document"
+                  },
+                  "url": "",
+                  "type": "jpeg"
+                },
+                {
+                  "id": "D5",
+                  "descriptor": {
+                    "name": "DRIVING_LICENSE",
+                    "short_desc": "Driving License information",
+                    "long_desc": "License to Drive"
+                  },
+                  "url": "https://example.com/driving_license.jpeg",
+                  "type": "jpeg"
+                },
+                {
+                  "id": "D6",
+                  "descriptor": {
+                    "name": "RESUME",
+                    "short_desc": "Summary of qualifications, work experience, and education.",
+                    "long_desc": "A comprehensive document showcasing an individual's career achievements, skills, work history, education, certifications, and professional experience."
+                  },
+                  "url": "https://msnlabs.com/img/resume-sample.pdf",
+                  "type": "pdf"
                 }
               ]
             },
@@ -126,7 +209,56 @@
           }
         }
       ],
-      "payments": []
+      "payments": [
+        {
+          "status": "NOT-PAID",
+          "type": "ON-ORDER",
+          "collected_by": "BAP",
+          "tags": {
+            "descriptor": {
+              "code": "SETTLEMENT_DETAILS"
+            },
+            "list": [
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_COUNTERPARTY"
+                },
+                "value": "seller-app"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_BANK_ACCOUNT_NO"
+                },
+                "value": "XXXXXXXXXX"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_IFSC_CODE"
+                },
+                "value": "XXXXXXXXX"
+              },
+              {
+                "descriptor": {
+                  "code": "BENEFICIARY_NAME"
+                },
+                "value": "xxxxx"
+              },
+              {
+                "descriptor": {
+                  "code": "BANK_NAME"
+                },
+                "value": "xxxx"
+              },
+              {
+                "descriptor": {
+                  "code": "BRANCH_NAME"
+                },
+                "value": "xxxx"
+              }
+            ]
+          }
+        }
+      ]
     }
   }
 }

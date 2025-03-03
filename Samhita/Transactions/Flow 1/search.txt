@@ -5,25 +5,35 @@
     "version": "2.0.0",
     "bap_id": "skill-mantra-ondc-preprod.samhita.org",
     "bap_uri": "https://skill-mantra-ondc-preprod.samhita.org/",
-    "transaction_id": "13bd5a43-b2a6-478a-b8c0-734c2d8da156",
-    "message_id": "311f5c58-2f81-4873-9902-90c99efe6181",
+    "transaction_id": "f14efae6-4a8d-43c9-8c9e-a0ffd7fc50b0",
+    "message_id": "7e5f73ff-8008-4940-aba8-e6fb0ca8e7a7",
     "location": {
       "city": {
-        "code": "std:080"
+        "code": "std:022"
       },
       "country": {
         "code": "IND"
       }
     },
-    "timestamp": "2025-02-25T04:10:33.535Z",
+    "timestamp": "2025-02-28T06:57:37.317Z",
     "ttl": "PT30S"
   },
   "message": {
     "intent": {
-      "item": {
-        "descriptor": {
-          "name": "Assistant Sales Manager"
-        }
+      "provider": {
+        "locations": [
+          {
+            "city": {
+              "code": "std:080"
+            },
+            "state": {
+              "code": "IN-KA"
+            },
+            "country": {
+              "code": "IN"
+            }
+          }
+        ]
       }
     }
   }

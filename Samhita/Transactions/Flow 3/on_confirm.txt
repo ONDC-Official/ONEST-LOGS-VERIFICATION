@@ -7,9 +7,9 @@
     "bap_uri": "https://skill-mantra-ondc-preprod.samhita.org/",
     "bpp_id": "preprod-ondc.hamarajobs.ai",
     "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
-    "transaction_id": "13bd5a43-b2a6-478a-b8c0-734c2d8da156",
-    "message_id": "458da92d-3b3e-4b64-acc5-394a9d83a9fe",
-    "timestamp": "2025-02-25T04:11:03.677Z",
+    "transaction_id": "f14efae6-4a8d-43c9-8c9e-a0ffd7fc50b0",
+    "message_id": "1ecc9fcf-c926-4ccc-a1e7-1c848490fe27",
+    "timestamp": "2025-03-03T10:03:38.785Z",
     "ttl": "PT30S",
     "location": {
       "city": {
@@ -22,7 +22,7 @@
   },
   "message": {
     "order": {
-      "id": "0ceed440-9c5e-4356-aab7-361d6cf07e4d",
+      "id": "58bec46f-649d-476b-8075-258effe93cbf",
       "status": "Active",
       "provider": {
         "id": "1",
@@ -32,7 +32,7 @@
       },
       "items": [
         {
-          "id": "0c2be58d-4bfe-41f0-9811-13d5c756be12",
+          "id": "ca4c08e6-951f-470c-9923-d257e20cdc9a",
           "fulfillment_ids": [
             "F1"
           ],
@@ -46,7 +46,7 @@
                   "descriptor": {
                     "code": "COURSE_LEVEL"
                   },
-                  "value": "10th Standard / SSLC"
+                  "value": "Graduation"
                 },
                 {
                   "descriptor": {
@@ -65,7 +65,7 @@
                   "descriptor": {
                     "code": "REQ_EXPERIENCE"
                   },
-                  "value": "2"
+                  "value": "PT0S"
                 },
                 {
                   "descriptor": {
@@ -84,7 +84,7 @@
                   "descriptor": {
                     "code": "JOB_ROLE"
                   },
-                  "value": "Retail Sales Executive"
+                  "value": "Ac Technician"
                 },
                 {
                   "descriptor": {
@@ -115,13 +115,13 @@
                   "descriptor": {
                     "code": "MIN"
                   },
-                  "value": "25000"
+                  "value": "11100"
                 },
                 {
                   "descriptor": {
                     "code": "MAX"
                   },
-                  "value": "41600"
+                  "value": "22200"
                 }
               ]
             },
@@ -147,7 +147,7 @@
         "breakup": [
           {
             "item": {
-              "id": "0c2be58d-4bfe-41f0-9811-13d5c756be12",
+              "id": "ca4c08e6-951f-470c-9923-d257e20cdc9a",
               "price": {
                 "currency": "INR",
                 "value": "0"
@@ -157,7 +157,7 @@
           },
           {
             "item": {
-              "id": "071537a0-9f81-4c82-a5f7-6460175832e3",
+              "id": "d2fc8d59-c5d9-4997-88ff-ca129eab858e",
               "price": {
                 "currency": "INR",
                 "value": "0"
@@ -174,9 +174,9 @@
           "type": "lead",
           "state": {
             "descriptor": {
-              "code": "APPLICATION_ACCEPTED"
+              "code": "APPLICATION_SUBMITTED"
             },
-            "updated_at": "2025-02-25T04:11:03.691Z"
+            "updated_at": "2025-03-03T10:03:09.809Z"
           },
           "customer": {
             "contact": {
@@ -185,27 +185,182 @@
             },
             "person": {
               "age": "26",
+              "creds": [
+                {
+                  "descriptor": {
+                    "long_desc": "Permanent Account Number",
+                    "name": "PAN_CARD",
+                    "short_desc": "PAN Card information"
+                  },
+                  "id": "D1",
+                  "type": "jpeg",
+                  "url": "https://example.com/pan_card.jpeg"
+                },
+                {
+                  "descriptor": {
+                    "long_desc": "Unique Identification Number",
+                    "name": "AADHAAR_CARD",
+                    "short_desc": "Aadhaar Card information"
+                  },
+                  "id": "D2",
+                  "type": "pdf",
+                  "url": "https://example.com/aadhaar_card.pdf"
+                },
+                {
+                  "descriptor": {
+                    "long_desc": "Election Commission ID",
+                    "name": "VOTER_ID",
+                    "short_desc": "Voter ID information"
+                  },
+                  "id": "D3",
+                  "type": "jpeg",
+                  "url": "https://example.com/voter_id.jpeg"
+                },
+                {
+                  "descriptor": {
+                    "long_desc": "International Travel Document",
+                    "name": "PASSPORT",
+                    "short_desc": "Passport information"
+                  },
+                  "id": "D4",
+                  "type": "jpeg",
+                  "url": ""
+                },
+                {
+                  "descriptor": {
+                    "long_desc": "License to Drive",
+                    "name": "DRIVING_LICENSE",
+                    "short_desc": "Driving License information"
+                  },
+                  "id": "D5",
+                  "type": "jpeg",
+                  "url": "https://example.com/driving_license.jpeg"
+                },
+                {
+                  "descriptor": {
+                    "long_desc": "A comprehensive document showcasing an individual's career achievements, skills, work history, education, certifications, and professional experience.",
+                    "name": "RESUME",
+                    "short_desc": "Summary of qualifications, work experience, and education."
+                  },
+                  "id": "D6",
+                  "type": "pdf",
+                  "url": "https://msnlabs.com/img/resume-sample.pdf"
+                }
+              ],
               "gender": "Male",
               "languages": [
                 {
-                  "code": "English",
-                  "name": "English"
+                  "name": "en"
+                },
+                {
+                  "name": "hi"
                 }
               ],
               "name": "Mohammed Musaddiq",
-              "skills": []
+              "skills": [
+                {
+                  "name": "AWS"
+                },
+                {
+                  "name": "GCP"
+                },
+                {
+                  "name": "Docker"
+                },
+                {
+                  "name": "GIT"
+                },
+                {
+                  "name": "Python"
+                },
+                {
+                  "name": "JavaScript"
+                }
+              ]
             }
           }
         }
       ],
       "payments": [
         {
+          "collected_by": "BAP",
+          "status": "PAID",
+          "tags": {
+            "descriptor": {
+              "code": "SETTLEMENT_DETAILS"
+            },
+            "list": [
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_COUNTERPARTY"
+                },
+                "value": "seller-app"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_PHASE"
+                },
+                "value": "sale-amount"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_TYPE"
+                },
+                "value": "neft"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_BASIS"
+                },
+                "value": "lead & recruitment"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_WINDOW"
+                },
+                "value": "P3M"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_BANK_ACCOUNT_NO"
+                },
+                "value": "XXXXXXXXXX"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_IFSC_CODE"
+                },
+                "value": "XXXXXXXXX"
+              },
+              {
+                "descriptor": {
+                  "code": "BENEFICIARY_NAME"
+                },
+                "value": "xxxxx"
+              },
+              {
+                "descriptor": {
+                  "code": "BANK_NAME"
+                },
+                "value": "xxxx"
+              },
+              {
+                "descriptor": {
+                  "code": "BRANCH_NAME"
+                },
+                "value": "xxxx"
+              }
+            ]
+          },
+          "type": "ON-ORDER",
           "params": {
+            "currency": "INR",
+            "transaction_id": "7b59184a-7b0b-4600-993c-3f3426822adf",
             "amount": 0
           }
         }
       ],
-      "updated_at": "2025-02-25T04:11:03.691Z"
+      "updated_at": "2025-03-03T10:03:09.809Z"
     }
   }
 }
