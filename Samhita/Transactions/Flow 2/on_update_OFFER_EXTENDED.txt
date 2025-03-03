@@ -8,8 +8,8 @@
     "bpp_id": "preprod-ondc.hamarajobs.ai",
     "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
     "transaction_id": "f14efae6-4a8d-43c9-8c9e-a0ffd7fc50b0",
-    "message_id": "30e585ca-40d0-42f0-b1a8-ed39a1e000d7",
-    "timestamp": "2025-02-28T07:56:34.876Z",
+    "message_id": "97c4a1c0-a166-4523-8f6b-4d6cf8955ea2",
+    "timestamp": "2025-03-03T10:19:44.302Z",
     "ttl": "PT30S",
     "location": {
       "city": {
@@ -174,9 +174,9 @@
           "type": "lead",
           "state": {
             "descriptor": {
-              "code": "OFFER_ACCEPTED"
+              "code": "OFFER_EXTENDED"
             },
-            "updated_at": "2025-02-28T06:58:50.372Z"
+            "updated_at": "2025-03-03T10:19:44.302Z"
           },
           "customer": {
             "contact": {
@@ -360,7 +360,7 @@
           }
         }
       ],
-      "updated_at": "2025-02-28T06:58:50.372Z",
+      "updated_at": "2025-03-03T10:19:44.302Z",
       "documents": []
     }
   }

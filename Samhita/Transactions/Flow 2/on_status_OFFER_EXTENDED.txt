@@ -8,8 +8,8 @@
     "bpp_id": "preprod-ondc.hamarajobs.ai",
     "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
     "transaction_id": "f14efae6-4a8d-43c9-8c9e-a0ffd7fc50b0",
-    "message_id": "56c6875e-35ae-4e6f-92aa-076aeea2730d",
-    "timestamp": "2025-02-28T07:25:53.091Z",
+    "message_id": "0df43a66-c2a2-4984-bcd2-055ae6cf7db7",
+    "timestamp": "2025-03-03T10:13:13.195Z",
     "ttl": "PT30S",
     "location": {
       "city": {
@@ -53,7 +53,7 @@
             "descriptor": {
               "code": "OFFER_EXTENDED"
             },
-            "updated_at": "2025-02-28T06:58:34.099Z"
+            "updated_at": "2025-03-03T10:13:13.195Z"
           },
           "type": "lead",
           "id": "F1"
@@ -167,7 +167,7 @@
           }
         }
       ],
-      "updated_at": "2025-02-28T07:25:53.101Z",
+      "updated_at": "2025-03-03T10:13:13.195Z",
       "id": "58bec46f-649d-476b-8075-258effe93cbf"
     }
   }
