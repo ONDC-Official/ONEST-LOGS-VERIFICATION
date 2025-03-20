@@ -1,1 +1,108 @@
-{"context":{"domain":"ONDC:ONEST10","action":"on_update","version":"2.0.0","transaction_id":"afb3bd21-e5da-4509-aace-7e6c47242417","message_id":"5dd3864a-d7af-4a4f-92ea-8b269a863385","location":{"city":{"code":"std:080"},"country":{"code":"IND"}},"timestamp":"2025-03-20T06:08:37.312Z","ttl":"PT90S","bap_id":"onest-mock-service.ondc.org","bap_uri":"https://onest-mock-service.ondc.org/api/onest/bap","bpp_id":"ondc-qa.taggd.ai","bpp_uri":"https://ondc-qa.taggd.ai/api"},"message":{"order":{"id":"a7ff681a-f40a-48cd-bdea-b6abc3cbfe30","provider":{"id":"ondc-qa.taggd.ai"},"items":[{"id":"ITC/1234567782","tags":[{"descriptor":{"code":"NP_FEES"},"list":[{"value":"1","code":"ID"}]}],"fulfillment_ids":["F1"]}],"status":"Active","fulfillments":[{"id":"FF1","type":"lead","state":{"descriptor":{"code":"APPLICATION_ACCEPTED"},"updated_at":"2025-03-20T06:08:37.312Z"}}],"payments":[{"params":{"currency":"INR","amount":1150,"transaction_id":"386db45c-c931-4121-84ae-fd5deff50b59"},"status":"BAP","type":"ON-ORDER","collected_by":"BAP"}],"quote":{"price":{"currency":"INR","value":"1150"},"breakup":[{"item":{"id":"item","price":{"currency":"INR","value":"1100","maximum_value":"1100"},"title":"item"}},{"item":{"id":"tax","price":{"currency":"INR","value":"50","maximum_value":"50"},"title":"tax"}}],"ttl":"PT90S"}}}}
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "on_update",
+    "version": "2.0.0",
+    "transaction_id": "afb3bd21-e5da-4509-aace-7e6c47242417",
+    "message_id": "5dd3864a-d7af-4a4f-92ea-8b269a863385",
+    "location": {
+      "city": {
+        "code": "std:080"
+      },
+      "country": {
+        "code": "IND"
+      }
+    },
+    "timestamp": "2025-03-20T06:08:37.312Z",
+    "ttl": "PT90S",
+    "bap_id": "onest-mock-service.ondc.org",
+    "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
+    "bpp_id": "ondc-qa.taggd.ai",
+    "bpp_uri": "https://ondc-qa.taggd.ai/api"
+  },
+  "message": {
+    "order": {
+      "id": "a7ff681a-f40a-48cd-bdea-b6abc3cbfe30",
+      "provider": {
+        "id": "ondc-qa.taggd.ai"
+      },
+      "items": [
+        {
+          "id": "ITC/1234567782",
+          "tags": [
+            {
+              "descriptor": {
+                "code": "NP_FEES"
+              },
+              "list": [
+                {
+                  "value": "1",
+                  "code": "ID"
+                }
+              ]
+            }
+          ],
+          "fulfillment_ids": [
+            "F1"
+          ]
+        }
+      ],
+      "status": "Active",
+      "fulfillments": [
+        {
+          "id": "FF1",
+          "type": "lead",
+          "state": {
+            "descriptor": {
+              "code": "APPLICATION_ACCEPTED"
+            },
+            "updated_at": "2025-03-20T06:08:37.312Z"
+          }
+        }
+      ],
+      "payments": [
+        {
+          "params": {
+            "currency": "INR",
+            "amount": 1150,
+            "transaction_id": "386db45c-c931-4121-84ae-fd5deff50b59"
+          },
+          "status": "BAP",
+          "type": "ON-ORDER",
+          "collected_by": "BAP"
+        }
+      ],
+      "quote": {
+        "price": {
+          "currency": "INR",
+          "value": "1150"
+        },
+        "breakup": [
+          {
+            "item": {
+              "id": "item",
+              "price": {
+                "currency": "INR",
+                "value": "1100",
+                "maximum_value": "1100"
+              },
+              "title": "item"
+            }
+          },
+          {
+            "item": {
+              "id": "tax",
+              "price": {
+                "currency": "INR",
+                "value": "50",
+                "maximum_value": "50"
+              },
+              "title": "tax"
+            }
+          }
+        ],
+        "ttl": "PT90S"
+      }
+    }
+  }
+}
