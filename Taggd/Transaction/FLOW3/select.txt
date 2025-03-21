@@ -3,8 +3,8 @@
     "domain": "ONDC:ONEST10",
     "action": "select",
     "version": "2.0.0",
-    "transaction_id": "afb3bd21-e5da-4509-aace-7e6c47242417",
-    "message_id": "2e711209-1df9-4ccf-a09b-2f871795c597",
+    "transaction_id": "462fb3d4-55db-4c84-b3f2-ad027e5179bb",
+    "message_id": "a5ede3f7-da94-49ad-bf14-21f4449a3203",
     "location": {
       "city": {
         "code": "std:080"
@@ -13,7 +13,7 @@
         "code": "IND"
       }
     },
-    "timestamp": "2025-03-20T06:07:52.666Z",
+    "timestamp": "2025-03-21T05:05:35.471Z",
     "ttl": "PT30S",
     "bap_id": "onest-mock-service.ondc.org",
     "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",

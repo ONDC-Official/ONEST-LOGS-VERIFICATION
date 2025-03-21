@@ -3,8 +3,8 @@
     "domain": "ONDC:ONEST10",
     "action": "on_init",
     "version": "2.0.0",
-    "transaction_id": "afb3bd21-e5da-4509-aace-7e6c47242417",
-    "message_id": "de3a76f5-2dd7-4e34-bb41-2d9197a03e92",
+    "transaction_id": "462fb3d4-55db-4c84-b3f2-ad027e5179bb",
+    "message_id": "685dd6a9-b950-4f49-9ba3-5fd867bb9d41",
     "location": {
       "city": {
         "code": "std:080"
@@ -13,7 +13,7 @@
         "code": "IND"
       }
     },
-    "timestamp": "2025-03-20T06:07:59.181Z",
+    "timestamp": "2025-03-21T05:06:57.713Z",
     "ttl": "PT30S",
     "bap_id": "onest-mock-service.ondc.org",
     "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
@@ -214,7 +214,7 @@
             "descriptor": {
               "code": "APPLICATION_IN_PROGRESS"
             },
-            "updated_at": "2025-03-20T06:07:59.181Z"
+            "updated_at": "2025-03-21T05:06:57.713Z"
           }
         }
       ],
@@ -299,7 +299,7 @@
         ],
         "ttl": "PT90S"
       },
-      "updated_at": "2025-03-20T06:07:59.181Z"
+      "updated_at": "2025-03-21T05:06:57.713Z"
     }
   }
 }

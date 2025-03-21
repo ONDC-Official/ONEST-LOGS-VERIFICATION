@@ -3,8 +3,8 @@
     "domain": "ONDC:ONEST10",
     "action": "on_status",
     "version": "2.0.0",
-    "transaction_id": "ebdeca1f-f32f-4444-8673-f05e873dcbf0",
-    "message_id": "eae52bda-8d1e-43fb-a1c1-0dc75f78472a",
+    "transaction_id": "462fb3d4-55db-4c84-b3f2-ad027e5179bb",
+    "message_id": "6de94603-3b21-46fb-910f-3118c284acf6",
     "location": {
       "city": {
         "code": "std:080"
@@ -13,7 +13,7 @@
         "code": "IND"
       }
     },
-    "timestamp": "2025-03-20T04:54:55.729Z",
+    "timestamp": "2025-03-21T05:11:25.881Z",
     "ttl": "PT90S",
     "bap_id": "onest-mock-service.ondc.org",
     "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
@@ -22,7 +22,7 @@
   },
   "message": {
     "order": {
-      "id": "48b53485-b83d-4f6e-85f1-5001bb4418e0",
+      "id": "fed25b8e-ab65-4a61-9171-98048caa2aa7",
       "provider": {
         "id": "ondc-qa.taggd.ai"
       },
@@ -49,9 +49,9 @@
           "type": "lead",
           "state": {
             "descriptor": {
-              "code": "APPLICATION_ACCEPTED"
+              "code": "ASSESSMENT_IN_PROGRESS"
             },
-            "updated_at": "2025-03-20T04:54:55.729Z"
+            "updated_at": "2025-03-21T05:11:25.881Z"
           }
         }
       ],
@@ -60,7 +60,7 @@
           "params": {
             "currency": "INR",
             "amount": 1150,
-            "transaction_id": "e51adc69-2971-4004-8795-56f44606b7f0"
+            "transaction_id": "ec6b36b6-f69e-4403-88ea-7b46491269d2"
           },
           "status": "BAP",
           "type": "ON-ORDER",
@@ -98,7 +98,7 @@
         ],
         "ttl": "PT90S"
       },
-      "updated_at": "2025-03-20T04:54:55.729Z"
+      "updated_at": "2025-03-21T05:11:25.881Z"
     }
   }
 }
