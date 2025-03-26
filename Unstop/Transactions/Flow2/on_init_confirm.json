@@ -214,7 +214,7 @@
             },
             "form": {
               "mime_type": "text/html",
-              "url": "http://localhost:4200/competitions/1012489/register?ondcToken=WU1mZDNmcitZVnNGOEhrOUNDRzRDR3Y1emFJUWRyb1NCZDJTbENXd1NaYk9RNE96R3dWTTBDTk1tMFRnZ3VGOHlVVnNuNHMxNWRWTVAzY25sNVRQSWltS2FtaG5QMGZzUkV3cFZuTHloZ0U9",
+              "url": "https://col-dev1.d2c.pw/competitions/1012489/register?ondcToken=WU1mZDNmcitZVnNGOEhrOUNDRzRDR3Y1emFJUWRyb1NCZDJTbENXd1NaYk9RNE96R3dWTTBDTk1tMFRnZ3VGOHlVVnNuNHMxNWRWTVAzY25sNVRQSWltS2FtaG5QMGZzUkV3cFZuTHloZ0U9",
               "resubmit": false
             }
           }
