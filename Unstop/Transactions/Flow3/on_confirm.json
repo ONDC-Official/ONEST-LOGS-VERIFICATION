@@ -1,0 +1,172 @@
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "on_confirm",
+    "version": "2.0.0",
+    "bap_id": "onest-mock-service.ondc.org",
+    "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
+    "bpp_id": "preprod-ondc.unstop.com",
+    "bpp_uri": "https://preprod-ondc.unstop.com/work-opportunities/",
+    "transaction_id": "102f907c-35e0-4e3a-a2c1-e67d8e9785ff",
+    "message_id": "37702ce0-dbd4-44f9-b39d-f966d14f2cf6",
+    "location": { "city": { "code": "std:011" }, "country": { "code": "IND" } },
+    "timestamp": "2025-03-26T08:18:39.596Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "order": {
+      "status": "Created",
+      "id": "5e4abfe1-8f6e-458b-9839-7790686ab711",
+      "provider": { "id": "944410" },
+      "items": [
+        {
+          "id": "1119687",
+          "fulfillment_ids": ["F1"],
+          "tags": [
+            {
+              "descriptor": { "code": "NP_FEES" },
+              "list": [{ "code": "ID", "value": "1" }]
+            }
+          ],
+          "title": "Customer Service Representative"
+        }
+      ],
+      "fulfillments": [
+        {
+          "id": "F1",
+          "type": "lead",
+          "customer": {
+            "person": {
+              "name": "Sanjay",
+              "gender": "Male",
+              "age": "35",
+              "skills": [{ "name": "Android" }, { "name": "AWS" }],
+              "languages": [
+                { "name": "en" },
+                { "name": "ml" },
+                { "name": "hi" }
+              ],
+              "creds": [
+                {
+                  "id": "D1",
+                  "descriptor": {
+                    "name": "PAN_CARD",
+                    "short_desc": "PAN Card information",
+                    "long_desc": "Permanent Account Number"
+                  },
+                  "url": "https://example.com/pan_card.jpeg",
+                  "type": "jpeg"
+                },
+                {
+                  "id": "D2",
+                  "descriptor": {
+                    "name": "AADHAAR_CARD",
+                    "short_desc": "Aadhaar Card information",
+                    "long_desc": "Unique Identification Number"
+                  },
+                  "url": "https://example.com/aadhaar_card.jpeg",
+                  "type": "pdf"
+                },
+                {
+                  "id": "D3",
+                  "descriptor": {
+                    "name": "VOTER_ID",
+                    "short_desc": "Voter ID information",
+                    "long_desc": "Election Commission ID"
+                  },
+                  "url": "https://example.com/voter_id.jpeg",
+                  "type": "jpeg"
+                },
+                {
+                  "id": "D4",
+                  "descriptor": {
+                    "name": "PASSPORT",
+                    "short_desc": "Passport information",
+                    "long_desc": "International Travel Document"
+                  },
+                  "url": "https://example.com/passport.jpeg",
+                  "type": "jpeg"
+                },
+                {
+                  "id": "D5",
+                  "descriptor": {
+                    "name": "DRIVING_LICENSE",
+                    "short_desc": "Driving License information",
+                    "long_desc": "License to Drive"
+                  },
+                  "url": "https://example.com/driving_license.jpeg",
+                  "type": "jpeg"
+                },
+                {
+                  "id": "D6",
+                  "descriptor": {
+                    "name": "RESUME",
+                    "short_desc": "Summary of qualifications, work experience, and education.",
+                    "long_desc": "A comprehensive document showcasing an individual's career achievements, skills, work history, education, certifications, and professional experience."
+                  },
+                  "url": "https://example.com/resume.pdf",
+                  "type": "pdf"
+                }
+              ]
+            },
+            "contact": { "phone": "+91-1234567890", "email": "abc@abc.bc" }
+          },
+          "state": {
+            "descriptor": { "code": "APPLICATION_ACCEPTED" },
+            "updated_at": "2025-03-26T08:18:39.464Z"
+          }
+        }
+      ],
+      "quote": {
+        "ttl": "P1D",
+        "price": { "currency": "INR", "value": "0" },
+        "breakup": [
+          {
+            "item": {
+              "id": "1119687",
+              "price": { "currency": "INR", "value": "0" },
+              "title": "Customer Service Representative"
+            }
+          }
+        ]
+      },
+      "payments": [
+        {
+          "status": "PAID",
+          "type": "ON-ORDER",
+          "collected_by": "BAP",
+          "tags": {
+            "descriptor": { "code": "SETTLEMENT_DETAILS" },
+            "list": [
+              {
+                "descriptor": { "code": "SETTLEMENT_COUNTERPARTY" },
+                "value": "seller-app"
+              },
+              {
+                "descriptor": { "code": "SETTLEMENT_BANK_ACCOUNT_NO" },
+                "value": "XXXXXXXXXX"
+              },
+              {
+                "descriptor": { "code": "SETTLEMENT_IFSC_CODE" },
+                "value": "XXXXXXXXX"
+              },
+              {
+                "descriptor": { "code": "BENEFICIARY_NAME" },
+                "value": "xxxxx"
+              },
+              { "descriptor": { "code": "BANK_NAME" }, "value": "xxxx" },
+              { "descriptor": { "code": "BRANCH_NAME" }, "value": "xxxx" }
+            ]
+          },
+          "params": {
+            "amount": "0",
+            "currency": "INR",
+            "transaction_id": "35dec5bc-8748-4585-bcfc-bbda2de24f14"
+          }
+        }
+      ],
+      "state": { "updated_at": "2025-03-26T08:18:39.906Z" },
+      "updated_at": "2025-03-26T08:18:39.906Z"
+    }
+  }
+}
