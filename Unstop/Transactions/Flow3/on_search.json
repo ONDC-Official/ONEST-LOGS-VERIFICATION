@@ -1,0 +1,1039 @@
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "on_search",
+    "version": "2.0.0",
+    "bap_id": "onest-mock-service.ondc.org",
+    "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
+    "bpp_id": "preprod-ondc.unstop.com",
+    "bpp_uri": "https://preprod-ondc.unstop.com/work-opportunities/",
+    "transaction_id": "102f907c-35e0-4e3a-a2c1-e67d8e9785ff",
+    "message_id": "a10a9962-0de8-4ce9-bac3-45a0778e3505",
+    "location": { "city": { "code": "std:011" }, "country": { "code": "IND" } },
+    "timestamp": "2025-03-26T06:12:45.008Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "catalog": {
+      "descriptor": { "name": "Unstop Jobs" },
+      "providers": [
+        {
+          "id": "944410",
+          "descriptor": {
+            "name": "Victaman Services Private Limited",
+            "code": "VSPL",
+            "short_desc": "",
+            "images": [
+              {
+                "url": "https://d1mgy94x89v8io.cloudfront.net/images/partners/partners75/new_organisation_image-mopCe36nB41088128636t9Naqd7YPn.png"
+              }
+            ]
+          },
+          "fulfillments": [{ "id": "F1", "type": "lead" }],
+          "items": [
+            {
+              "id": "1119687",
+              "category_ids": ["Customer Success", "Retail Store Operations"],
+              "descriptor": {
+                "name": "Customer Service Representative",
+                "long_desc": "<p><strong>Victaman Services Private Limited is hiring for the role of Customer Service Representative!</strong></p>\n<p><strong>Responsibilities:</strong></p>\n<ul>\n<li>Provide exceptional customer service via phone, email, and chat.</li>\n<li>Resolve customer inquiries and complaints promptly and efficiently.</li>\n<li>Build and maintain positive relationships with customers.</li>\n<li>Identify and escalate customer issues to the appropriate team.</li>\n<li>Process customer orders and requests accurately.</li>\n<li>Maintain accurate customer records and documentation.</li>\n<li>Contribute to a positive and productive team environment.</li>\n</ul>\n<p><strong>Requirements:</strong></p>\n<ul>\n<li>High school diploma or equivalent.</li>\n<li>Minimum of 1 year of customer service experience.</li>\n<li>Excellent communication and interpersonal skills.</li>\n<li>Strong problem-solving and decision-making abilities.</li>\n<li>Ability to work independently and as part of a team.</li>\n<li>Proficient in Microsoft Office Suite.</li>\n<li>Experience with CRM software is a plus.</li>\n</ul>\n<p><strong>Benefits:</strong></p>\n<ul>\n<li>Competitive salary and benefits package.</li>\n<li>Opportunity for growth and development.</li>\n<li>Positive and supportive work environment.</li>\n</ul>",
+                "short_desc": "Victaman Services Private Limited is hiring for the role of Customer Service Representative!\nRespons..",
+                "images": [],
+                "media": []
+              },
+              "quantity": { "available": { "count": 1 } },
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-03-26T06:12:46.480Z",
+                "range": {
+                  "start": "2024-08-09T18:30:00.000Z",
+                  "end": "2025-09-07T18:30:03.000Z"
+                }
+              },
+              "location_ids": [],
+              "fulfillment_ids": ["F1"],
+              "creator": {
+                "descriptor": {
+                  "name": "Victaman Services Private Limited",
+                  "code": "VSPL",
+                  "short_desc": "",
+                  "long_desc": "",
+                  "media": [],
+                  "images": []
+                },
+                "contact": {
+                  "phone": "+918340251548",
+                  "email": "anjaligupta@earlyjobs.in"
+                },
+                "address": "",
+                "state": { "code": "" },
+                "city": { "code": "Bangalore,Delhi,Mumbai,Noida" }
+              },
+              "tags": [
+                {
+                  "descriptor": { "code": "JOB_DETAILS" },
+                  "list": [
+                    {
+                      "descriptor": { "code": "JOB_ROLE" },
+                      "value": "Customer Service Representative"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Customer Success"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Retail Store Operations"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Male"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Female"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Other"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_TYPE" },
+                      "value": "full-time"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "TIMING" },
+                  "list": [
+                    { "descriptor": { "code": "DAY_FROM" }, "value": "1" },
+                    { "descriptor": { "code": "DAY_TO" }, "value": "6" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "COMPENSATION" },
+                  "list": [
+                    { "descriptor": { "code": "TYPE" }, "value": "ctc" },
+                    { "descriptor": { "code": "MIN" }, "value": "240000" },
+                    { "descriptor": { "code": "MAX" }, "value": "300000" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "NP_FEES" },
+                  "list": [
+                    { "code": "ID", "value": "1" },
+                    { "code": "COMMERCIAL_TYPE", "value": "amount" },
+                    { "code": "COMMERCIAL_VALUE", "value": "0" },
+                    { "code": "COMMERCIAL_NAME", "value": "lead" },
+                    {
+                      "code": "COMMERCIAL_TRIGGERING_STATE",
+                      "value": "APPLICATION_SUBMITTED"
+                    },
+                    { "code": "COMPENSATION_TYPE", "value": "CTC" },
+                    { "code": "COMPENSATION_TRANSFER_PERIOD", "value": "P1M" },
+                    { "code": "COMPENSATION_PERCENTAGE_SPLIT", "value": "100" }
+                  ]
+                }
+              ],
+              "price": { "currency": "INR", "value": "0", "maximum_value": "0" }
+            }
+          ],
+          "locations": []
+        },
+        {
+          "id": "114060",
+          "descriptor": {
+            "name": "Other organization not listed here",
+            "code": "Ot",
+            "short_desc": "",
+            "images": [
+              {
+                "url": "https://d1mgy94x89v8io.cloudfront.net/images/partners/partners75/629eddc0b3181_unstop-logo-2000x789.png"
+              }
+            ]
+          },
+          "fulfillments": [{ "id": "F1", "type": "lead" }],
+          "items": [
+            {
+              "id": "1141524",
+              "category_ids": [
+                "Creative Marketing",
+                "Digital Marketing",
+                "Advertising & Creative",
+                "Content Management (Print / Online / Electronic)",
+                "Brand Management",
+                "Graphic Design / Animation",
+                "UI / UX",
+                "Design and Creative",
+                "Growth Marketing"
+              ],
+              "descriptor": {
+                "name": "Marketing Internship",
+                "long_desc": "<p><strong>Craving for Gaming is hiring for the role of Marketing Intern!</strong></p>\n<p>Are you a passionate gamer with a flair for marketing? Do you have innovative ideas that could take a brand to the next level? If so, we want you on our team!</p>\n<p><strong>About Us:</strong> Craving for Gaming (CFG) is the go-to destination for gamers in Delhi NCR and beyond. We provide top-of-the-line gaming consoles on rent, including PS4, PS5, and more, along with an ever-growing library of the latest games. With a physical store in the pipeline, we are expanding our presence and want to take our brand to new heights.</p>\n<p><strong>Position:</strong> Marketing Manager Intern<br /><strong>Location:</strong> Hybrid (Work from home + in-office occasionally for briefings)<br /><strong>Type:</strong> Full-time Internship (Potential for a full-time role based on performance)</p>\n<p><strong>Responsibilities of the Intern:</strong></p>\n<ul>\n<li><strong>Lead Marketing Efforts:</strong> Take charge of our marketing strategies across all channels, from social media to email campaigns.</li>\n<li><strong>Brand Management:</strong> Help develop and manage the CFG brand, ensuring consistency and creativity across all platforms.</li>\n<li><strong>Innovative Campaigns:</strong> Think outside the box and propose new marketing ideas that will resonate with both B2C and B2B audiences.</li>\n<li><strong>Content Creation:</strong> Assist in creating engaging content for our website, social media, and other digital platforms.</li>\n<li><strong>Performance Analysis:</strong> Track and analyze the performance of marketing campaigns, using insights to optimize future efforts.</li>\n<li><strong>Collaborations &amp; Partnerships:</strong> Identify and initiate partnerships with influencers, event organizers, and other brands to amplify our reach.</li>\n<li><strong>Work Closely with Founders:</strong> Collaborate directly with the founding team to bring fresh ideas and execute strategies that align with the company&rsquo;s vision.</li>\n</ul>\n<p><strong>Requirements:</strong></p>\n<ul>\n<li>Enthusiastic and self-motivated individuals with a passion for gaming and marketing.</li>\n<li>Creative thinkers who can propose and execute out-of-the-box ideas.</li>\n<li>Strong communication skills, both written and verbal.</li>\n<li>Ability to work independently and as part of a team in a hybrid environment.</li>\n<li>Basic knowledge of digital marketing tools and platforms is a plus.</li>\n</ul>\n<p><strong>What You&rsquo;ll Gain:</strong></p>\n<ul>\n<li><strong>Real-World Experience:</strong> Hands-on experience in marketing for a growing brand in the gaming industry.</li>\n<li><strong>Career Growth:</strong> Opportunity for a full-time position based on performance.</li>\n<li><strong>Completion Certificate:</strong> A certificate of completion upon the successful end of the internship.</li>\n<li><strong>Letter of Recommendation:</strong> A strong letter of recommendation to boost your career prospects.</li>\n<li><strong>Exclusive Perks:</strong> Early access to new games, free gaming sessions, and more.</li>\n</ul>",
+                "short_desc": "Craving for Gaming is hiring for the role of Marketing Intern!\nAre you a passionate gamer with a fla..",
+                "images": [],
+                "media": []
+              },
+              "quantity": { "available": { "count": 1 } },
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-03-26T06:12:46.502Z",
+                "range": {
+                  "start": "2024-08-25T18:30:00.000Z",
+                  "end": "2025-09-04T18:30:13.000Z"
+                }
+              },
+              "location_ids": [],
+              "fulfillment_ids": ["F1"],
+              "creator": {
+                "descriptor": {
+                  "name": "Other organization not listed here",
+                  "code": "Ot",
+                  "short_desc": "",
+                  "long_desc": "",
+                  "media": [],
+                  "images": []
+                },
+                "contact": {
+                  "phone": "+918655914778",
+                  "email": "shrey@cravingforgaming.in"
+                },
+                "address": "",
+                "state": { "code": "" },
+                "city": { "code": "Delhi" }
+              },
+              "tags": [
+                {
+                  "descriptor": { "code": "JOB_DETAILS" },
+                  "list": [
+                    {
+                      "descriptor": { "code": "JOB_ROLE" },
+                      "value": "Marketing Internship"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Creative Marketing"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Digital Marketing"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Advertising & Creative"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Content Management (Print / Online / Electronic)"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Brand Management"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Graphic Design / Animation"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "UI / UX"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Design and Creative"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Growth Marketing"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Male"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Female"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Other"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_TYPE" },
+                      "value": "full-time"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "TIMING" },
+                  "list": [
+                    { "descriptor": { "code": "DAY_FROM" }, "value": "1" },
+                    { "descriptor": { "code": "DAY_TO" }, "value": "5" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "COMPENSATION" },
+                  "list": [
+                    { "descriptor": { "code": "TYPE" }, "value": "ctc" },
+                    { "descriptor": { "code": "MIN" }, "value": "0" },
+                    { "descriptor": { "code": "MAX" }, "value": "0" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "NP_FEES" },
+                  "list": [
+                    { "code": "ID", "value": "1" },
+                    { "code": "COMMERCIAL_TYPE", "value": "amount" },
+                    { "code": "COMMERCIAL_VALUE", "value": "0" },
+                    { "code": "COMMERCIAL_NAME", "value": "lead" },
+                    {
+                      "code": "COMMERCIAL_TRIGGERING_STATE",
+                      "value": "APPLICATION_SUBMITTED"
+                    },
+                    { "code": "COMPENSATION_TYPE", "value": "CTC" },
+                    { "code": "COMPENSATION_TRANSFER_PERIOD", "value": "P1M" },
+                    { "code": "COMPENSATION_PERCENTAGE_SPLIT", "value": "100" }
+                  ]
+                }
+              ],
+              "price": { "currency": "INR", "value": "0", "maximum_value": "0" }
+            }
+          ],
+          "locations": []
+        },
+        {
+          "id": "132335",
+          "descriptor": {
+            "name": "OfBusiness",
+            "code": "O",
+            "short_desc": "",
+            "images": [
+              {
+                "url": "https://d1mgy94x89v8io.cloudfront.net/images/partners/partners75/5e4e72d354797_Opera_Snapshot_2020-02-20_172126_www.ofbusiness.com.png"
+              }
+            ]
+          },
+          "fulfillments": [{ "id": "F1", "type": "lead" }],
+          "items": [
+            {
+              "id": "1148338",
+              "category_ids": [
+                "Content Management (Print / Online / Electronic)"
+              ],
+              "descriptor": {
+                "name": "Content Creation Internship",
+                "long_desc": "<p><strong>OfBusiness is hiring for the role of Content Creation Intern!</strong></p>\n<p><strong>Selected intern's day-to-day responsibilities include:</strong></p>\n<ul>\n<li>Making and editing videos related to the company that are interactive.</li>\n<li>Creating content and scripts for videos/ mailers.</li>\n<li>Collaborating with brands for promotional activities.</li>\n<li>Stakeholder interaction - internal &amp; external brands.</li>\n<li>Collaborating with brands for promotional activities.</li>\n</ul>\n<p><strong>Requirements:</strong></p>\n<ul>\n<li>Prior experience of 6 months in video making, reels, YouTube videos, and content for the same.</li>\n<li>Has an understanding of the social media</li>\n</ul>",
+                "short_desc": "OfBusiness is hiring for the role of Content Creation Intern!\nSelected intern's day-to-day responsib..",
+                "images": [],
+                "media": []
+              },
+              "quantity": { "available": { "count": 1 } },
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-03-26T06:12:46.516Z",
+                "range": {
+                  "start": "2024-09-04T18:30:00.000Z",
+                  "end": "2025-10-04T18:30:11.000Z"
+                }
+              },
+              "location_ids": [],
+              "fulfillment_ids": ["F1"],
+              "creator": {
+                "descriptor": {
+                  "name": "OfBusiness",
+                  "code": "O",
+                  "short_desc": "",
+                  "long_desc": "",
+                  "media": [],
+                  "images": []
+                },
+                "contact": {
+                  "phone": "",
+                  "email": "rutvik.bhosle@ofbusiness.in"
+                },
+                "address": "",
+                "state": { "code": "" },
+                "city": { "code": "Delhi,Gurgaon" }
+              },
+              "tags": [
+                {
+                  "descriptor": { "code": "JOB_DETAILS" },
+                  "list": [
+                    {
+                      "descriptor": { "code": "JOB_ROLE" },
+                      "value": "Content Creation Internship"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Content Management (Print / Online / Electronic)"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Male"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_TYPE" },
+                      "value": "full-time"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "TIMING" },
+                  "list": [
+                    { "descriptor": { "code": "DAY_FROM" }, "value": "1" },
+                    { "descriptor": { "code": "DAY_TO" }, "value": "5" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "COMPENSATION" },
+                  "list": [
+                    { "descriptor": { "code": "TYPE" }, "value": "ctc" },
+                    { "descriptor": { "code": "MIN" }, "value": "15000" },
+                    { "descriptor": { "code": "MAX" }, "value": "15000" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "NP_FEES" },
+                  "list": [
+                    { "code": "ID", "value": "1" },
+                    { "code": "COMMERCIAL_TYPE", "value": "amount" },
+                    { "code": "COMMERCIAL_VALUE", "value": "0" },
+                    { "code": "COMMERCIAL_NAME", "value": "lead" },
+                    {
+                      "code": "COMMERCIAL_TRIGGERING_STATE",
+                      "value": "APPLICATION_SUBMITTED"
+                    },
+                    { "code": "COMPENSATION_TYPE", "value": "CTC" },
+                    { "code": "COMPENSATION_TRANSFER_PERIOD", "value": "P1M" },
+                    { "code": "COMPENSATION_PERCENTAGE_SPLIT", "value": "100" }
+                  ]
+                }
+              ],
+              "price": { "currency": "INR", "value": "0", "maximum_value": "0" }
+            }
+          ],
+          "locations": []
+        },
+        {
+          "id": "763722",
+          "descriptor": {
+            "name": "1HR Solutions",
+            "code": "1S",
+            "short_desc": "1HR Solutions is the emerging talent acquisition partner.\nAre you among one of those who thinks that..",
+            "images": [
+              {
+                "url": "https://d1mgy94x89v8io.cloudfront.net/images/partners/partners75/new_organisation_image-ymRoV7nKoU770310155MLMvUdvY28.png"
+              }
+            ]
+          },
+          "fulfillments": [{ "id": "F1", "type": "lead" }],
+          "items": [
+            {
+              "id": "1148420",
+              "category_ids": ["Digital Marketing"],
+              "descriptor": {
+                "name": "Digital Marketing Executive",
+                "long_desc": "<p><strong>1HR Solutions is hiring for the role of Digital Marketing Executive!<br /></strong></p>\n<p><strong>Roles &amp; Responsibilities:</strong></p>\n<ul>\n<li>&nbsp;Strategic Campaign Planning</li>\n<li>Campaign Management and conversion optimization</li>\n<li>Technology and Tool Proficiency</li>\n<li>Analytics and Insights</li>\n<li>Optimization and Cost Management</li>\n<li>Creative and Aesthetic Input</li>\n<li>Lead Generation through Digital Marketing</li>\n</ul>\n<p><strong>Requirements:</strong></p>\n<ul>\n<li>Bachelors or Masters degree in business, or a related field.</li>\n<li>Successful completion of the latest digital marketing courses</li>\n<li>In-depth knowledge of digital marketing channels.</li>\n<li>Strong analytical skills and proficiency in marketing performance metrics.</li>\n<li>Excellent communication, leadership, and project management skills.</li>\n<li>Ability to work independently and quickly adapt to new technologies or changes in the digital landscape.</li>\n<li>Ability to collaborate effectively with the marketing team, and other functional team members on campaigns, Martech projects</li>\n<li>Foster a culture of creativity, collaboration, and innovation within the marketing team.</li>\n</ul>",
+                "short_desc": "1HR Solutions is hiring for the role of Digital Marketing Executive!\nRoles &amp; Responsibilities:\n\n..",
+                "images": [],
+                "media": []
+              },
+              "quantity": { "available": { "count": 1 } },
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-03-26T06:12:46.551Z",
+                "range": {
+                  "start": "2024-09-04T18:30:00.000Z",
+                  "end": "2025-09-19T18:30:04.000Z"
+                }
+              },
+              "location_ids": [],
+              "fulfillment_ids": ["F1"],
+              "creator": {
+                "descriptor": {
+                  "name": "1HR Solutions",
+                  "code": "1S",
+                  "short_desc": "1HR Solutions is the emerging talent acquisition partner.\nAre you among one of those who thinks that..",
+                  "long_desc": "1HR Solutions is the emerging talent acquisition partner.\nAre you among one of those who thinks that..",
+                  "media": [],
+                  "images": []
+                },
+                "contact": {
+                  "phone": "+918112962686",
+                  "email": "harshit@1hrsolutions.com"
+                },
+                "address": "",
+                "state": { "code": "" },
+                "city": { "code": "Delhi" }
+              },
+              "tags": [
+                {
+                  "descriptor": { "code": "JOB_DETAILS" },
+                  "list": [
+                    {
+                      "descriptor": { "code": "JOB_ROLE" },
+                      "value": "Digital Marketing Executive"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Digital Marketing"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Male"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Female"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Other"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_TYPE" },
+                      "value": "full-time"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "TIMING" },
+                  "list": [
+                    { "descriptor": { "code": "DAY_FROM" }, "value": "1" },
+                    { "descriptor": { "code": "DAY_TO" }, "value": "5" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "COMPENSATION" },
+                  "list": [
+                    { "descriptor": { "code": "TYPE" }, "value": "ctc" },
+                    { "descriptor": { "code": "MIN" }, "value": "240000" },
+                    { "descriptor": { "code": "MAX" }, "value": "300000" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "NP_FEES" },
+                  "list": [
+                    { "code": "ID", "value": "1" },
+                    { "code": "COMMERCIAL_TYPE", "value": "amount" },
+                    { "code": "COMMERCIAL_VALUE", "value": "0" },
+                    { "code": "COMMERCIAL_NAME", "value": "lead" },
+                    {
+                      "code": "COMMERCIAL_TRIGGERING_STATE",
+                      "value": "APPLICATION_SUBMITTED"
+                    },
+                    { "code": "COMPENSATION_TYPE", "value": "CTC" },
+                    { "code": "COMPENSATION_TRANSFER_PERIOD", "value": "P1M" },
+                    { "code": "COMPENSATION_PERCENTAGE_SPLIT", "value": "100" }
+                  ]
+                }
+              ],
+              "price": { "currency": "INR", "value": "0", "maximum_value": "0" }
+            }
+          ],
+          "locations": []
+        },
+        {
+          "id": "1164789",
+          "descriptor": {
+            "name": "Fateh Education",
+            "code": "FE",
+            "short_desc": "\n\n\n\n\n\n\n\n\nSince 2004, Fateh has guided over 35,000 students to Conquer their dreams. Having a visa su..",
+            "images": [
+              {
+                "url": "https://d1mgy94x89v8io.cloudfront.net/images/partners/partners75/new_organisation_image-aJmxmKmVrO238543543CBY44is7aQ.png"
+              }
+            ]
+          },
+          "fulfillments": [{ "id": "F1", "type": "lead" }],
+          "items": [
+            {
+              "id": "1163148",
+              "category_ids": [
+                "Digital Marketing",
+                "Market Research & Insights"
+              ],
+              "descriptor": {
+                "name": "Marketing Internship",
+                "long_desc": "<p class=\"\"><strong>Fateh Education is hiring for the role of&nbsp;Marketing Intern!</strong></p>\n<p><strong>Responsibilities of the Intern:</strong></p>\n<ul>\n<li>Promote Brand Awareness: Increase recognition of the brand within your college and personal network.</li>\n<li>Lead Generation: Identify on opportunities to generate leads from potential students through seminars, college events, and other activities.</li>\n<li>Competitor Analysis: Conduct in-depth research and analysis on competitors.&nbsp;</li>\n<li>Social Media Engagement: Collaborate with college societies and promote the brand through social media channels. Also, its mandatory to like, comment and share every Fateh post on Instagram &amp; linkedln by the intern.</li>\n<li>Event Organization: Plan sessions and workshops both within your college and at other institutions.</li>\n<li>Networking with Student Organizations: Connect with student societies and councils to explore collaboration and sponsorship opportunities.</li>\n<li>Database Management: Build and maintain a database of students within your college.</li>\n<li>Marketing Campaign Leadership: Take a leading role under the guidance of reporting managers in developing and executing marketing campaigns and promotions.</li>\n<li>Partnership Development: Foster partnerships and collaborations through your network within campus organizations and clubs.</li>\n<li>Lead Generation and Networking: Create innovative strategies to generate leads and network effectively within the student community.</li>\n<li>Event Promotion: Increase brand visibility by organizing virtual and physical events that highlight the benefits of the organization.</li>\n<li>Digital Campaign Strategy: Brainstorm and develop fresh ideas for digital campaigns that align with current trends and student preferences in the study abroad sector.</li>\n</ul>",
+                "short_desc": "Fateh Education is hiring for the role of&nbsp;Marketing Intern!\nResponsibilities of the Intern:\n\nPr..",
+                "images": [],
+                "media": []
+              },
+              "quantity": { "available": { "count": 1 } },
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-03-26T06:12:46.569Z",
+                "range": {
+                  "start": "2024-09-18T18:30:00.000Z",
+                  "end": "2025-10-30T18:30:05.000Z"
+                }
+              },
+              "location_ids": [],
+              "fulfillment_ids": ["F1"],
+              "creator": {
+                "descriptor": {
+                  "name": "Fateh Education",
+                  "code": "FE",
+                  "short_desc": "\n\n\n\n\n\n\n\n\nSince 2004, Fateh has guided over 35,000 students to Conquer their dreams. Having a visa su..",
+                  "long_desc": "\n\n\n\n\n\n\n\n\nSince 2004, Fateh has guided over 35,000 students to Conquer their dreams. Having a visa su..",
+                  "media": [],
+                  "images": []
+                },
+                "contact": {
+                  "phone": "+919205500374",
+                  "email": "campusrep@fateheducation.com"
+                },
+                "address": "",
+                "state": { "code": "" },
+                "city": { "code": "Delhi" }
+              },
+              "tags": [
+                {
+                  "descriptor": { "code": "JOB_DETAILS" },
+                  "list": [
+                    {
+                      "descriptor": { "code": "JOB_ROLE" },
+                      "value": "Marketing Internship"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Digital Marketing"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Market Research & Insights"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Male"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Female"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Other"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_TYPE" },
+                      "value": "part-time"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "TIMING" },
+                  "list": [
+                    { "descriptor": { "code": "DAY_FROM" }, "value": "1" },
+                    { "descriptor": { "code": "DAY_TO" }, "value": "5" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "COMPENSATION" },
+                  "list": [
+                    { "descriptor": { "code": "TYPE" }, "value": "ctc" },
+                    { "descriptor": { "code": "MIN" }, "value": "2500" },
+                    { "descriptor": { "code": "MAX" }, "value": "3000" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "NP_FEES" },
+                  "list": [
+                    { "code": "ID", "value": "1" },
+                    { "code": "COMMERCIAL_TYPE", "value": "amount" },
+                    { "code": "COMMERCIAL_VALUE", "value": "0" },
+                    { "code": "COMMERCIAL_NAME", "value": "lead" },
+                    {
+                      "code": "COMMERCIAL_TRIGGERING_STATE",
+                      "value": "APPLICATION_SUBMITTED"
+                    },
+                    { "code": "COMPENSATION_TYPE", "value": "CTC" },
+                    { "code": "COMPENSATION_TRANSFER_PERIOD", "value": "P1M" },
+                    { "code": "COMPENSATION_PERCENTAGE_SPLIT", "value": "100" }
+                  ]
+                }
+              ],
+              "price": { "currency": "INR", "value": "0", "maximum_value": "0" }
+            }
+          ],
+          "locations": []
+        },
+        {
+          "id": "1145553",
+          "descriptor": {
+            "name": "Talent Integrators (OPC) Private Limited",
+            "code": "TIOPL",
+            "short_desc": "",
+            "images": [
+              {
+                "url": "https://d1mgy94x89v8io.cloudfront.net/images/partners/partners75/new_organisation_image-kuge7lE0qT1381886504QCP54Vj8X5.png"
+              }
+            ]
+          },
+          "fulfillments": [{ "id": "F1", "type": "lead" }],
+          "items": [
+            {
+              "id": "1221057",
+              "category_ids": ["Recruitment & Talent Acquisition"],
+              "descriptor": {
+                "name": "Talent Acquisition Internship",
+                "long_desc": "<p><strong>Talent Integrators (OPC) Private Limited is hiring for the role of Talent Acquisition Intern!</strong></p>\n<p><strong>Roles:</strong></p>\n<ul>\n<li aria-level=\"1\">Placing job postings on all relevant platforms</li>\n<li aria-level=\"1\">Sourcing Cndidates from Database / Job Portals</li>\n<li aria-level=\"1\">Acting as the front-line contact person for applicants</li>\n<li aria-level=\"1\">Scheduling interviews, as needed</li>\n</ul>\n<p><strong style=\"color: #383838; font-size: 16px;\">Requirements:</strong></p>\n<ul>\n<li aria-level=\"1\">Master's Degree, preferably in HR or a related field</li>\n<li aria-level=\"1\">Expert computer skills</li>\n<li aria-level=\"1\">Strong Functional Knowledge eg Finance / Supply Chain / Manufacturing / Engineering (Mechanical / Electrical / Automotive) etc</li>\n<li aria-level=\"1\">Excellent written and verbal communication</li>\n<li aria-level=\"1\">Willingness to learn</li>\n<li aria-level=\"1\">Ability to multitask and work under deadlines&nbsp;</li>\n<li aria-level=\"1\">Enthusiasm and a capacity for hard work</li>\n<li aria-level=\"1\">Strong interest in recruitment</li>\n<li aria-level=\"1\"><strong>Willingness to work from Office - 5.5 days a week (Saturday half day)</strong></li>\n</ul>",
+                "short_desc": "Talent Integrators (OPC) Private Limited is hiring for the role of Talent Acquisition Intern!\nRoles:..",
+                "images": [],
+                "media": []
+              },
+              "quantity": { "available": { "count": 1 } },
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-03-26T06:12:46.595Z",
+                "range": {
+                  "start": "2024-11-11T18:30:00.000Z",
+                  "end": "2025-11-18T18:30:19.000Z"
+                }
+              },
+              "location_ids": [],
+              "fulfillment_ids": ["F1"],
+              "creator": {
+                "descriptor": {
+                  "name": "Talent Integrators (OPC) Private Limited",
+                  "code": "TIOPL",
+                  "short_desc": "",
+                  "long_desc": "",
+                  "media": [],
+                  "images": []
+                },
+                "contact": {
+                  "phone": "+919911111111",
+                  "email": "info@talentintegrators.com"
+                },
+                "address": "",
+                "state": { "code": "" },
+                "city": { "code": "Delhi" }
+              },
+              "tags": [
+                {
+                  "descriptor": { "code": "JOB_DETAILS" },
+                  "list": [
+                    {
+                      "descriptor": { "code": "JOB_ROLE" },
+                      "value": "Talent Acquisition Internship"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Recruitment & Talent Acquisition"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Male"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Female"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Other"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_TYPE" },
+                      "value": "full-time"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "TIMING" },
+                  "list": [
+                    { "descriptor": { "code": "DAY_FROM" }, "value": "1" },
+                    { "descriptor": { "code": "DAY_TO" }, "value": "8" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "COMPENSATION" },
+                  "list": [
+                    { "descriptor": { "code": "TYPE" }, "value": "ctc" },
+                    { "descriptor": { "code": "MIN" }, "value": "7000" },
+                    { "descriptor": { "code": "MAX" }, "value": "10000" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "NP_FEES" },
+                  "list": [
+                    { "code": "ID", "value": "1" },
+                    { "code": "COMMERCIAL_TYPE", "value": "amount" },
+                    { "code": "COMMERCIAL_VALUE", "value": "0" },
+                    { "code": "COMMERCIAL_NAME", "value": "lead" },
+                    {
+                      "code": "COMMERCIAL_TRIGGERING_STATE",
+                      "value": "APPLICATION_SUBMITTED"
+                    },
+                    { "code": "COMPENSATION_TYPE", "value": "CTC" },
+                    { "code": "COMPENSATION_TRANSFER_PERIOD", "value": "P1M" },
+                    { "code": "COMPENSATION_PERCENTAGE_SPLIT", "value": "100" }
+                  ]
+                }
+              ],
+              "price": { "currency": "INR", "value": "0", "maximum_value": "0" }
+            }
+          ],
+          "locations": []
+        },
+        {
+          "id": "1216926",
+          "descriptor": {
+            "name": "BharatSkool",
+            "code": "B",
+            "short_desc": "",
+            "images": [
+              {
+                "url": "https://d1mgy94x89v8io.cloudfront.net/images/partners/partners75/null"
+              }
+            ]
+          },
+          "fulfillments": [{ "id": "F1", "type": "lead" }],
+          "items": [
+            {
+              "id": "1222415",
+              "category_ids": [
+                "Editing",
+                "Design and Creative",
+                "Graphic Design / Animation",
+                "Photography / Videography"
+              ],
+              "descriptor": {
+                "name": "Video Editor",
+                "long_desc": "<p><strong>Bharat Skool is hiring for Video Editor!</strong></p>\n<p><strong>About Us:</strong></p>\n<p>At Bharat Skool, we're dedicated to revolutionizing education. Led by our visionary founder, Nishant Jindal&mdash;an accomplished 5x entrepreneur, IIT JEE AIR-247 achiever, and author of 2 Amazon bestsellers&mdash;we're committed to bringing innovative solutions to students and educators. We're seeking a skilled Video Editor to join our team and contribute to our mission.</p>\n<p><strong>Role Overview:</strong> As a Video Editor at Bharat Skool, you'll play a key role in:</p>\n<ul>\n<li>Creating Compelling Content: Edit and produce high-quality video content for various platforms, including promotional videos, tutorials, and webinars.</li>\n<li>Storytelling: Craft engaging narratives and ensure that videos align with our brand message and educational goals.</li>\n<li>Collaboration: Work closely with the marketing, content, and design teams to bring creative concepts to life.</li>\n<li>Optimization: Ensure videos are optimized for different platforms and audiences, maintaining high visual and audio quality.</li>\n<li>Innovation: Stay updated on the latest video trends and technologies to continuously improve our content.</li>\n</ul>\n<p><strong>Qualifications:</strong></p>\n<ul>\n<li>Proven 1-5 years of experience as a Video Editor with a strong portfolio showcasing your work.</li>\n<li>Proficiency in video editing software such as Adobe Premiere Pro, Final Cut Pro, or similar tools.</li>\n<li>Experience with motion graphics and animations is a plus.</li>\n<li>Strong understanding of video formats, resolutions, and best practices for digital platforms.</li>\n</ul>",
+                "short_desc": "Bharat Skool is hiring for Video Editor!\nAbout Us:\nAt Bharat Skool, we're dedicated to revolutionizi..",
+                "images": [],
+                "media": []
+              },
+              "quantity": { "available": { "count": 1 } },
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-03-26T06:12:46.615Z",
+                "range": {
+                  "start": "2024-11-12T18:30:00.000Z",
+                  "end": "2025-09-30T18:37:59.000Z"
+                }
+              },
+              "location_ids": [],
+              "fulfillment_ids": ["F1"],
+              "creator": {
+                "descriptor": {
+                  "name": "BharatSkool",
+                  "code": "B",
+                  "short_desc": "",
+                  "long_desc": "",
+                  "media": [],
+                  "images": []
+                },
+                "contact": {
+                  "phone": "",
+                  "email": "vibhudhanda@bharatskool.com"
+                },
+                "address": "",
+                "state": { "code": "" },
+                "city": { "code": "Delhi" }
+              },
+              "tags": [
+                {
+                  "descriptor": { "code": "JOB_DETAILS" },
+                  "list": [
+                    {
+                      "descriptor": { "code": "JOB_ROLE" },
+                      "value": "Video Editor"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Editing"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Design and Creative"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Graphic Design / Animation"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Photography / Videography"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Male"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Female"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Other"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_TYPE" },
+                      "value": "full-time"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "TIMING" },
+                  "list": [
+                    { "descriptor": { "code": "DAY_FROM" }, "value": "1" },
+                    { "descriptor": { "code": "DAY_TO" }, "value": "6" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "COMPENSATION" },
+                  "list": [
+                    { "descriptor": { "code": "TYPE" }, "value": "ctc" },
+                    { "descriptor": { "code": "MIN" }, "value": "300000" },
+                    { "descriptor": { "code": "MAX" }, "value": "500000" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "NP_FEES" },
+                  "list": [
+                    { "code": "ID", "value": "1" },
+                    { "code": "COMMERCIAL_TYPE", "value": "amount" },
+                    { "code": "COMMERCIAL_VALUE", "value": "0" },
+                    { "code": "COMMERCIAL_NAME", "value": "lead" },
+                    {
+                      "code": "COMMERCIAL_TRIGGERING_STATE",
+                      "value": "APPLICATION_SUBMITTED"
+                    },
+                    { "code": "COMPENSATION_TYPE", "value": "CTC" },
+                    { "code": "COMPENSATION_TRANSFER_PERIOD", "value": "P1M" },
+                    { "code": "COMPENSATION_PERCENTAGE_SPLIT", "value": "100" }
+                  ]
+                }
+              ],
+              "price": { "currency": "INR", "value": "0", "maximum_value": "0" }
+            }
+          ],
+          "locations": []
+        },
+        {
+          "id": "13811",
+          "descriptor": {
+            "name": "Unstop",
+            "code": "Unstop",
+            "short_desc": "Unstop, formerly Dare2Compete, is a global platform that provides students, professionals, and educa..",
+            "images": [
+              {
+                "url": "https://d1mgy94x89v8io.cloudfront.net/images/partners/partners75/675ec0d69ead2_unstop-logo.jpg"
+              }
+            ]
+          },
+          "fulfillments": [{ "id": "F1", "type": "lead" }],
+          "items": [
+            {
+              "id": "1310712",
+              "category_ids": ["Backend Development"],
+              "descriptor": {
+                "name": "NodeJS Developer",
+                "long_desc": "<h2>NodeJS Developer Internship at Unstop</h2>\n<p><strong>Unstop</strong> is seeking a passionate and talented <strong>NodeJS Developer</strong> to join our growing team. This is an exciting opportunity for a motivated individual to gain valuable experience in the fast-paced world of software development.</p>\n<p><strong>Responsibilities:</strong></p>\n<ul>\n<li>Develop and maintain server-side applications using NodeJS and related technologies.</li>\n<li>Design and implement RESTful APIs for various applications.</li>\n<li>Collaborate with cross-functional teams to define, design, and deliver new features.</li>\n<li>Optimize application performance and scalability.</li>\n<li>Write clean, efficient, and testable code.</li>\n<li>Participate in code reviews and provide constructive feedback.</li>\n<li>Troubleshoot and debug application issues.</li>\n<li>Stay up-to-date with the latest NodeJS technologies and best practices.</li>\n</ul>\n<p><strong>Requirements:</strong></p>\n<ul>\n<li>Strong understanding of NodeJS and its ecosystem (Express, MongoDB, etc.).</li>\n<li>Experience with building RESTful APIs.</li>\n<li>Familiarity with JavaScript, HTML, and CSS.</li>\n</ul>\n<p><strong>Bonus Points:</strong></p>\n<ul>\n<li>Experience with cloud platforms like AWS or Azure.</li>\n<li>Familiarity with containerization technologies like Docker and Kubernetes.</li>\n<li>Experience with CI/CD pipelines.</li>\n<li>Experience with testing frameworks like Jest or Mocha.</li>\n</ul>\n<p><strong>Eligibility:</strong></p>\n<ul>\n<li>Open to students from all academic backgrounds.</li>\n<li>No minimum GPA requirement.</li>\n<li>Freshers and experienced candidates are welcome to apply.</li>\n</ul>\n<p><strong>Perks:</strong></p>\n<ul>\n<li>Opportunity to work on real-world projects with a growing startup.</li>\n<li>Gain valuable experience in NodeJS development.</li>\n<li>Receive a certificate of completion upon successful internship.</li>\n<li>Get a letter of recommendation from the team.</li>\n<li>Potential for a full-time job offer upon completion of the internship.</li>\n</ul>\n<p><strong>Location:</strong></p>\n<ul>\n<li>In-office internship in Delhi.</li>\n</ul>\n<p><strong>We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.</strong></p>",
+                "short_desc": "NodeJS Developer Internship at Unstop\nUnstop is seeking a passionate and talented NodeJS Developer t..",
+                "images": [],
+                "media": []
+              },
+              "quantity": { "available": { "count": 1 } },
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-03-26T06:12:46.633Z",
+                "range": {
+                  "start": "2025-02-16T18:30:00.000Z",
+                  "end": "2025-03-30T18:30:00.000Z"
+                }
+              },
+              "location_ids": [],
+              "fulfillment_ids": ["F1"],
+              "creator": {
+                "descriptor": {
+                  "name": "Unstop",
+                  "code": "Unstop",
+                  "short_desc": "Unstop, formerly Dare2Compete, is a global platform that provides students, professionals, and educa..",
+                  "long_desc": "Unstop, formerly Dare2Compete, is a global platform that provides students, professionals, and educa..",
+                  "media": [],
+                  "images": []
+                },
+                "contact": {
+                  "phone": "+919383922032",
+                  "email": "testuser@yopmail.com"
+                },
+                "address": "",
+                "state": { "code": "" },
+                "city": { "code": "Delhi" }
+              },
+              "tags": [
+                {
+                  "descriptor": { "code": "JOB_DETAILS" },
+                  "list": [
+                    {
+                      "descriptor": { "code": "JOB_ROLE" },
+                      "value": "NodeJS Developer"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Backend Development"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Male"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Female"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Other"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_TYPE" },
+                      "value": "full-time"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "TIMING" },
+                  "list": [
+                    { "descriptor": { "code": "DAY_FROM" }, "value": "1" },
+                    { "descriptor": { "code": "DAY_TO" }, "value": "5" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "COMPENSATION" },
+                  "list": [
+                    { "descriptor": { "code": "TYPE" }, "value": "ctc" },
+                    { "descriptor": { "code": "MIN" }, "value": "15000" },
+                    { "descriptor": { "code": "MAX" }, "value": "15000" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "NP_FEES" },
+                  "list": [
+                    { "code": "ID", "value": "1" },
+                    { "code": "COMMERCIAL_TYPE", "value": "amount" },
+                    { "code": "COMMERCIAL_VALUE", "value": "0" },
+                    { "code": "COMMERCIAL_NAME", "value": "lead" },
+                    {
+                      "code": "COMMERCIAL_TRIGGERING_STATE",
+                      "value": "APPLICATION_SUBMITTED"
+                    },
+                    { "code": "COMPENSATION_TYPE", "value": "CTC" },
+                    { "code": "COMPENSATION_TRANSFER_PERIOD", "value": "P1M" },
+                    { "code": "COMPENSATION_PERCENTAGE_SPLIT", "value": "100" }
+                  ]
+                }
+              ],
+              "price": { "currency": "INR", "value": "0", "maximum_value": "0" }
+            }
+          ],
+          "locations": []
+        }
+      ]
+    }
+  }
+}

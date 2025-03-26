@@ -1,0 +1,1151 @@
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "on_search",
+    "version": "2.0.0",
+    "bap_id": "onest-mock-service.ondc.org",
+    "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
+    "bpp_id": "preprod-ondc.unstop.com",
+    "bpp_uri": "https://preprod-ondc.unstop.com/work-opportunities/",
+    "transaction_id": "0be07c68-8eba-48b9-b5f9-2bc29f8e9b6d",
+    "message_id": "486bf822-06aa-49e2-a760-4b72eef7f5da",
+    "location": { "city": { "code": "std:080" }, "country": { "code": "IND" } },
+    "timestamp": "2025-03-20T12:27:36.734Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "catalog": {
+      "descriptor": { "name": "Unstop Jobs" },
+      "providers": [
+        {
+          "id": "942136",
+          "descriptor": {
+            "name": "EdiGlobe",
+            "short_desc": "EdiGlobe is a cutting-edge EdTech platform that has revolutionized the way education is delivered an..",
+            "images": [
+              {
+                "url": "https://d1mgy94x89v8io.cloudfront.net/images/partners/partners75/new_organisation_image-uWTmIIPmpV103978740HuFer78cXw.png"
+              }
+            ]
+          },
+          "fulfillments": [{ "id": "F1", "type": "lead" }],
+          "items": [
+            {
+              "id": "1012489",
+              "category_ids": ["BD / Pre Sales"],
+              "descriptor": {
+                "name": "Business Development Internship",
+                "long_desc": "<p><strong>EdiGlobe is hiring for the role of Business Development Intern!</strong></p>\n<p><strong>Job Description:</strong></p>\n<p>Development team, responsible for learning and contributing to the growth and success of our<br />company. This role provides a unique opportunity to develop your skills, knowledge, and<br />experience in various aspects of business development. You will work closely with our senior<br />business development professionals to gain a comprehensive understanding of our industry,<br />products/services, and client needs while developing your sales and relationship-building<br />skills.</p>\n<p><strong>Responsibilities of the Candidate:</strong></p>\n<ul>\n<li><strong>Market Research:</strong> Conduct market research to identify potential clients, industry trends,<br />and competitors.</li>\n<li><strong>Lead Generation: </strong>Assist in identifying and generating leads through various channels,<br />including cold calling, email outreach, and networking.</li>\n<li><strong>Sales Support: </strong>Support the sales team in preparing proposals, presentations, and other<br />sales materials.</li>\n<li><strong>Client Communication:</strong> Communicate with prospective clients to understand their needs<br />and effectively convey the value of our products/services.</li>\n<li><strong>Relationship Building: </strong>Cultivate and maintain positive relationships with clients and<br />potential partners.</li>\n<li><strong>Sales Training: </strong>Participate in ongoing training sessions and workshops to develop sales<br />and negotiation skills.</li>\n<li><strong>Reporting: </strong>Provide regular reports on sales activities and progress, and make<br />recommendations for improvement.</li>\n</ul>\n<p><strong>Requirements:</strong></p>\n<ul>\n<li>Bachelor's degree in any relevant field</li>\n<li>Excellent verbal and written communication skills</li>\n<li>Enthusiastic, proactive, and a strong desire to learn and grow in the field of business<br />development</li>\n<li>Excellent analytical and time-management skills</li>\n<li>Ability to work independently or as an active member of a team</li>\n<li>Excellent administrative and organizational skills</li>\n</ul>",
+                "short_desc": "EdiGlobe is hiring for the role of Business Development Intern!\nJob Description:\nDevelopment team, r..",
+                "images": [],
+                "media": []
+              },
+              "quantity": { "available": { "count": 1 } },
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-03-20T12:27:37.625Z",
+                "range": {
+                  "start": "2024-05-29T18:30:00.000Z",
+                  "end": "2025-06-05T18:30:04.000Z"
+                }
+              },
+              "location_ids": [],
+              "fulfillment_ids": ["F1"],
+              "creator": {
+                "descriptor": { "name": "Kamya Mishra" },
+                "contact": {
+                  "phone": null,
+                  "email": "kamya.mishra@ediglobe.com"
+                }
+              },
+              "tags": [
+                {
+                  "descriptor": { "code": "JOB_DETAILS" },
+                  "list": [
+                    {
+                      "descriptor": { "code": "JOB_ROLE" },
+                      "value": "Business Development Internship"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "BD / Pre Sales"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Male"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Female"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Other"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_TYPE" },
+                      "value": "full-time"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "TIMING" },
+                  "list": [
+                    { "descriptor": { "code": "DAY_FROM" }, "value": "1" },
+                    { "descriptor": { "code": "DAY_TO" }, "value": "6" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "COMPENSATION" },
+                  "list": [
+                    { "descriptor": { "code": "TYPE" }, "value": "ctc" },
+                    { "descriptor": { "code": "MIN" }, "value": "18000" },
+                    { "descriptor": { "code": "MAX" }, "value": "18000" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "NP_FEES" },
+                  "list": [
+                    { "code": "ID", "value": "1" },
+                    { "code": "COMMERCIAL_TYPE", "value": "amount" },
+                    { "code": "COMMERCIAL_VALUE", "value": "0" },
+                    { "code": "COMMERCIAL_NAME", "value": "lead" },
+                    {
+                      "code": "COMMERCIAL_TRIGGERING_STATE",
+                      "value": "APPLICATION_SUBMITTED"
+                    },
+                    { "code": "COMPENSATION_TYPE", "value": "CTC" },
+                    { "code": "COMPENSATION_TRANSFER_PERIOD", "value": "P1M" },
+                    { "code": "COMPENSATION_PERCENTAGE_SPLIT", "value": "100" }
+                  ]
+                }
+              ],
+              "price": { "currency": "INR", "value": "0", "maximum_value": "0" }
+            }
+          ],
+          "locations": []
+        },
+        {
+          "id": "730886",
+          "descriptor": {
+            "name": "Skilancer Solar Pvt. Ltd.",
+            "short_desc": "Skilancer Solar is a new born startup that&nbsp; manufacture the solar panel cleaning robot inorder ..",
+            "images": [
+              {
+                "url": "https://d1mgy94x89v8io.cloudfront.net/images/partners/partners75/null"
+              }
+            ]
+          },
+          "fulfillments": [{ "id": "F1", "type": "lead" }],
+          "items": [
+            {
+              "id": "1068133",
+              "category_ids": [
+                "Digital Marketing",
+                "Growth Marketing",
+                "Creative Marketing"
+              ],
+              "descriptor": {
+                "name": "Social Media Marketing Internship",
+                "long_desc": "<p><strong>Skilancer Solar Pvt. Ltd. is hiring for the role of Social Media Marketing Intern!</strong></p>\n<p><strong>Responsibilities:</strong></p>\n<ul>\n<li>Develop and execute engaging social media content across various platforms (Facebook, Instagram, Twitter, LinkedIn).</li>\n<li>Manage and optimize social media accounts, including scheduling posts, responding to comments and messages, and analyzing performance metrics.</li>\n<li>Conduct social media research and analysis to identify trends, target audiences, and competitor activity.</li>\n<li>Create and implement social media campaigns to achieve specific marketing goals.</li>\n<li>Collaborate with other marketing team members to develop and execute integrated marketing campaigns.</li>\n<li>Stay up-to-date on the latest social media trends and best practices.</li>\n</ul>\n<p><strong>Requirements:</strong></p>\n<ul>\n<li>Strong understanding of social media platforms and their functionalities.</li>\n<li>Excellent written and verbal communication skills.</li>\n<li>Ability to create engaging and creative content.</li>\n<li>Strong analytical and problem-solving skills.</li>\n<li>Ability to work independently and as part of a team.</li>\n<li>Proficient in Microsoft Office Suite.</li>\n<li>Experience with social media management tools (e.g., Hootsuite, Buffer) is a plus.</li>\n</ul>\n<p><strong>Eligibility:</strong></p>\n<ul>\n<li>Open to students from all disciplines.</li>\n<li>Internship duration is flexible (minimum 3 months).</li>\n</ul>\n<p><strong>Perks:</strong></p>\n<ul>\n<li>Gain valuable experience in social media marketing.</li>\n<li>Opportunity to learn new skills and technologies.</li>\n<li>Certificate of completion upon successful completion of the internship.</li>\n</ul>",
+                "short_desc": "Skilancer Solar Pvt. Ltd. is hiring for the role of Social Media Marketing Intern!\nResponsibilities:..",
+                "images": [],
+                "media": []
+              },
+              "quantity": { "available": { "count": 1 } },
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-03-20T12:27:37.654Z",
+                "range": {
+                  "start": "2024-07-08T18:30:00.000Z",
+                  "end": "2025-07-30T18:30:07.000Z"
+                }
+              },
+              "location_ids": [],
+              "fulfillment_ids": ["F1"],
+              "creator": {
+                "descriptor": { "name": "Manisha bhatia" },
+                "contact": {
+                  "phone": "+917683052276",
+                  "email": "hrconnect@skilancer.com"
+                }
+              },
+              "tags": [
+                {
+                  "descriptor": { "code": "JOB_DETAILS" },
+                  "list": [
+                    {
+                      "descriptor": { "code": "JOB_ROLE" },
+                      "value": "Social Media Marketing Internship"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Digital Marketing"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Growth Marketing"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Creative Marketing"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Male"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Female"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Other"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_TYPE" },
+                      "value": "full-time"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "TIMING" },
+                  "list": [
+                    { "descriptor": { "code": "DAY_FROM" }, "value": "1" },
+                    { "descriptor": { "code": "DAY_TO" }, "value": "5" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "COMPENSATION" },
+                  "list": [
+                    { "descriptor": { "code": "TYPE" }, "value": "ctc" },
+                    { "descriptor": { "code": "MIN" }, "value": "5000" },
+                    { "descriptor": { "code": "MAX" }, "value": "10000" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "NP_FEES" },
+                  "list": [
+                    { "code": "ID", "value": "1" },
+                    { "code": "COMMERCIAL_TYPE", "value": "amount" },
+                    { "code": "COMMERCIAL_VALUE", "value": "0" },
+                    { "code": "COMMERCIAL_NAME", "value": "lead" },
+                    {
+                      "code": "COMMERCIAL_TRIGGERING_STATE",
+                      "value": "APPLICATION_SUBMITTED"
+                    },
+                    { "code": "COMPENSATION_TYPE", "value": "CTC" },
+                    { "code": "COMPENSATION_TRANSFER_PERIOD", "value": "P1M" },
+                    { "code": "COMPENSATION_PERCENTAGE_SPLIT", "value": "100" }
+                  ]
+                }
+              ],
+              "price": { "currency": "INR", "value": "0", "maximum_value": "0" }
+            }
+          ],
+          "locations": []
+        },
+        {
+          "id": "999017",
+          "descriptor": {
+            "name": "TRIJIT TECHNOLOGIES",
+            "short_desc": "",
+            "images": [
+              {
+                "url": "https://d1mgy94x89v8io.cloudfront.net/images/partners/partners75/null"
+              }
+            ]
+          },
+          "fulfillments": [{ "id": "F1", "type": "lead" }],
+          "items": [
+            {
+              "id": "1102623",
+              "category_ids": ["Enterprise & B2B Sales"],
+              "descriptor": {
+                "name": "Cloud Inside Sales Associate",
+                "long_desc": "<p><strong>Trijit Technologies is hiring for the role of&nbsp; Cloud Inside Sales Associate!</strong></p>\n<p><strong>About TRIJIT:</strong></p>\n<p>TRIJIT provides complete data centre services like Cloud VPS Hosting Services, Dedicated Servers, Hosted Email Services and more backed with 24/7 Legendary Support.</p>\n<p><strong>Job Description:</strong></p>\n<p>We are looking for a highly motivated Cloud Inside Sales Associate with a passion for technology and strong sales acumen. The ideal candidate will be responsible for generating leads through various tools, qualifying prospects, and driving sales of our cloud solutions to B2B clients. This role requires excellent communication skills, an aggressive nature towards achieving sales target, should have a customer-centric approach, and the ability to thrive in a fast-paced, target-driven environment.</p>\n<p><strong>Responsibilities:</strong></p>\n<ul>\n<li>Conduct outbound prospecting activities to generate new leads and opportunities within the B2B segment.</li>\n<li>Identifying potential customers through research, networking, and cold calling.&nbsp;</li>\n<li>Qualify leads and prospects through effective communication to understand their business needs and challenges.</li>\n<li>Collaborate closely with the sales team to develop and execute sales strategies that drive revenue growth and achieve targets.</li>\n<li>Deliver engaging product demonstrations and presentations to prospective clients, showcasing the value proposition of our cloud solutions.</li>\n<li>Build and maintain strong relationships with clients to ensure customer satisfaction and maximize retention.</li>\n<li>Stay up-to-date with industry trends, market developments, and competitive landscape to identify new opportunities and stay ahead of the curve.</li>\n<li>Achieve agreed upon sales targets and outcomes within the schedule.</li>\n</ul>\n<p><strong>Qualifications:</strong></p>\n<ul>\n<li>Any Master's degree or Bachelor&rsquo;s degree in Business Administration, Marketing, or Commerce</li>\n<li>Strong understanding of cloud computing technologies and their applications in business environments.</li>\n<li>Excellent interpersonal skills with the ability to communicate effectively and build rapport with clients.</li>\n<li>Demonstrated ability to work independently as well as part of a team in a fast-paced, results-oriented environment.</li>\n<li>Highly organized with excellent time management skills and the ability to prioritize tasks effectively.</li>\n<li>Proficiency in CRM software (e.g., Salesforce) and other sales tools.</li>\n<li>Motivated self-starter with a passion for sales and technology.</li>\n<li>Freshers are preferred.</li>\n</ul>\n<p><strong>Benefits:</strong></p>\n<ul>\n<li>Competitive salary with an uncapped commission structure.</li>\n<li>Opportunities for career growth and advancement within the company.</li>\n<li>Ongoing training and professional development programs.</li>\n<li>Dynamic and collaborative work environment.</li>\n</ul>",
+                "short_desc": "Trijit Technologies is hiring for the role of&nbsp; Cloud Inside Sales Associate!\nAbout TRIJIT:\nTRIJ..",
+                "images": [],
+                "media": []
+              },
+              "quantity": { "available": { "count": 1 } },
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-03-20T12:27:37.667Z",
+                "range": {
+                  "start": "2024-07-31T18:30:00.000Z",
+                  "end": "2025-08-27T18:30:05.000Z"
+                }
+              },
+              "location_ids": [],
+              "fulfillment_ids": ["F1"],
+              "creator": {
+                "descriptor": { "name": "S Suneza Bi" },
+                "contact": {
+                  "phone": "+918095015550",
+                  "email": "suneza@trijit.com"
+                }
+              },
+              "tags": [
+                {
+                  "descriptor": { "code": "JOB_DETAILS" },
+                  "list": [
+                    {
+                      "descriptor": { "code": "JOB_ROLE" },
+                      "value": "Cloud Inside Sales Associate"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Enterprise & B2B Sales"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Male"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Female"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Other"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_TYPE" },
+                      "value": "full-time"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "TIMING" },
+                  "list": [
+                    { "descriptor": { "code": "DAY_FROM" }, "value": "1" },
+                    { "descriptor": { "code": "DAY_TO" }, "value": "6" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "COMPENSATION" },
+                  "list": [
+                    { "descriptor": { "code": "TYPE" }, "value": "ctc" },
+                    { "descriptor": { "code": "MIN" }, "value": "300000" },
+                    { "descriptor": { "code": "MAX" }, "value": "300000" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "NP_FEES" },
+                  "list": [
+                    { "code": "ID", "value": "1" },
+                    { "code": "COMMERCIAL_TYPE", "value": "amount" },
+                    { "code": "COMMERCIAL_VALUE", "value": "0" },
+                    { "code": "COMMERCIAL_NAME", "value": "lead" },
+                    {
+                      "code": "COMMERCIAL_TRIGGERING_STATE",
+                      "value": "APPLICATION_SUBMITTED"
+                    },
+                    { "code": "COMPENSATION_TYPE", "value": "CTC" },
+                    { "code": "COMPENSATION_TRANSFER_PERIOD", "value": "P1M" },
+                    { "code": "COMPENSATION_PERCENTAGE_SPLIT", "value": "100" }
+                  ]
+                }
+              ],
+              "price": { "currency": "INR", "value": "0", "maximum_value": "0" }
+            }
+          ],
+          "locations": []
+        },
+        {
+          "id": "1211663",
+          "descriptor": {
+            "name": "Snaptics business Solution",
+            "short_desc": "",
+            "images": [
+              {
+                "url": "https://d1mgy94x89v8io.cloudfront.net/images/partners/partners75/new_organisation_image-JvuRyfTsgM1029356482DIoLwt0DRY.png"
+              }
+            ]
+          },
+          "fulfillments": [{ "id": "F1", "type": "lead" }],
+          "items": [
+            {
+              "id": "1142986",
+              "category_ids": ["Corporate Affairs"],
+              "descriptor": {
+                "name": "Real Estate Sales Associate",
+                "long_desc": "<p><strong>Snaptics is hiring!&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong></p>\n<p><strong>Responsibility:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong></p>\n<ul>\n<li>Management of customer relationships.</li>\n<li>Leeds will be provided by the company itself.</li>\n<li>Visit the customers for showing the farm lands, villas &amp; Appartments.</li>\n</ul>\n<p><strong>Requirements</strong>:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n<ul>\n<li>Communication, convincing skills.</li>\n<li>Ability to do a consultative sell, Developing the strategic plan to grow digital sales amongst existing clients.</li>\n</ul>",
+                "short_desc": "Snaptics is hiring!&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs..",
+                "images": [],
+                "media": []
+              },
+              "quantity": { "available": { "count": 1 } },
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-03-20T12:27:37.678Z",
+                "range": {
+                  "start": "2024-08-27T18:30:00.000Z",
+                  "end": "2026-01-30T18:30:00.000Z"
+                }
+              },
+              "location_ids": [],
+              "fulfillment_ids": ["F1"],
+              "creator": {
+                "descriptor": { "name": "Bhagya Sri" },
+                "contact": { "phone": null, "email": "hr@snaptics.in" }
+              },
+              "tags": [
+                {
+                  "descriptor": { "code": "JOB_DETAILS" },
+                  "list": [
+                    {
+                      "descriptor": { "code": "JOB_ROLE" },
+                      "value": "Real Estate Sales Associate"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Corporate Affairs"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Male"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Female"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_TYPE" },
+                      "value": "full-time"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "TIMING" },
+                  "list": [
+                    { "descriptor": { "code": "DAY_FROM" }, "value": "1" },
+                    { "descriptor": { "code": "DAY_TO" }, "value": "5" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "COMPENSATION" },
+                  "list": [
+                    { "descriptor": { "code": "TYPE" }, "value": "ctc" },
+                    { "descriptor": { "code": "MIN" }, "value": "240000" },
+                    { "descriptor": { "code": "MAX" }, "value": "500000" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "NP_FEES" },
+                  "list": [
+                    { "code": "ID", "value": "1" },
+                    { "code": "COMMERCIAL_TYPE", "value": "amount" },
+                    { "code": "COMMERCIAL_VALUE", "value": "0" },
+                    { "code": "COMMERCIAL_NAME", "value": "lead" },
+                    {
+                      "code": "COMMERCIAL_TRIGGERING_STATE",
+                      "value": "APPLICATION_SUBMITTED"
+                    },
+                    { "code": "COMPENSATION_TYPE", "value": "CTC" },
+                    { "code": "COMPENSATION_TRANSFER_PERIOD", "value": "P1M" },
+                    { "code": "COMPENSATION_PERCENTAGE_SPLIT", "value": "100" }
+                  ]
+                }
+              ],
+              "price": { "currency": "INR", "value": "0", "maximum_value": "0" }
+            }
+          ],
+          "locations": []
+        },
+        {
+          "id": "132335",
+          "descriptor": {
+            "name": "OfBusiness",
+            "short_desc": "",
+            "images": [
+              {
+                "url": "https://d1mgy94x89v8io.cloudfront.net/images/partners/partners75/5e4e72d354797_Opera_Snapshot_2020-02-20_172126_www.ofbusiness.com.png"
+              }
+            ]
+          },
+          "fulfillments": [{ "id": "F1", "type": "lead" }],
+          "items": [
+            {
+              "id": "1148338",
+              "category_ids": [
+                "Content Management (Print / Online / Electronic)"
+              ],
+              "descriptor": {
+                "name": "Content Creation Internship",
+                "long_desc": "<p><strong>OfBusiness is hiring for the role of Content Creation Intern!</strong></p>\n<p><strong>Selected intern's day-to-day responsibilities include:</strong></p>\n<ul>\n<li>Making and editing videos related to the company that are interactive.</li>\n<li>Creating content and scripts for videos/ mailers.</li>\n<li>Collaborating with brands for promotional activities.</li>\n<li>Stakeholder interaction - internal &amp; external brands.</li>\n<li>Collaborating with brands for promotional activities.</li>\n</ul>\n<p><strong>Requirements:</strong></p>\n<ul>\n<li>Prior experience of 6 months in video making, reels, YouTube videos, and content for the same.</li>\n<li>Has an understanding of the social media</li>\n</ul>",
+                "short_desc": "OfBusiness is hiring for the role of Content Creation Intern!\nSelected intern's day-to-day responsib..",
+                "images": [],
+                "media": []
+              },
+              "quantity": { "available": { "count": 1 } },
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-03-20T12:27:37.688Z",
+                "range": {
+                  "start": "2024-09-04T18:30:00.000Z",
+                  "end": "2025-10-04T18:30:11.000Z"
+                }
+              },
+              "location_ids": [],
+              "fulfillment_ids": ["F1"],
+              "creator": {
+                "descriptor": { "name": "Rutvik Rajesh Bhosle" },
+                "contact": {
+                  "phone": null,
+                  "email": "rutvik.bhosle@ofbusiness.in"
+                }
+              },
+              "tags": [
+                {
+                  "descriptor": { "code": "JOB_DETAILS" },
+                  "list": [
+                    {
+                      "descriptor": { "code": "JOB_ROLE" },
+                      "value": "Content Creation Internship"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Content Management (Print / Online / Electronic)"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Male"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_TYPE" },
+                      "value": "full-time"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "TIMING" },
+                  "list": [
+                    { "descriptor": { "code": "DAY_FROM" }, "value": "1" },
+                    { "descriptor": { "code": "DAY_TO" }, "value": "5" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "COMPENSATION" },
+                  "list": [
+                    { "descriptor": { "code": "TYPE" }, "value": "ctc" },
+                    { "descriptor": { "code": "MIN" }, "value": "15000" },
+                    { "descriptor": { "code": "MAX" }, "value": "15000" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "NP_FEES" },
+                  "list": [
+                    { "code": "ID", "value": "1" },
+                    { "code": "COMMERCIAL_TYPE", "value": "amount" },
+                    { "code": "COMMERCIAL_VALUE", "value": "0" },
+                    { "code": "COMMERCIAL_NAME", "value": "lead" },
+                    {
+                      "code": "COMMERCIAL_TRIGGERING_STATE",
+                      "value": "APPLICATION_SUBMITTED"
+                    },
+                    { "code": "COMPENSATION_TYPE", "value": "CTC" },
+                    { "code": "COMPENSATION_TRANSFER_PERIOD", "value": "P1M" },
+                    { "code": "COMPENSATION_PERCENTAGE_SPLIT", "value": "100" }
+                  ]
+                }
+              ],
+              "price": { "currency": "INR", "value": "0", "maximum_value": "0" }
+            }
+          ],
+          "locations": []
+        },
+        {
+          "id": "1253688",
+          "descriptor": {
+            "name": "Upskill It Training & Placement",
+            "short_desc": "",
+            "images": [
+              {
+                "url": "https://d1mgy94x89v8io.cloudfront.net/images/partners/partners75/new_organisation_image-4s236COYbf458909935uU2TKeLz2.png"
+              }
+            ]
+          },
+          "fulfillments": [{ "id": "F1", "type": "lead" }],
+          "items": [
+            {
+              "id": "1172956",
+              "category_ids": ["Sales Support & Operations", "BD / Pre Sales"],
+              "descriptor": {
+                "name": "Business Development Internship",
+                "long_desc": "<p><strong>Company: Upskill IT Training &amp; Placement</strong></p>\n<p><strong>Job Summary:</strong><br />Upskill IT Training &amp; Placement is seeking a passionate and driven Business Development Intern to join our team. This internship offers an opportunity to gain hands-on experience in sales and marketing while contributing to our growth.</p>\n<p><strong>Responsibilities:</strong></p>\n<ul>\n<li>Generate leads and qualify potential clients through various channels, including cold calling, email marketing, and social media.</li>\n<li>Develop and maintain strong relationships with clients to understand their needs and build long-term partnerships.</li>\n<li>Prepare and deliver compelling sales presentations to showcase Upskill IT's training and placement solutions.</li>\n<li>Negotiate and close deals, ensuring customer satisfaction and exceeding sales targets.</li>\n<li>Conduct market research and competitive analysis to identify new business opportunities.</li>\n<li>Contribute to the development and implementation of effective sales strategies.</li>\n<li>Collaborate with the marketing team to create and execute marketing campaigns.</li>\n<li>Stay up-to-date on industry trends and best practices in sales and marketing.</li>\n</ul>\n<p><strong>Requirements:</strong></p>\n<ul>\n<li>Strong communication and interpersonal skills, with the ability to build rapport and trust with clients.</li>\n<li>Excellent presentation and negotiation skills, effectively communicating the value proposition of Upskill IT's services.</li>\n<li>Proven ability to generate leads and close deals, exceeding sales targets.</li>\n<li>Strong understanding of the sales process and best practices.</li>\n<li>Proficiency in Microsoft Office Suite and CRM software.</li>\n<li>Ability to work independently and as part of a team.</li>\n<li>Passion for sales and a strong desire to learn and grow.</li>\n</ul>\n<p><strong>Eligibility:</strong></p>\n<ul>\n<li>Freshers from any stream are eligible to apply.</li>\n<li>Candidates with a strong academic record and a passion for sales are encouraged to apply.</li>\n</ul>\n<p><strong>Perks:</strong></p>\n<ul>\n<li>Certificate of Completion upon successful completion of the internship.</li>\n<li>Opportunity to gain valuable experience in sales and marketing.</li>\n<li>Work in a dynamic and fast-paced environment.</li>\n</ul>",
+                "short_desc": "Company: Upskill IT Training &amp; Placement\nJob Summary:Upskill IT Training &amp; Placement is seek..",
+                "images": [],
+                "media": []
+              },
+              "quantity": { "available": { "count": 1 } },
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-03-20T12:27:37.698Z",
+                "range": {
+                  "start": "2024-09-30T18:30:00.000Z",
+                  "end": "2025-03-30T18:30:00.000Z"
+                }
+              },
+              "location_ids": [],
+              "fulfillment_ids": ["F1"],
+              "creator": {
+                "descriptor": { "name": "Upskill IT Training & Placement" },
+                "contact": { "phone": null, "email": "hr@upskilll.com" }
+              },
+              "tags": [
+                {
+                  "descriptor": { "code": "JOB_DETAILS" },
+                  "list": [
+                    {
+                      "descriptor": { "code": "JOB_ROLE" },
+                      "value": "Business Development Internship"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Sales Support & Operations"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "BD / Pre Sales"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Male"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Female"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Other"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_TYPE" },
+                      "value": "full-time"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "TIMING" },
+                  "list": [
+                    { "descriptor": { "code": "DAY_FROM" }, "value": "1" },
+                    { "descriptor": { "code": "DAY_TO" }, "value": "5" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "COMPENSATION" },
+                  "list": [
+                    { "descriptor": { "code": "TYPE" }, "value": "ctc" },
+                    { "descriptor": { "code": "MIN" }, "value": "5000" },
+                    { "descriptor": { "code": "MAX" }, "value": "5000" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "NP_FEES" },
+                  "list": [
+                    { "code": "ID", "value": "1" },
+                    { "code": "COMMERCIAL_TYPE", "value": "amount" },
+                    { "code": "COMMERCIAL_VALUE", "value": "0" },
+                    { "code": "COMMERCIAL_NAME", "value": "lead" },
+                    {
+                      "code": "COMMERCIAL_TRIGGERING_STATE",
+                      "value": "APPLICATION_SUBMITTED"
+                    },
+                    { "code": "COMPENSATION_TYPE", "value": "CTC" },
+                    { "code": "COMPENSATION_TRANSFER_PERIOD", "value": "P1M" },
+                    { "code": "COMPENSATION_PERCENTAGE_SPLIT", "value": "100" }
+                  ]
+                }
+              ],
+              "price": { "currency": "INR", "value": "0", "maximum_value": "0" }
+            }
+          ],
+          "locations": []
+        },
+        {
+          "id": "785972",
+          "descriptor": {
+            "name": "AppOctet Technologies",
+            "short_desc": "",
+            "images": [
+              {
+                "url": "https://d1mgy94x89v8io.cloudfront.net/images/partners/partners75/null"
+              }
+            ]
+          },
+          "fulfillments": [{ "id": "F1", "type": "lead" }],
+          "items": [
+            {
+              "id": "1181751",
+              "category_ids": ["Enterprise & B2B Sales"],
+              "descriptor": {
+                "name": "Sales Internship",
+                "long_desc": "<p class=\"\"><strong>AppOctet Technologies is hiring for the role of Sales Intern!</strong></p>\n<p><strong>Responsibilities of the Intern:</strong></p>\n<ul>\n<li>Research and identify potential clients and new business opportunities.</li>\n<li>Assist in lead generation through email, social media, and outreach campaigns.</li>\n<li>Conduct market research to gather insights on industry trends and competitors.</li>\n<li>Reach out to prospective clients via phone, email, and social platforms.</li>\n<li>Support product demonstrations and sales presentations for potential clients.</li>\n<li>Maintain and update CRM with client interactions, leads, and sales activities.</li>\n<li>Assist in preparing proposals, presentations, and sales documentation.</li>\n<li>Collaborate with product development, marketing, and customer success teams.</li>\n<li>Track and analyze sales performance metrics and prepare reports.</li>\n<li>Help build and maintain strong client relationships.</li>\n<li>Stay updated on the company&rsquo;s product offerings and industry developments.</li>\n<li>Participate in sales training sessions to enhance selling skills.</li>\n</ul>",
+                "short_desc": "AppOctet Technologies is hiring for the role of Sales Intern!\nResponsibilities of the Intern:\n\nResea..",
+                "images": [],
+                "media": []
+              },
+              "quantity": { "available": { "count": 1 } },
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-03-20T12:27:37.712Z",
+                "range": {
+                  "start": "2024-10-15T18:30:00.000Z",
+                  "end": "2025-11-14T18:30:04.000Z"
+                }
+              },
+              "location_ids": [],
+              "fulfillment_ids": ["F1"],
+              "creator": {
+                "descriptor": { "name": "Srinivas Guni" },
+                "contact": {
+                  "phone": "+919892424533",
+                  "email": "workwithus@appoctet.com"
+                }
+              },
+              "tags": [
+                {
+                  "descriptor": { "code": "JOB_DETAILS" },
+                  "list": [
+                    {
+                      "descriptor": { "code": "JOB_ROLE" },
+                      "value": "Sales Internship"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Enterprise & B2B Sales"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Male"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Female"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Other"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_TYPE" },
+                      "value": "full-time"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "TIMING" },
+                  "list": [
+                    { "descriptor": { "code": "DAY_FROM" }, "value": "1" },
+                    { "descriptor": { "code": "DAY_TO" }, "value": "5" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "COMPENSATION" },
+                  "list": [
+                    { "descriptor": { "code": "TYPE" }, "value": "ctc" },
+                    { "descriptor": { "code": "MIN" }, "value": "7000" },
+                    { "descriptor": { "code": "MAX" }, "value": "7000" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "NP_FEES" },
+                  "list": [
+                    { "code": "ID", "value": "1" },
+                    { "code": "COMMERCIAL_TYPE", "value": "amount" },
+                    { "code": "COMMERCIAL_VALUE", "value": "0" },
+                    { "code": "COMMERCIAL_NAME", "value": "lead" },
+                    {
+                      "code": "COMMERCIAL_TRIGGERING_STATE",
+                      "value": "APPLICATION_SUBMITTED"
+                    },
+                    { "code": "COMPENSATION_TYPE", "value": "CTC" },
+                    { "code": "COMPENSATION_TRANSFER_PERIOD", "value": "P1M" },
+                    { "code": "COMPENSATION_PERCENTAGE_SPLIT", "value": "100" }
+                  ]
+                }
+              ],
+              "price": { "currency": "INR", "value": "0", "maximum_value": "0" }
+            }
+          ],
+          "locations": []
+        },
+        {
+          "id": "1216926",
+          "descriptor": {
+            "name": "BharatSkool",
+            "short_desc": "",
+            "images": [
+              {
+                "url": "https://d1mgy94x89v8io.cloudfront.net/images/partners/partners75/null"
+              }
+            ]
+          },
+          "fulfillments": [{ "id": "F1", "type": "lead" }],
+          "items": [
+            {
+              "id": "1222415",
+              "category_ids": [
+                "Editing",
+                "Design and Creative",
+                "Graphic Design / Animation",
+                "Photography / Videography"
+              ],
+              "descriptor": {
+                "name": "Video Editor",
+                "long_desc": "<p><strong>Bharat Skool is hiring for Video Editor!</strong></p>\n<p><strong>About Us:</strong></p>\n<p>At Bharat Skool, we're dedicated to revolutionizing education. Led by our visionary founder, Nishant Jindal&mdash;an accomplished 5x entrepreneur, IIT JEE AIR-247 achiever, and author of 2 Amazon bestsellers&mdash;we're committed to bringing innovative solutions to students and educators. We're seeking a skilled Video Editor to join our team and contribute to our mission.</p>\n<p><strong>Role Overview:</strong> As a Video Editor at Bharat Skool, you'll play a key role in:</p>\n<ul>\n<li>Creating Compelling Content: Edit and produce high-quality video content for various platforms, including promotional videos, tutorials, and webinars.</li>\n<li>Storytelling: Craft engaging narratives and ensure that videos align with our brand message and educational goals.</li>\n<li>Collaboration: Work closely with the marketing, content, and design teams to bring creative concepts to life.</li>\n<li>Optimization: Ensure videos are optimized for different platforms and audiences, maintaining high visual and audio quality.</li>\n<li>Innovation: Stay updated on the latest video trends and technologies to continuously improve our content.</li>\n</ul>\n<p><strong>Qualifications:</strong></p>\n<ul>\n<li>Proven 1-5 years of experience as a Video Editor with a strong portfolio showcasing your work.</li>\n<li>Proficiency in video editing software such as Adobe Premiere Pro, Final Cut Pro, or similar tools.</li>\n<li>Experience with motion graphics and animations is a plus.</li>\n<li>Strong understanding of video formats, resolutions, and best practices for digital platforms.</li>\n</ul>",
+                "short_desc": "Bharat Skool is hiring for Video Editor!\nAbout Us:\nAt Bharat Skool, we're dedicated to revolutionizi..",
+                "images": [],
+                "media": []
+              },
+              "quantity": { "available": { "count": 1 } },
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-03-20T12:27:37.721Z",
+                "range": {
+                  "start": "2024-11-12T18:30:00.000Z",
+                  "end": "2025-09-30T18:37:59.000Z"
+                }
+              },
+              "location_ids": [],
+              "fulfillment_ids": ["F1"],
+              "creator": {
+                "descriptor": { "name": "Vibhu Dhanda" },
+                "contact": {
+                  "phone": null,
+                  "email": "vibhudhanda@bharatskool.com"
+                }
+              },
+              "tags": [
+                {
+                  "descriptor": { "code": "JOB_DETAILS" },
+                  "list": [
+                    {
+                      "descriptor": { "code": "JOB_ROLE" },
+                      "value": "Video Editor"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Editing"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Design and Creative"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Graphic Design / Animation"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Photography / Videography"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Male"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Female"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Other"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_TYPE" },
+                      "value": "full-time"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "TIMING" },
+                  "list": [
+                    { "descriptor": { "code": "DAY_FROM" }, "value": "1" },
+                    { "descriptor": { "code": "DAY_TO" }, "value": "6" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "COMPENSATION" },
+                  "list": [
+                    { "descriptor": { "code": "TYPE" }, "value": "ctc" },
+                    { "descriptor": { "code": "MIN" }, "value": "300000" },
+                    { "descriptor": { "code": "MAX" }, "value": "500000" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "NP_FEES" },
+                  "list": [
+                    { "code": "ID", "value": "1" },
+                    { "code": "COMMERCIAL_TYPE", "value": "amount" },
+                    { "code": "COMMERCIAL_VALUE", "value": "0" },
+                    { "code": "COMMERCIAL_NAME", "value": "lead" },
+                    {
+                      "code": "COMMERCIAL_TRIGGERING_STATE",
+                      "value": "APPLICATION_SUBMITTED"
+                    },
+                    { "code": "COMPENSATION_TYPE", "value": "CTC" },
+                    { "code": "COMPENSATION_TRANSFER_PERIOD", "value": "P1M" },
+                    { "code": "COMPENSATION_PERCENTAGE_SPLIT", "value": "100" }
+                  ]
+                }
+              ],
+              "price": { "currency": "INR", "value": "0", "maximum_value": "0" }
+            }
+          ],
+          "locations": []
+        },
+        {
+          "id": "691246",
+          "descriptor": {
+            "name": "Athena BPO Private Limited",
+            "short_desc": "",
+            "images": [
+              {
+                "url": "https://d1mgy94x89v8io.cloudfront.net/images/partners/partners75/new_organisation_image-lqAVw1ZKg91283324782bDB8CitLoC.png"
+              }
+            ]
+          },
+          "fulfillments": [{ "id": "F1", "type": "lead" }],
+          "items": [
+            {
+              "id": "1231736",
+              "category_ids": [
+                "General Insurance",
+                "BD / Pre Sales",
+                "Sales Support & Operations",
+                "Retail & B2C Sales",
+                "Enterprise & B2B Sales",
+                "Banking Operations"
+              ],
+              "descriptor": {
+                "name": "BPO Tele sale Representative",
+                "long_desc": "<p class=\"\"><strong>Athena BPO Private Limited is hiring for the role of BPO Tele Sales Representative!</strong></p>\n<p>Description:<br />We are seeking energetic and motivated individuals to join our team as Collection and Sales Process Executives. If you are aged between 18 to 30 years, have completed at least the 12th grade, and are fluent in English, Hindi, Tamil, Kannada, Malayalam, and Telugu, we want to hear from you!<br />Role Overview:<br />As a Collection and Sales Process Executive, you will be responsible for managing outbound calls for both collection and sales purposes. You will need to effectively handle overdue payments, negotiate terms, and drive sales by promoting our products/services.<br />Responsibilities:<br />Collections:<br />Contact customers regarding overdue payments.<br />Negotiate payment plans to facilitate recovery.<br />Maintain positive relationships with customers to ensure smooth collections.<br />Sales:<br />Conduct outbound sales calls to introduce and promote products/services.<br />Explain product features and benefits to potential customers.<br />Close sales deals and achieve monthly sales targets.<br />Record-Keeping:<br />Maintain accurate and up-to-date records of interactions, transactions, and follow-ups.<br />Ensure that all necessary documentation is complete and accurate.<br />Requirements:<br />Education: Minimum 12th grade pass.<br />Languages: Proficiency in English, Hindi, Tamil, Kannada, Malayalam, and Telugu.<br />Age: Between 18 to 30 years.<br />Experience: Previous experience in collections, sales, or customer service is advantageous but not mandatory.<br />Skills: Excellent communication, negotiation, and problem-solving abilities.<br />Technical Skills: Proficiency in Excel and basic computer operations.</p>",
+                "short_desc": "Athena BPO Private Limited is hiring for the role of BPO Tele Sales Representative!\nDescription:We a..",
+                "images": [],
+                "media": []
+              },
+              "quantity": { "available": { "count": 1 } },
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-03-20T12:27:37.744Z",
+                "range": {
+                  "start": "2024-11-16T18:30:00.000Z",
+                  "end": "2025-03-31T18:29:59.000Z"
+                }
+              },
+              "location_ids": [],
+              "fulfillment_ids": ["F1"],
+              "creator": {
+                "descriptor": { "name": "Gracy Gomes" },
+                "contact": {
+                  "phone": "+917843092317",
+                  "email": "gracy@earlyjobs.in"
+                }
+              },
+              "tags": [
+                {
+                  "descriptor": { "code": "JOB_DETAILS" },
+                  "list": [
+                    {
+                      "descriptor": { "code": "JOB_ROLE" },
+                      "value": "BPO Tele sale Representative"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "General Insurance"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "BD / Pre Sales"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Sales Support & Operations"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Retail & B2C Sales"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Enterprise & B2B Sales"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Banking Operations"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Male"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Female"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Other"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_TYPE" },
+                      "value": "full-time"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "TIMING" },
+                  "list": [
+                    { "descriptor": { "code": "DAY_FROM" }, "value": "1" },
+                    { "descriptor": { "code": "DAY_TO" }, "value": "6" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "COMPENSATION" },
+                  "list": [
+                    { "descriptor": { "code": "TYPE" }, "value": "ctc" },
+                    { "descriptor": { "code": "MIN" }, "value": "250000" },
+                    { "descriptor": { "code": "MAX" }, "value": "300000" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "NP_FEES" },
+                  "list": [
+                    { "code": "ID", "value": "1" },
+                    { "code": "COMMERCIAL_TYPE", "value": "amount" },
+                    { "code": "COMMERCIAL_VALUE", "value": "0" },
+                    { "code": "COMMERCIAL_NAME", "value": "lead" },
+                    {
+                      "code": "COMMERCIAL_TRIGGERING_STATE",
+                      "value": "APPLICATION_SUBMITTED"
+                    },
+                    { "code": "COMPENSATION_TYPE", "value": "CTC" },
+                    { "code": "COMPENSATION_TRANSFER_PERIOD", "value": "P1M" },
+                    { "code": "COMPENSATION_PERCENTAGE_SPLIT", "value": "100" }
+                  ]
+                }
+              ],
+              "price": { "currency": "INR", "value": "0", "maximum_value": "0" }
+            }
+          ],
+          "locations": []
+        },
+        {
+          "id": "883826",
+          "descriptor": {
+            "name": "Victrix Systems & Labs Pvt. Ltd.",
+            "short_desc": "",
+            "images": [
+              {
+                "url": "https://d1mgy94x89v8io.cloudfront.net/images/partners/partners75/null"
+              }
+            ]
+          },
+          "fulfillments": [{ "id": "F1", "type": "lead" }],
+          "items": [
+            {
+              "id": "1301146",
+              "category_ids": ["Digital Marketing", "IT Support"],
+              "descriptor": {
+                "name": "SEO & PPC Expert",
+                "long_desc": "<p><strong>Victrix Systems &amp; Labs Pvt Ltd is hiring!</strong></p>\n<p><strong>Roles and Responsibilities of the Candidate:</strong></p>\n<ul>\n<li>SEO Strategy &amp; Execution:\n<ul>\n<li>Develop and implement effective on-page and off-page SEO strategies to improve organic rankings.</li>\n<li>Perform keyword research, competitive analysis, and content optimization.</li>\n<li>Monitor website performance using tools like Google Analytics, Search Console, and other SEO tools.</li>\n</ul>\n</li>\n<li>PPC Campaign Management:\n<ul>\n<li>Create, manage, and optimize PPC campaigns across Google Ads, Bing, and social media platforms.</li>\n<li>Conduct A/B testing for ad creatives and landing pages.</li>\n<li>Analyze performance metrics and adjust campaigns for maximum ROI.</li>\n</ul>\n</li>\n<li>Data Analysis &amp; Reporting:\n<ul>\n<li>Track and report on campaign performance, KPIs, and key metrics.</li>\n<li>Generate insights to refine marketing strategies and improve conversion rates.</li>\n</ul>\n</li>\n<li>Collaboration:\n<ul>\n<li>You will play a crucial role in shaping campaign creatives, ensuring alignment between strategy, content, and design for maximum impact.</li>\n<li>Stay updated with the latest trends and best practices in SEO and paid marketing.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Requirements:</strong></p>\n<ul>\n<li>Proven experience (2-4 years) in SEO and PPC with a portfolio of successful campaigns.</li>\n<li>Strong knowledge of tools like Google Ads, Google Analytics, SEMrush, Ahrefs, and similar platforms.</li>\n<li>Expertise in keyword research, bid management, and campaign optimization.</li>\n<li>Analytical mindset with the ability to interpret data and drive decisions.</li>\n<li>Excellent communication and collaboration skills.</li>\n<li>Certification in Google Ads or similar platforms is a plus.</li>\n</ul>\n<p><strong>Why Join Us?</strong></p>\n<ul>\n<li>Dynamic Growth Environment: Be part of a rapidly growing company where your ideas and efforts directly contribute to success.</li>\n<li>End-to-End Ownership: Take charge of campaigns from strategy to execution, gaining a holistic understanding of digital marketing.</li>\n<li>Collaborative Team Culture: Work closely with a supportive Marketing team, ensuring your contributions are valued and impactful.</li>\n<li>Skill Enrichment: Broaden your expertise by contributing to content and design, enhancing your professional versatility.</li>\n<li>Challenging Opportunities: Tackle diverse projects that push boundaries and refine your skills in SEO and PPC.</li>\n<li>Competitive Benefits: Enjoy competitive compensation and growth opportunities tailored to your career aspirations.</li>\n<li>If you&rsquo;re passionate about driving results through SEO and PPC, we&rsquo;d love to hear from you! Join our dynamic team to craft impactful marketing strategies that lead to real results.</li>\n</ul>",
+                "short_desc": "Victrix Systems &amp; Labs Pvt Ltd is hiring!\nRoles and Responsibilities of the Candidate:\n\nSEO Stra..",
+                "images": [],
+                "media": []
+              },
+              "quantity": { "available": { "count": 1 } },
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-03-20T12:27:37.770Z",
+                "range": {
+                  "start": "2024-12-18T18:30:00.000Z",
+                  "end": "2025-03-30T18:29:59.000Z"
+                }
+              },
+              "location_ids": [],
+              "fulfillment_ids": ["F1"],
+              "creator": {
+                "descriptor": { "name": "VIJAYALAXMI YADAV" },
+                "contact": {
+                  "phone": "+919769145457",
+                  "email": "vijayalaxmi.yadav@victrixsystems.com"
+                }
+              },
+              "tags": [
+                {
+                  "descriptor": { "code": "JOB_DETAILS" },
+                  "list": [
+                    {
+                      "descriptor": { "code": "JOB_ROLE" },
+                      "value": "SEO & PPC Expert"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "Digital Marketing"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_LEVEL" },
+                      "value": "IT Support"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Male"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Female"
+                    },
+                    {
+                      "descriptor": { "code": "GENDER_PREFERENCE" },
+                      "value": "Other"
+                    },
+                    {
+                      "descriptor": { "code": "JOB_TYPE" },
+                      "value": "full-time"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "TIMING" },
+                  "list": [
+                    { "descriptor": { "code": "DAY_FROM" }, "value": "1" },
+                    { "descriptor": { "code": "DAY_TO" }, "value": "5" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "COMPENSATION" },
+                  "list": [
+                    { "descriptor": { "code": "TYPE" }, "value": "ctc" },
+                    { "descriptor": { "code": "MIN" }, "value": "400000" },
+                    { "descriptor": { "code": "MAX" }, "value": "400000" }
+                  ]
+                },
+                {
+                  "descriptor": { "code": "NP_FEES" },
+                  "list": [
+                    { "code": "ID", "value": "1" },
+                    { "code": "COMMERCIAL_TYPE", "value": "amount" },
+                    { "code": "COMMERCIAL_VALUE", "value": "0" },
+                    { "code": "COMMERCIAL_NAME", "value": "lead" },
+                    {
+                      "code": "COMMERCIAL_TRIGGERING_STATE",
+                      "value": "APPLICATION_SUBMITTED"
+                    },
+                    { "code": "COMPENSATION_TYPE", "value": "CTC" },
+                    { "code": "COMPENSATION_TRANSFER_PERIOD", "value": "P1M" },
+                    { "code": "COMPENSATION_PERCENTAGE_SPLIT", "value": "100" }
+                  ]
+                }
+              ],
+              "price": { "currency": "INR", "value": "0", "maximum_value": "0" }
+            }
+          ],
+          "locations": []
+        }
+      ]
+    }
+  }
+}
