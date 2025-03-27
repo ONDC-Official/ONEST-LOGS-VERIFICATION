@@ -1,49 +1,54 @@
 {
-    "context": {
-      "domain": "ONDC:ONEST10",
-      "action": "select",
-      "version": "2.0.0",
-      "transaction_id": "c4bdee1d-e8f3-4b07-995c-7b53d2275e7c",
-      "message_id": "41f173c6-eb6b-4f99-9f49-a927abaa0e5d",
-      "location": {
-        "city": {
-          "code": "std:080"
-        },
-        "country": {
-          "code": "IND"
-        }
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "select",
+    "version": "2.0.0",
+    "transaction_id": "ce70982d-bf37-4ae9-8179-55098afe38b5",
+    "message_id": "feec63d8-10f3-474e-a732-aff2c3d8de4d",
+    "location": {
+      "city": {
+        "code": "std:080"
       },
-      "timestamp": "2025-03-26T11:39:14.881Z",
-      "ttl": "PT30S",
-      "bap_id": "onest-mock-service.ondc.org",
-      "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
-      "bpp_id": "ondc-qa.taggd.ai",
-      "bpp_uri": "https://ondc-qa.taggd.ai/api"
-    },
-    "message": {
-      "order": {
-        "provider": {
-          "id": "ondc-qa.taggd.ai"
-        },
-        "fulfillments": [
-          {
-            "id": "F1",
-            "type": "lead"
-          }
-        ],
-        "items": [
-          {
-            "id": "ITC/1234567782",
-            "tags": [
-              {
-                "descriptor": {
-                  "code": "NP_FEES"
-                },
-                "list": []
-              }
-            ]
-          }
-        ]
+      "country": {
+        "code": "IND"
       }
+    },
+    "timestamp": "2025-03-27T10:30:16.700Z",
+    "ttl": "PT30S",
+    "bap_id": "onest-mock-service.ondc.org",
+    "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
+    "bpp_id": "ondc-qa.taggd.ai",
+    "bpp_uri": "https://ondc-qa.taggd.ai/api"
+  },
+  "message": {
+    "order": {
+      "provider": {
+        "id": "ondc-qa.taggd.ai"
+      },
+      "fulfillments": [
+        {
+          "id": "F1",
+          "type": "lead"
+        }
+      ],
+      "items": [
+        {
+          "id": "ITC/1234567782",
+          "tags": [
+            {
+              "descriptor": {
+                "code": "NP_FEES"
+              },
+              "list": [
+                {
+                  "value": "1",
+                  "code": "ID"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   }
+}

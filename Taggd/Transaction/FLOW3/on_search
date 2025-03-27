@@ -1,433 +1,395 @@
 {
-    "context": {
-      "domain": "ONDC:ONEST10",
-      "action": "on_search",
-      "version": "2.0.0",
-      "transaction_id": "c4bdee1d-e8f3-4b07-995c-7b53d2275e7c",
-      "message_id": "dbfd8585-c5c9-4fda-8466-a8cfe5009f1c",
-      "location": {
-        "city": {
-          "code": "std:080"
-        },
-        "country": {
-          "code": "IND"
-        }
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "on_search",
+    "version": "2.0.0",
+    "transaction_id": "ce70982d-bf37-4ae9-8179-55098afe38b5",
+    "message_id": "8c22848b-6d61-44c1-80c2-3f46551e130a",
+    "location": {
+      "city": {
+        "code": "std:080"
       },
-      "timestamp": "2025-03-26T11:39:07.346Z",
-      "ttl": "PT30S",
-      "bap_id": "onest-mock-service.ondc.org",
-      "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
-      "bpp_id": "ondc-qa.taggd.ai",
-      "bpp_uri": "https://ondc-qa.taggd.ai/api"
+      "country": {
+        "code": "IND"
+      }
     },
-    "message": {
-      "catalog": {
-        "providers": [
-          {
-            "id": "ondc-qa.taggd.ai",
-            "locations": [
-              {
-                "id": "L1",
-                "city": {
-                  "name": "Lalitpur",
-                  "code": "std:05176"
-                },
-                "state": {
-                  "name": "Manipur",
-                  "code": "IN-MN"
-                }
+    "timestamp": "2025-03-27T10:30:06.122Z",
+    "ttl": "PT30S",
+    "bap_id": "onest-mock-service.ondc.org",
+    "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
+    "bpp_id": "ondc-qa.taggd.ai",
+    "bpp_uri": "https://ondc-qa.taggd.ai/api"
+  },
+  "message": {
+    "catalog": {
+      "providers": [
+        {
+          "id": "ondc-qa.taggd.ai",
+          "locations": [
+            {
+              "id": "L1",
+              "city": {
+                "code": "std:05176"
               },
+              "state": {
+                "code": "IN-MN"
+              }
+            },
+            {
+              "id": "L2",
+              "city": {
+                "code": "std:0491"
+              },
+              "state": {
+                "code": "std:05735"
+              }
+            }
+          ],
+          "descriptor": {
+            "name": "Taggd",
+            "images": [
               {
-                "id": "L2",
-                "city": {
-                  "name": "Palghat",
-                  "code": "std:0491"
-                },
-                "state": {
-                  "name": "Gulaothi",
-                  "code": "std:05735"
-                }
+                "url": "https://static-image.taggd.in/logonew.png"
               }
             ],
-            "descriptor": {
-              "name": "Taggd",
-              "images": [
+            "short_desc": "Taggd"
+          },
+          "items": [
+            {
+              "id": "ITC/1234567782",
+              "descriptor": {
+                "name": "Test Java",
+                "media": [
+                  {
+                    "mimetype": "",
+                    "url": ""
+                  }
+                ],
+                "long_desc": "THis is a test job description"
+              },
+              "tags": [
                 {
-                  "url": "https://static-image.taggd.in/logonew.png"
+                  "descriptor": {
+                    "code": "NP_FEES"
+                  },
+                  "list": [
+                    {
+                      "value": "1",
+                      "code": "ID"
+                    },
+                    {
+                      "value": "percent",
+                      "code": "COMMERCIAL_TYPE"
+                    },
+                    {
+                      "value": "0",
+                      "code": "COMMERCIAL_VALUE"
+                    },
+                    {
+                      "value": "recruitment",
+                      "code": "COMMERCIAL_NAME"
+                    },
+                    {
+                      "value": "LPA",
+                      "code": "COMPENSATION_TYPE"
+                    },
+                    {
+                      "value": "P1M,P2M,P3M",
+                      "code": "COMPENSATION_TRANSFER_PERIOD"
+                    },
+                    {
+                      "value": "50,25,25",
+                      "code": "COMPENSATION_PERCENTAGE_SPLIT"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "TIMING"
+                  },
+                  "list": [
+                    {
+                      "value": "1",
+                      "code": "DAY_FROM"
+                    },
+                    {
+                      "value": "5",
+                      "code": "DAY_TO"
+                    },
+                    {
+                      "value": "0900",
+                      "code": "TIME_FROM"
+                    },
+                    {
+                      "value": "1800",
+                      "code": "TIME_TO"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "TIMING"
+                  },
+                  "list": [
+                    {
+                      "value": "6",
+                      "code": "DAY_FROM"
+                    },
+                    {
+                      "value": "6",
+                      "code": "DAY_TO"
+                    },
+                    {
+                      "value": "0900",
+                      "code": "TIME_FROM"
+                    },
+                    {
+                      "value": "1400",
+                      "code": "TIME_TO"
+                    }
+                  ]
                 }
               ],
-              "short_desc": "Taggd"
+              "quantity": {
+                "available": {
+                  "count": 5
+                }
+              },
+              "location_ids": [
+                "L1"
+              ],
+              "category_ids": [
+                "IT"
+              ],
+              "fulfillment_ids": [
+                "F1"
+              ],
+              "time": {
+                "range": {
+                  "start": "2024-12-10T06:40:00.000Z",
+                  "end": "2024-12-10T06:40:00.000Z"
+                },
+                "label": "enable",
+                "timestamp": "2024-12-10T06:40:00.000Z"
+              },
+              "creator": {
+                "descriptor": {
+                  "code": "Taggd_01",
+                  "name": "Taggd",
+                  "media": [
+                    {
+                      "mimetype": "image/jpeg",
+                      "url": "https://marketplace.com/logo.jpg"
+                    }
+                  ],
+                  "images": [
+                    {
+                      "url": "https://static-image.taggd.in/logonew.png"
+                    }
+                  ],
+                  "short_desc": "Digital Recruitment Platform",
+                  "long_desc": "Taggd is one of India's best digital recruitment platforms powered by AI, offering talent acquisition to ease the hiring process for employers & job-seekers!"
+                },
+                "address": "A-10, Infocity, Sector 34, Gurugram, Haryana, India - 122001",
+                "state": {
+                  "code": "HR"
+                },
+                "city": {
+                  "code": "GUR"
+                },
+                "contact": {
+                  "phone": "+91255XXXXX",
+                  "email": "analytics@taggd.in"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "1150"
+              }
             },
-            "items": [
-              {
-                "id": "ITC/1234567782",
-                "descriptor": {
-                  "name": "Test Java",
-                  "media": [
-                    {
-                      "mimetype": "",
-                      "url": ""
-                    }
-                  ],
-                  "long_desc": "THis is a test job description"
-                },
-                "tags": [
-                  {
-                    "descriptor": {
-                      "code": "NP_FEES"
-                    },
-                    "list": [
-                      {
-                        "descriptor": {
-                          "code": "ID"
-                        },
-                        "value": "1"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "COMMERCIAL_TYPE"
-                        },
-                        "value": "percent"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "COMMERCIAL_VALUE"
-                        },
-                        "value": "0"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "COMMERCIAL_NAME"
-                        },
-                        "value": "recruitment"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "COMPENSATION_TYPE"
-                        },
-                        "value": "LPA"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "COMPENSATION_TRANSFER_PERIOD"
-                        },
-                        "value": "P1M,P2M,P3M"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "COMPENSATION_PERCENTAGE_SPLIT"
-                        },
-                        "value": "50,25,25"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "DAY_FROM"
-                        },
-                        "value": "1"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "DAY_TO"
-                        },
-                        "value": "5"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "TIME_FROM"
-                        },
-                        "value": "0900"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "TIME_TO"
-                        },
-                        "value": "1800"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "DAY_FROM"
-                        },
-                        "value": "6"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "DAY_TO"
-                        },
-                        "value": "6"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "TIME_FROM"
-                        },
-                        "value": "0900"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "TIME_TO"
-                        },
-                        "value": "1400"
-                      }
-                    ]
-                  }
-                ],
-                "quantity": {
-                  "available": {
-                    "count": 5
-                  }
-                },
-                "location_ids": [
-                  "L1"
-                ],
-                "category_ids": [
-                  "IT"
-                ],
-                "fulfillment_ids": [
-                  "F1"
-                ],
-                "time": {
-                  "range": {
-                    "start": "2024-12-10T06:40:00.000Z",
-                    "end": "2024-12-10T06:40:00.000Z"
-                  },
-                  "label": "enable",
-                  "timestamp": "2024-12-10T06:40:00.000Z"
-                },
-                "creator": {
-                  "descriptor": {
-                    "code": "Taggd_01",
-                    "name": "Taggd",
-                    "media": [
-                      {
-                        "mimetype": "image/jpeg",
-                        "url": "https://marketplace.com/logo.jpg"
-                      }
-                    ],
-                    "images": [
-                      {
-                        "url": "https://static-image.taggd.in/logonew.png"
-                      }
-                    ],
-                    "short_desc": "Digital Recruitment Platform",
-                    "long_desc": "Taggd is one of India's best digital recruitment platforms powered by AI, offering talent acquisition to ease the hiring process for employers & job-seekers!"
-                  },
-                  "address": "A-10, Infocity, Sector 34, Gurugram, Haryana, India - 122001",
-                  "state": {
-                    "code": "HR"
-                  },
-                  "city": {
-                    "code": "GUR"
-                  },
-                  "contact": {
-                    "phone": "+91255XXXXX",
-                    "email": "analytics@taggd.in"
-                  }
-                },
-                "price": {
-                  "currency": "INR",
-                  "value": "1150"
-                }
-              },
-              {
-                "id": "DEVJ2024",
-                "descriptor": {
-                  "name": "Java Developer",
-                  "media": [
-                    {
-                      "mimetype": "",
-                      "url": ""
-                    }
-                  ],
-                  "long_desc": "We are looking for an experienced Java Developer to join our team."
-                },
-                "tags": [
-                  {
-                    "descriptor": {
-                      "code": "NP_FEES"
-                    },
-                    "list": [
-                      {
-                        "descriptor": {
-                          "code": "ID"
-                        },
-                        "value": "1"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "COMMERCIAL_TYPE"
-                        },
-                        "value": "percent"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "COMMERCIAL_VALUE"
-                        },
-                        "value": "0"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "COMMERCIAL_NAME"
-                        },
-                        "value": "recruitment"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "COMPENSATION_TYPE"
-                        },
-                        "value": "LPA"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "COMPENSATION_TRANSFER_PERIOD"
-                        },
-                        "value": "P1M,P2M,P3M"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "COMPENSATION_PERCENTAGE_SPLIT"
-                        },
-                        "value": "50,25,25"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "DAY_FROM"
-                        },
-                        "value": "1"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "DAY_TO"
-                        },
-                        "value": "5"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "TIME_FROM"
-                        },
-                        "value": "0900"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "TIME_TO"
-                        },
-                        "value": "1800"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "DAY_FROM"
-                        },
-                        "value": "6"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "DAY_TO"
-                        },
-                        "value": "6"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "TIME_FROM"
-                        },
-                        "value": "0900"
-                      },
-                      {
-                        "descriptor": {
-                          "code": "TIME_TO"
-                        },
-                        "value": "1400"
-                      }
-                    ]
-                  }
-                ],
-                "quantity": {
-                  "available": {
-                    "count": 4
-                  }
-                },
-                "location_ids": [
-                  "L2"
-                ],
-                "category_ids": [
-                  "IT"
-                ],
-                "fulfillment_ids": [
-                  "F1"
-                ],
-                "time": {
-                  "range": {
-                    "start": "2024-12-18T05:21:27.767Z",
-                    "end": "2024-12-18T05:21:27.767Z"
-                  },
-                  "label": "enable",
-                  "timestamp": "2024-12-18T05:21:27.767Z"
-                },
-                "creator": {
-                  "descriptor": {
-                    "code": "Taggd_01",
-                    "name": "Taggd",
-                    "media": [
-                      {
-                        "mimetype": "image/jpeg",
-                        "url": "https://marketplace.com/logo.jpg"
-                      }
-                    ],
-                    "images": [
-                      {
-                        "url": "https://static-image.taggd.in/logonew.png"
-                      }
-                    ],
-                    "short_desc": "Digital Recruitment Platform",
-                    "long_desc": "Taggd is one of India's best digital recruitment platforms powered by AI, offering talent acquisition to ease the hiring process for employers & job-seekers!"
-                  },
-                  "address": "A-10, Infocity, Sector 34, Gurugram, Haryana, India - 122001",
-                  "state": {
-                    "code": "HR"
-                  },
-                  "city": {
-                    "code": "GUR"
-                  },
-                  "contact": {
-                    "phone": "+91255XXXXX",
-                    "email": "analytics@taggd.in"
-                  }
-                },
-                "price": {
-                  "currency": "INR",
-                  "value": "1150"
-                }
-              }
-            ],
-            "fulfillments": [
-              {
-                "id": "F3",
-                "type": "lead & recruitment"
-              },
-              {
-                "id": "F1",
-                "type": "lead"
-              },
-              {
-                "id": "F2",
-                "type": "recruitment"
-              }
-            ],
-            "tags": {
+            {
+              "id": "DEVJ2024",
               "descriptor": {
-                "code": "LOCATION"
+                "name": "Java Developer",
+                "media": [
+                  {
+                    "mimetype": "",
+                    "url": ""
+                  }
+                ],
+                "long_desc": "We are looking for an experienced Java Developer to join our team."
               },
-              "list": [
+              "tags": [
                 {
                   "descriptor": {
-                    "code": "ADDRESS"
+                    "code": "NP_FEES"
                   },
-                  "value": "A-10, Infocity, Sector 34, Gurugram, Haryana, India - 122001"
+                  "list": [
+                    {
+                      "value": "1",
+                      "code": "ID"
+                    },
+                    {
+                      "value": "percent",
+                      "code": "COMMERCIAL_TYPE"
+                    },
+                    {
+                      "value": "0",
+                      "code": "COMMERCIAL_VALUE"
+                    },
+                    {
+                      "value": "recruitment",
+                      "code": "COMMERCIAL_NAME"
+                    },
+                    {
+                      "value": "LPA",
+                      "code": "COMPENSATION_TYPE"
+                    },
+                    {
+                      "value": "P1M,P2M,P3M",
+                      "code": "COMPENSATION_TRANSFER_PERIOD"
+                    },
+                    {
+                      "value": "50,25,25",
+                      "code": "COMPENSATION_PERCENTAGE_SPLIT"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "TIMING"
+                  },
+                  "list": [
+                    {
+                      "value": "1",
+                      "code": "DAY_FROM"
+                    },
+                    {
+                      "value": "5",
+                      "code": "DAY_TO"
+                    },
+                    {
+                      "value": "0900",
+                      "code": "TIME_FROM"
+                    },
+                    {
+                      "value": "1800",
+                      "code": "TIME_TO"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "TIMING"
+                  },
+                  "list": [
+                    {
+                      "value": "6",
+                      "code": "DAY_FROM"
+                    },
+                    {
+                      "value": "6",
+                      "code": "DAY_TO"
+                    },
+                    {
+                      "value": "0900",
+                      "code": "TIME_FROM"
+                    },
+                    {
+                      "value": "1400",
+                      "code": "TIME_TO"
+                    }
+                  ]
                 }
-              ]
+              ],
+              "quantity": {
+                "available": {
+                  "count": 4
+                }
+              },
+              "location_ids": [
+                "L2"
+              ],
+              "category_ids": [
+                "IT"
+              ],
+              "fulfillment_ids": [
+                "F1"
+              ],
+              "time": {
+                "range": {
+                  "start": "2024-12-18T05:21:27.767Z",
+                  "end": "2024-12-18T05:21:27.767Z"
+                },
+                "label": "enable",
+                "timestamp": "2024-12-18T05:21:27.767Z"
+              },
+              "creator": {
+                "descriptor": {
+                  "code": "Taggd_01",
+                  "name": "Taggd",
+                  "media": [
+                    {
+                      "mimetype": "image/jpeg",
+                      "url": "https://marketplace.com/logo.jpg"
+                    }
+                  ],
+                  "images": [
+                    {
+                      "url": "https://static-image.taggd.in/logonew.png"
+                    }
+                  ],
+                  "short_desc": "Digital Recruitment Platform",
+                  "long_desc": "Taggd is one of India's best digital recruitment platforms powered by AI, offering talent acquisition to ease the hiring process for employers & job-seekers!"
+                },
+                "address": "A-10, Infocity, Sector 34, Gurugram, Haryana, India - 122001",
+                "state": {
+                  "code": "HR"
+                },
+                "city": {
+                  "code": "GUR"
+                },
+                "contact": {
+                  "phone": "+91255XXXXX",
+                  "email": "analytics@taggd.in"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "1150"
+              }
             }
+          ],
+          "fulfillments": [
+            {
+              "id": "F3",
+              "type": "lead & recruitment"
+            },
+            {
+              "id": "F1",
+              "type": "lead"
+            },
+            {
+              "id": "F2",
+              "type": "recruitment"
+            }
+          ],
+          "tags": {
+            "descriptor": {
+              "code": "LOCATION"
+            },
+            "list": [
+              {
+                "value": "A-10, Infocity, Sector 34, Gurugram, Haryana, India - 122001",
+                "code": "ADDRESS"
+              }
+            ]
           }
-        ],
-        "descriptor": {
-          "name": "Taggd job"
         }
+      ],
+      "descriptor": {
+        "name": "Taggd job"
       }
     }
   }
+}

@@ -1,10 +1,10 @@
 {
   "context": {
     "domain": "ONDC:ONEST10",
-    "action": "on_status",
+    "action": "on_update",
     "version": "2.0.0",
     "transaction_id": "7fe581b7-76d3-416c-8484-17cd97e0118e",
-    "message_id": "6f2d8cf8-3726-48d7-b48e-d79c2092c65b",
+    "message_id": "6126cb3b-8deb-4db0-aad1-103d77a0a528",
     "location": {
       "city": {
         "code": "std:080"
@@ -13,7 +13,7 @@
         "code": "IND"
       }
     },
-    "timestamp": "2025-03-27T10:18:02.181Z",
+    "timestamp": "2025-03-27T10:20:03.978Z",
     "ttl": "PT90S",
     "bap_id": "onest-mock-service.ondc.org",
     "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
@@ -29,29 +29,34 @@
       "items": [
         {
           "id": "ITC/1234567782",
+          "tags": [
+            {
+              "descriptor": {
+                "code": "NP_FEES"
+              },
+              "list": [
+                {
+                  "value": "1",
+                  "code": "ID"
+                }
+              ]
+            }
+          ],
           "fulfillment_ids": [
             "F1"
-          ],
-          "time": {
-            "range": {
-              "start": "2024-12-10T06:40:00.000Z",
-              "end": "2024-12-31T08:40:00.000Z"
-            },
-            "label": "enable",
-            "timestamp": "2024-12-10T06:40:00.000Z"
-          }
+          ]
         }
       ],
-      "status": "Active",
+      "status": "Completed",
       "fulfillments": [
         {
           "id": "F1",
           "type": "lead",
           "state": {
             "descriptor": {
-              "code": "APPLICATION_ACCEPTED"
+              "code": "OFFER_ACCEPTED"
             },
-            "updated_at": "2025-03-27T10:18:02.181Z"
+            "updated_at": "2025-03-27T10:20:03.978Z"
           }
         }
       ],
@@ -97,8 +102,7 @@
           }
         ],
         "ttl": "PT90S"
-      },
-      "updated_at": "2025-03-27T10:18:02.181Z"
+      }
     }
   }
 }
