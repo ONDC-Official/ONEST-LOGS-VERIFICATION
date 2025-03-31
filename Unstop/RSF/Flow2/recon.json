@@ -1,61 +1,62 @@
 {
     "context": {
-        "domain": "ONDC:ONEST10",
-        "action": "recon",
-        "version": "2.0.0",
-        "bpp_id": "rsf-mock-service.ondc.org/seller_protocol_server/ondc/recon",
-        "bpp_uri": "https://rsf-mock-service.ondc.org/seller_protocol_server/ondc/settle/recon",
-        "bap_id": "preprod-ondc.unstop.com",
-        "bap_uri": "https://preprod-ondc.unstop.com/work-opportunities/",
-        "transaction_id": "3ca813a7-8d9c-46e2-8bd4-f54fe9eac79d",
-        "message_id": "t5607549-c8f6-4f36-8eb7-7b3c237061ae",
-        "location": {
-            "city": {
-                "code": "std:080"
-            },
-            "country": {
-                "code": "IND"
-            }
+      "domain": "ONDC:ONEST10",
+      "action": "recon",
+      "version": "2.0.0",
+      "bpp_id": "rsf-mock-service.ondc.org/seller_protocol_server/ondc/recon",
+      "bpp_uri": "https://rsf-mock-service.ondc.org/seller_protocol_server/ondc/settle/recon",
+      "bap_id": "preprod-ondc.unstop.com",
+      "bap_uri": "https://preprod-ondc.unstop.com/work-opportunities/",
+      "transaction_id": "3ca813a7-8d9c-46e2-8bd4-f54fe9eac79d",
+      "message_id": "t5607549-c8f6-4f36-8eb7-7b3c237061ae",
+      "location": {
+        "city": {
+          "code": "std:080"
         },
-        "timestamp": "2025-03-12T10:15:02.403Z",
-        "ttl": "PT30S"
+        "country": {
+          "code": "IND"
+        }
+      },
+      "timestamp": "2025-03-12T10:15:02.403Z",
+      "ttl": "PT30S"
     },
     "message": {
-      "orders": [{
-        "settlements": [
-          {
-            "payment_id": "6a8a2f42-1344-40cb-a287-2b7ab39e2e91",
-            "status": "PENDING",
-            "amount": {
+      "orders": [
+        {
+          "settlements": [
+            {
+              "payment_id": "6a8a2f42-1344-40cb-a287-2b7ab39e2e91",
+              "status": "PENDING",
+              "amount": {
                 "currency": "INR",
                 "value": "0"
-            },
-            "commission": {
+              },
+              "commission": {
                 "currency": "INR",
                 "value": "0"
-            },
-            "withholding_amount": {
+              },
+              "withholding_amount": {
                 "currency": "INR",
                 "value": "0.00"
-            },
-            "tcs": {
+              },
+              "tcs": {
                 "currency": "INR",
                 "value": "0.00"
-            },
-            "tds": {
+              },
+              "tds": {
                 "currency": "INR",
                 "value": "0.00"
-            },
-            "updated_at": "2025-02-19T18:38:19.386Z",
-            "id": "4c03837b-e797-4f8b-b3a5-d8967b5bbb72"
-          }
-        ],
-        "amount": {
-					"currency": "INR",
-					"value": "0"
-				},
-        "id": "cae6ea80-025c-4783-a67d-08df96845267"
-      }
+              },
+              "updated_at": "2025-02-19T18:38:19.386Z",
+              "id": "4c03837b-e797-4f8b-b3a5-d8967b5bbb72"
+            }
+          ],
+          "amount": {
+            "currency": "INR",
+            "value": "0"
+          },
+          "id": "cae6ea80-025c-4783-a67d-08df96845267"
+        }
       ]
     }
-}
+  }

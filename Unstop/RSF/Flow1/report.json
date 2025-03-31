@@ -1,27 +1,27 @@
 {
     "context": {
-        "domain": "ONDC:ONEST10",
-        "action": "report",
-        "version": "2.0.0",
-        "bpp_id": "rsf-mock-service.ondc.org/seller_protocol_server/ondc/report",
-        "bpp_uri": "https://rsf-mock-service.ondc.org/seller_protocol_server/ondc/report",
-        "bap_id": "preprod-ondc.unstop.com",
-        "bap_uri": "https://preprod-ondc.unstop.com/work-opportunities/",
-        "transaction_id": "3ca813a7-8d9c-46e2-8bd4-f54fe9eac77d",
-        "message_id": "a5607549-c8f6-4f36-8eb7-7b3c237061af",
-        "location": {
-            "city": {
-                "code": "std:080"
-            },
-            "country": {
-                "code": "IND"
-            }
+      "domain": "ONDC:ONEST10",
+      "action": "report",
+      "version": "2.0.0",
+      "bpp_id": "rsf-mock-service.ondc.org/seller_protocol_server/ondc/report",
+      "bpp_uri": "https://rsf-mock-service.ondc.org/seller_protocol_server/ondc/report",
+      "bap_id": "preprod-ondc.unstop.com",
+      "bap_uri": "https://preprod-ondc.unstop.com/work-opportunities/",
+      "transaction_id": "3ca813a7-8d9c-46e2-8bd4-f54fe9eac77d",
+      "message_id": "a5607549-c8f6-4f36-8eb7-7b3c237061af",
+      "location": {
+        "city": {
+          "code": "std:080"
         },
-        "timestamp": "2025-03-19T10:15:02.403Z",
-        "ttl": "PT30S"
+        "country": {
+          "code": "IND"
+        }
+      },
+      "timestamp": "2025-03-19T10:15:02.403Z",
+      "ttl": "PT30S"
     },
     "message": {
-        "ref_transaction_id": "3ca813a7-8d9c-46e2-8bd4-f54fe9eac77d",
-        "ref_message_id": "t5607549-c8f6-4f36-8eb7-7b3c237061af"
+      "ref_transaction_id": "3ca813a7-8d9c-46e2-8bd4-f54fe9eac77d",
+      "ref_message_id": "t5607549-c8f6-4f36-8eb7-7b3c237061af"
     }
-}
+  }

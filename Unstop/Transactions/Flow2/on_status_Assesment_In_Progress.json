@@ -1,36 +1,36 @@
 {
   "context": {
     "domain": "ONDC:ONEST10",
-    "action": "on_cancel",
+    "action": "on_status",
     "version": "2.0.0",
     "bap_id": "onest-mock-service.ondc.org",
     "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
     "bpp_id": "preprod-ondc.unstop.com",
     "bpp_uri": "https://preprod-ondc.unstop.com/work-opportunities/",
-    "transaction_id": "edf792e5-72ed-403c-b1af-aa6279d7b919",
-    "message_id": "a1b8ea97-cdbd-493a-a530-45f82bfadf87",
+    "transaction_id": "72f38f22-4217-408d-b9e0-e29922d06b4b",
+    "message_id": "e173c7c5-7bc4-4f1d-b6e4-030a4ecf331d",
     "location": {
       "city": {
-        "code": "std:080"
+        "code": "std:011"
       },
       "country": {
         "code": "IND"
       }
     },
-    "timestamp": "2025-03-21T07:46:26.168Z",
+    "timestamp": "2025-03-31T06:26:26.461Z",
     "ttl": "PT30S"
   },
   "message": {
     "order": {
-      "id": "e6012759-7971-4db9-a628-5bbb7395e118",
-      "status": "Cancelled",
+      "id": "8e22c4e4-1d9b-4ea8-869f-49ac3f7b9672",
+      "status": "Active",
       "provider": {
-        "id": "942136"
+        "id": "499"
       },
       "state": {
-        "updated_at": "2025-03-21T07:46:28.389Z"
+        "updated_at": "2025-03-31T06:22:39.000Z"
       },
-      "updated_at": "2025-03-21T07:46:28.389Z",
+      "updated_at": "2025-03-31T06:22:39.000Z",
       "payments": [
         {
           "status": "PAID",
@@ -82,7 +82,7 @@
           "params": {
             "amount": "0",
             "currency": "INR",
-            "transaction_id": "9dd4f82b-d714-4530-a3d6-274e19aad097"
+            "transaction_id": "a75d49b6-ca06-42ba-9424-bb685d0f2b51"
           }
         }
       ],
@@ -91,9 +91,9 @@
           "id": "F1",
           "type": "lead",
           "state": {
-            "updated_at": "2025-03-21T07:46:28.389Z",
+            "updated_at": "2025-03-31T06:22:39.000Z",
             "descriptor": {
-              "code": "CANCELLED"
+              "code": "ASSESSMENT_IN_PROGRESS"
             }
           }
         }
@@ -107,17 +107,44 @@
         "breakup": [
           {
             "item": {
-              "id": "1012489",
+              "id": "917751",
               "price": {
                 "currency": "INR",
                 "value": "0"
               },
-              "title": "Business Development Internship"
+              "title": "Field Sales Internship"
             }
           }
         ]
       },
-      "items": []
+      "items": [
+        {
+          "id": "917751",
+          "fulfillment_ids": [
+            "F1"
+          ],
+          "tags": [
+            {
+              "descriptor": {
+                "code": "NP_FEES"
+              },
+              "list": [
+                {
+                  "code": "ID",
+                  "value": "1"
+                }
+              ]
+            }
+          ],
+          "title": "Field Sales Internship",
+          "time": {
+            "range": {
+              "start": "2025-03-31T06:26:26.500Z",
+              "end": "2025-03-31T06:26:26.500Z"
+            }
+          }
+        }
+      ]
     }
   }
 }

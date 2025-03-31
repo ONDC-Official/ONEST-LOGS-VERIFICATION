@@ -4,7 +4,14 @@
     "bap_uri": "https://igm-mock-service.ondc.org/igm-protocol-server-staging/ondc",
     "bpp_id": "preprod-ondc.unstop.com",
     "bpp_uri": "https://preprod-ondc.unstop.com/work-opportunities/",
-    "location": { "country": { "code": "IND" }, "city": { "code": "*" } },
+    "location": {
+      "country": {
+        "code": "IND"
+      },
+      "city": {
+        "code": "*"
+      }
+    },
     "transaction_id": "transaction_id_test_id",
     "message_id": "message_id_message_id",
     "timestamp": "2025-03-21T10:23:31.147Z",
@@ -13,5 +20,7 @@
     "ttl": "PT10M",
     "action": "issue_status"
   },
-  "message": { "issue_id": "ISSUE-1" }
+  "message": {
+    "issue_id": "ISSUE-1"
+  }
 }

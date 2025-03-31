@@ -9,7 +9,14 @@
     "bpp_uri": "https://preprod-ondc.unstop.com/work-opportunities/",
     "transaction_id": "transaction_id_test_id",
     "message_id": "message_id_message_id",
-    "location": { "city": { "code": "*" }, "country": { "code": "IND" } },
+    "location": {
+      "city": {
+        "code": "*"
+      },
+      "country": {
+        "code": "IND"
+      }
+    },
     "timestamp": "2025-03-11T10:16:50.679Z",
     "ttl": "PT30S"
   },
@@ -18,38 +25,64 @@
       "id": "ISSUE-1",
       "level": "ISSUE",
       "status": "RESOLVED",
-      "expected_response_time": { "duration": "PT2H" },
-      "expected_resolution_time": { "duration": "P1D" },
-      "refs": [{ "ref_id": "12134567879", "ref_type": "ORDER" }],
+      "expected_response_time": {
+        "duration": "PT2H"
+      },
+      "expected_resolution_time": {
+        "duration": "P1D"
+      },
+      "refs": [
+        {
+          "ref_id": "12134567879",
+          "ref_type": "ORDER"
+        }
+      ],
       "actors": [
         {
           "id": "CUST1",
           "type": "CONSUMER",
           "info": {
-            "org": { "name": "buyerapp.com::ONDC:RET10" },
-            "person": { "name": "Sam Manuel" },
-            "contact": { "phone": "9879879870", "email": "sam@yahoo.com" }
+            "org": {
+              "name": "buyerapp.com::ONDC:RET10"
+            },
+            "person": {
+              "name": "Sam Manuel"
+            },
+            "contact": {
+              "phone": "9879879870",
+              "email": "sam@yahoo.com"
+            }
           }
         },
         {
           "id": "NP1",
           "type": "INTERFACING_NP",
           "info": {
-            "org": { "name": "buyerapp.com::ONDC:RET10" },
+            "org": {
+              "name": "buyerapp.com::ONDC:RET10"
+            },
             "contact": {
               "phone": "9450394039",
               "email": "buyerapp@interface.com"
             },
-            "person": { "name": "John Doe" }
+            "person": {
+              "name": "John Doe"
+            }
           }
         },
         {
           "id": "NP2",
           "type": "TRANSACTION_COUNTERPARTY_NP",
           "info": {
-            "contact": { "email": "subhash@unstop.com" },
-            "org": { "name": "buyerapp.com::ONDC:RET10" },
-            "person": { "name": "subhash" }
+            "contact": {
+              "email": "subhash@unstop.com"
+            },
+            "org": {
+              "name": "buyerapp.com::ONDC:RET10"
+            },
+            "person": {
+              "name": "subhash"
+            }
           }
         }
       ],
@@ -72,44 +105,75 @@
       "actions": [
         {
           "id": "action_id",
-          "description": { "code": "OPEN", "short_desc": "OPEN" },
+          "description": {
+            "code": "OPEN",
+            "short_desc": "OPEN"
+          },
           "updated_at": "2025-03-21T10:08:25.348Z",
           "action_by": "NP1",
-          "actor_details": { "name": "Sam Manuel" }
+          "actor_details": {
+            "name": "Sam Manuel"
+          }
         },
         {
           "id": "action_id",
-          "description": { "code": "CLOSED", "short_desc": "OPEN" },
+          "description": {
+            "code": "CLOSED",
+            "short_desc": "OPEN"
+          },
           "updated_at": "2025-03-21T10:13:10.026Z",
           "action_by": "NP1",
-          "actor_details": { "name": "Sam Manuel" },
+          "actor_details": {
+            "name": "Sam Manuel"
+          },
           "tags": [
             {
-              "descriptor": { "code": "CLOSURE_DETAILS" },
+              "descriptor": {
+                "code": "CLOSURE_DETAILS"
+              },
               "list": [
-                { "descriptor": { "code": "RATING" }, "value": "THUMBS_UP" }
+                {
+                  "descriptor": {
+                    "code": "RATING"
+                  },
+                  "value": "THUMBS_UP"
+                }
               ]
             }
           ]
         },
         {
           "id": "action_id",
-          "description": { "code": "CLOSED", "short_desc": "Closed" },
+          "description": {
+            "code": "CLOSED",
+            "short_desc": "Closed"
+          },
           "updated_at": "2025-03-21T10:15:48.827Z",
           "action_by": "NP1",
-          "actor_details": { "name": "Sam Manuel" },
+          "actor_details": {
+            "name": "Sam Manuel"
+          },
           "tags": [
             {
-              "descriptor": { "code": "CLOSURE_DETAILS" },
+              "descriptor": {
+                "code": "CLOSURE_DETAILS"
+              },
               "list": [
-                { "descriptor": { "code": "RATING" }, "value": "THUMBS_UP" }
+                {
+                  "descriptor": {
+                    "code": "RATING"
+                  },
+                  "value": "THUMBS_UP"
+                }
               ]
             }
           ]
         },
         {
           "action_by": "NP2",
-          "actor_details": { "name": "subhash" },
+          "actor_details": {
+            "name": "subhash"
+          },
           "description": {
             "code": "RESOLVED",
             "description": "QUERY RESOLVED"
