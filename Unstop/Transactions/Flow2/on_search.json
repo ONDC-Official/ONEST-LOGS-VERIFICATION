@@ -1,0 +1,257 @@
+{
+    "context": {
+      "domain": "ONDC:ONEST10",
+      "action": "on_search",
+      "version": "2.0.0",
+      "bap_id": "onest-mock-service.ondc.org",
+      "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
+      "bpp_id": "preprod-ondc.unstop.com",
+      "bpp_uri": "https://preprod-ondc.unstop.com/work-opportunities/",
+      "transaction_id": "ff070a7b-66f2-4801-a297-873989aeb4e8",
+      "message_id": "849c8acb-a956-44e2-8fb9-78d682f88d23",
+      "location": {
+        "city": {
+          "code": "std:080"
+        },
+        "country": {
+          "code": "IND"
+        }
+      },
+      "timestamp": "2025-04-08T06:57:19.277Z",
+      "ttl": "PT30S"
+    },
+    "message": {
+      "catalog": {
+        "descriptor": {
+          "name": "Unstop Jobs"
+        },
+        "providers": [
+          {
+            "id": "1217634",
+            "descriptor": {
+              "name": "Allsec Technologies Pvt Ltd",
+              "code": "ATPL",
+              "short_desc": "Allsec Technology&nbsp;..",
+              "images": [
+                {
+                  "url": "https://d1mgy94x89v8io.cloudfront.net/images/partners/partners75/null"
+                }
+              ]
+            },
+            "fulfillments": [
+              {
+                "id": "F1",
+                "type": "lead"
+              }
+            ],
+            "items": [
+              {
+                "id": "1240475",
+                "category_ids": [
+                  "Customer Success",
+                  "Voice / Blended"
+                ],
+                "descriptor": {
+                  "name": "Customer Experience Management",
+                  "long_desc": "<p><strong>Job Description:</strong></p>\n<p><span style=\"font-weight: 400;\">We are seeking enthusiastic Customer Care Executives to join our dynamic team for both Voice and Sales processes. In this role, you will handle incoming calls, address customer inquiries, provide information about our products/services, and promote sales through effective communication. Fluency in English is mandatory, along with proficiency in any one of the following languages: Hindi, Marathi, Tamil, Telugu, Malayalam, or Kannada.</span></p>\n<p><strong>&nbsp;</strong><strong>Qualifications:</strong></p>\n<ul>\n<li><span style=\"font-weight: 400;\">Minimum educational qualification: Graduation (10 + 2 + 3)</span></li>\n<li><span style=\"font-weight: 400;\">Age between 18 to 30 years</span></li>\n<li><span style=\"font-weight: 400;\">Strong verbal and written communication skills in English and one regional language</span></li>\n<li><span style=\"font-weight: 400;\">Ability to empathize with customers and efficiently resolve their queries</span></li>\n<li><span style=\"font-weight: 400;\">Prior experience in customer service or sales is advantageous</span></li>\n</ul>\n<p><strong style=\"color: #383838; font-size: 16px;\">Responsibilities of the Candidate:</strong></p>\n<ul>\n<li><span style=\"font-weight: 400;\">Manage and resolve customer complaints effectively</span></li>\n<li><span style=\"font-weight: 400;\">- Achieve sales targets and goals set by the company</span></li>\n<li><span style=\"font-weight: 400;\">- Maintain high customer satisfaction through excellent service</span></li>\n</ul>\n<p><strong>Salary and Benefits:</strong></p>\n<ul>\n<li><span style=\"font-weight: 400;\">Performance-based incentives</span></li>\n<li><span style=\"font-weight: 400;\">Comprehensive training and growth opportunities</span></li>\n</ul>",
+                  "short_desc": "Job Description:\nWe are seeking enthusiastic Customer Care Executives to join our dynamic team for b..",
+                  "images": [],
+                  "media": []
+                },
+                "quantity": {
+                  "available": {
+                    "count": 1
+                  }
+                },
+                "time": {
+                  "label": "enable",
+                  "timestamp": "2025-04-08T06:57:19.976Z",
+                  "range": {
+                    "start": "2024-11-22T18:30:00.000Z",
+                    "end": "2025-12-30T18:30:00.000Z"
+                  }
+                },
+                "location_ids": [
+                  "L1"
+                ],
+                "fulfillment_ids": [
+                  "F1"
+                ],
+                "creator": {
+                  "descriptor": {
+                    "name": "Allsec Technologies Pvt Ltd",
+                    "code": "ATPL",
+                    "short_desc": "Allsec Technology&nbsp;..",
+                    "long_desc": "Allsec Technology&nbsp;..",
+                    "media": [],
+                    "images": []
+                  },
+                  "contact": {
+                    "phone": "+919439957977",
+                    "email": "subhasmita@earlyjobs.in"
+                  },
+                  "address": "Bengaluru",
+                  "state": {
+                    "code": "KA"
+                  },
+                  "city": {
+                    "code": "std:080"
+                  }
+                },
+                "tags": [
+                  {
+                    "descriptor": {
+                      "code": "JOB_DETAILS"
+                    },
+                    "list": [
+                      {
+                        "descriptor": {
+                          "code": "JOB_ROLE"
+                        },
+                        "value": "Customer Experience Management"
+                      },
+                      {
+                        "descriptor": {
+                          "code": "JOB_LEVEL"
+                        },
+                        "value": "Customer Success"
+                      },
+                      {
+                        "descriptor": {
+                          "code": "JOB_LEVEL"
+                        },
+                        "value": "Voice / Blended"
+                      },
+                      {
+                        "descriptor": {
+                          "code": "GENDER_PREFERENCE"
+                        },
+                        "value": "Male"
+                      },
+                      {
+                        "descriptor": {
+                          "code": "GENDER_PREFERENCE"
+                        },
+                        "value": "Female"
+                      },
+                      {
+                        "descriptor": {
+                          "code": "GENDER_PREFERENCE"
+                        },
+                        "value": "Other"
+                      },
+                      {
+                        "descriptor": {
+                          "code": "JOB_TYPE"
+                        },
+                        "value": "full-time"
+                      }
+                    ]
+                  },
+                  {
+                    "descriptor": {
+                      "code": "TIMING"
+                    },
+                    "list": [
+                      {
+                        "descriptor": {
+                          "code": "DAY_FROM"
+                        },
+                        "value": "1"
+                      },
+                      {
+                        "descriptor": {
+                          "code": "DAY_TO"
+                        },
+                        "value": "6"
+                      }
+                    ]
+                  },
+                  {
+                    "descriptor": {
+                      "code": "COMPENSATION"
+                    },
+                    "list": [
+                      {
+                        "descriptor": {
+                          "code": "TYPE"
+                        },
+                        "value": "ctc"
+                      },
+                      {
+                        "descriptor": {
+                          "code": "MIN"
+                        },
+                        "value": "240000"
+                      },
+                      {
+                        "descriptor": {
+                          "code": "MAX"
+                        },
+                        "value": "300000"
+                      }
+                    ]
+                  },
+                  {
+                    "descriptor": {
+                      "code": "NP_FEES"
+                    },
+                    "list": [
+                      {
+                        "code": "ID",
+                        "value": "1"
+                      },
+                      {
+                        "code": "COMMERCIAL_TYPE",
+                        "value": "amount"
+                      },
+                      {
+                        "code": "COMMERCIAL_VALUE",
+                        "value": "0"
+                      },
+                      {
+                        "code": "COMMERCIAL_NAME",
+                        "value": "lead"
+                      },
+                      {
+                        "code": "COMMERCIAL_TRIGGERING_STATE",
+                        "value": "APPLICATION_SUBMITTED"
+                      },
+                      {
+                        "code": "COMPENSATION_TYPE",
+                        "value": "CTC"
+                      },
+                      {
+                        "code": "COMPENSATION_TRANSFER_PERIOD",
+                        "value": "P1M"
+                      },
+                      {
+                        "code": "COMPENSATION_PERCENTAGE_SPLIT",
+                        "value": "100"
+                      }
+                    ]
+                  }
+                ],
+                "price": {
+                  "currency": "INR",
+                  "value": "0",
+                  "maximum_value": "0"
+                }
+              }
+            ],
+            "locations": [
+              {
+                "id": "L1",
+                "city": {
+                  "code": "std:080"
+                },
+                "state": {
+                  "code": "KA"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }

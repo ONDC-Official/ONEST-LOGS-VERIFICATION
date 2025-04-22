@@ -1,0 +1,78 @@
+{
+    "context": {
+      "domain": "ONDC:ONEST10",
+      "action": "search",
+      "version": "2.0.0",
+      "bap_id": "onest-mock-service.ondc.org",
+      "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
+      "transaction_id": "ff070a7b-66f2-4801-a297-873989aeb4e8",
+      "message_id": "849c8acb-a956-44e2-8fb9-78d682f88d23",
+      "location": {
+        "city": {
+          "code": "std:080"
+        },
+        "country": {
+          "code": "IND"
+        }
+      },
+      "timestamp": "2025-04-08T06:57:19.237Z",
+      "ttl": "PT30S"
+    },
+    "message": {
+      "intent": {
+        "payment": {
+          "descriptor": {
+            "code": "NP_FEES"
+          },
+          "list": [
+            {
+              "code": "ID",
+              "value": "1"
+            }
+          ]
+        },
+        "provider": {
+          "locations": [
+            {
+              "city": {
+                "code": "std:080"
+              },
+              "state": {
+                "code": "IN-KA"
+              },
+              "country": {
+                "code": "IN"
+              }
+            }
+          ]
+        },
+        "tags": [
+          {
+            "descriptor": {
+              "code": "BAP_TERMS"
+            },
+            "list": [
+              {
+                "descriptor": {
+                  "code": "STATIC_TERMS"
+                },
+                "value": "static_terms_value"
+              },
+              {
+                "descriptor": {
+                  "code": "STATIC_TERMS_NEW"
+                },
+                "value": "static_terms_new_value"
+              },
+              {
+                "descriptor": {
+                  "code": "EFFECTIVE_DATE"
+                },
+                "value": "2023-02-22T11:20:10.122Z"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }

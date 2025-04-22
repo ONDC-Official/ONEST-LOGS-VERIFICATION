@@ -1,0 +1,27 @@
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "cancel",
+    "version": "2.0.0",
+    "bap_id": "onest-mock-service.ondc.org",
+    "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
+    "bpp_id": "preprod-ondc.unstop.com",
+    "bpp_uri": "https://preprod-ondc.unstop.com/work-opportunities/",
+    "transaction_id": "edf792e5-72ed-403c-b1af-aa6279d7b919",
+    "message_id": "a1b8ea97-cdbd-493a-a530-45f82bfadf87",
+    "location": {
+      "city": {
+        "code": "std:080"
+      },
+      "country": {
+        "code": "IND"
+      }
+    },
+    "timestamp": "2025-03-21T07:46:26.029Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "order_id": "e6012759-7971-4db9-a628-5bbb7395e118",
+    "cancellation_reason_id": "001"
+  }
+}

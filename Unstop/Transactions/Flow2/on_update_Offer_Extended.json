@@ -1,0 +1,150 @@
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "on_update",
+    "version": "2.0.0",
+    "bap_id": "onest-mock-service.ondc.org",
+    "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
+    "bpp_id": "preprod-ondc.unstop.com",
+    "bpp_uri": "https://preprod-ondc.unstop.com/work-opportunities/",
+    "transaction_id": "ff070a7b-66f2-4801-a297-873989aeb4e8",
+    "message_id": "f672bd35-f16d-4350-bb99-9db1c603145f",
+    "location": {
+      "city": {
+        "code": "std:080"
+      },
+      "country": {
+        "code": "IND"
+      }
+    },
+    "timestamp": "2025-04-08T07:40:12.015Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "order": {
+      "id": "b93a20e6-5bd1-472a-a0ae-041f17a80c8f",
+      "status": "Active",
+      "provider": {
+        "id": "1217634"
+      },
+      "state": {
+        "updated_at": "2025-04-08T02:06:30.000Z"
+      },
+      "updated_at": "2025-04-08T02:06:30.000Z",
+      "payments": [
+        {
+          "status": "PAID",
+          "type": "ON-ORDER",
+          "collected_by": "BAP",
+          "tags": {
+            "descriptor": {
+              "code": "SETTLEMENT_DETAILS"
+            },
+            "list": [
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_COUNTERPARTY"
+                },
+                "value": "seller-app"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_BANK_ACCOUNT_NO"
+                },
+                "value": "XXXXXXXXXX"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_IFSC_CODE"
+                },
+                "value": "XXXXXXXXX"
+              },
+              {
+                "descriptor": {
+                  "code": "BENEFICIARY_NAME"
+                },
+                "value": "xxxxx"
+              },
+              {
+                "descriptor": {
+                  "code": "BANK_NAME"
+                },
+                "value": "xxxx"
+              },
+              {
+                "descriptor": {
+                  "code": "BRANCH_NAME"
+                },
+                "value": "xxxx"
+              }
+            ]
+          },
+          "params": {
+            "amount": "0",
+            "currency": "INR",
+            "transaction_id": "cc186fbc-9825-4007-ba63-eb6cebf8e6d0"
+          }
+        }
+      ],
+      "fulfillments": [
+        {
+          "id": "F1",
+          "type": "lead",
+          "state": {
+            "updated_at": "2025-04-08T02:06:30.000Z",
+            "descriptor": {
+              "code": "OFFER_EXTENDED"
+            }
+          }
+        }
+      ],
+      "quote": {
+        "ttl": "P1D",
+        "price": {
+          "currency": "INR",
+          "value": "0"
+        },
+        "breakup": [
+          {
+            "item": {
+              "id": "1240475",
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "title": "Customer Experience Management"
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "1240475",
+          "fulfillment_ids": [
+            "F1"
+          ],
+          "tags": [
+            {
+              "descriptor": {
+                "code": "NP_FEES"
+              },
+              "list": [
+                {
+                  "code": "ID",
+                  "value": "1"
+                }
+              ]
+            }
+          ],
+          "title": "Customer Experience Management",
+          "time": {
+            "range": {
+              "start": "2025-04-08T07:40:12.227Z",
+              "end": "2025-04-08T07:40:12.227Z"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

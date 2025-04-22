@@ -1,0 +1,123 @@
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "on_cancel",
+    "version": "2.0.0",
+    "bap_id": "onest-mock-service.ondc.org",
+    "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
+    "bpp_id": "preprod-ondc.unstop.com",
+    "bpp_uri": "https://preprod-ondc.unstop.com/work-opportunities/",
+    "transaction_id": "edf792e5-72ed-403c-b1af-aa6279d7b919",
+    "message_id": "a1b8ea97-cdbd-493a-a530-45f82bfadf87",
+    "location": {
+      "city": {
+        "code": "std:080"
+      },
+      "country": {
+        "code": "IND"
+      }
+    },
+    "timestamp": "2025-03-21T07:46:26.168Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "order": {
+      "id": "e6012759-7971-4db9-a628-5bbb7395e118",
+      "status": "Cancelled",
+      "provider": {
+        "id": "942136"
+      },
+      "state": {
+        "updated_at": "2025-03-21T07:46:28.389Z"
+      },
+      "updated_at": "2025-03-21T07:46:28.389Z",
+      "payments": [
+        {
+          "status": "PAID",
+          "type": "ON-ORDER",
+          "collected_by": "BAP",
+          "tags": {
+            "descriptor": {
+              "code": "SETTLEMENT_DETAILS"
+            },
+            "list": [
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_COUNTERPARTY"
+                },
+                "value": "seller-app"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_BANK_ACCOUNT_NO"
+                },
+                "value": "XXXXXXXXXX"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_IFSC_CODE"
+                },
+                "value": "XXXXXXXXX"
+              },
+              {
+                "descriptor": {
+                  "code": "BENEFICIARY_NAME"
+                },
+                "value": "xxxxx"
+              },
+              {
+                "descriptor": {
+                  "code": "BANK_NAME"
+                },
+                "value": "xxxx"
+              },
+              {
+                "descriptor": {
+                  "code": "BRANCH_NAME"
+                },
+                "value": "xxxx"
+              }
+            ]
+          },
+          "params": {
+            "amount": "0",
+            "currency": "INR",
+            "transaction_id": "9dd4f82b-d714-4530-a3d6-274e19aad097"
+          }
+        }
+      ],
+      "fulfillments": [
+        {
+          "id": "F1",
+          "type": "lead",
+          "state": {
+            "updated_at": "2025-03-21T07:46:28.389Z",
+            "descriptor": {
+              "code": "CANCELLED"
+            }
+          }
+        }
+      ],
+      "quote": {
+        "ttl": "P1D",
+        "price": {
+          "currency": "INR",
+          "value": "0"
+        },
+        "breakup": [
+          {
+            "item": {
+              "id": "1012489",
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "title": "Business Development Internship"
+            }
+          }
+        ]
+      },
+      "items": []
+    }
+  }
+}
