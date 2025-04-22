@@ -1,0 +1,395 @@
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "on_search",
+    "version": "2.0.0",
+    "transaction_id": "7fe581b7-76d3-416c-8484-17cd97e0118e",
+    "message_id": "befbf167-d1de-4b07-ab61-1fb239bf4e80",
+    "location": {
+      "city": {
+        "code": "std:080"
+      },
+      "country": {
+        "code": "IND"
+      }
+    },
+    "timestamp": "2025-03-27T10:17:29.898Z",
+    "ttl": "PT30S",
+    "bap_id": "onest-mock-service.ondc.org",
+    "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
+    "bpp_id": "ondc-qa.taggd.ai",
+    "bpp_uri": "https://ondc-qa.taggd.ai/api"
+  },
+  "message": {
+    "catalog": {
+      "providers": [
+        {
+          "id": "ondc-qa.taggd.ai",
+          "locations": [
+            {
+              "id": "L1",
+              "city": {
+                "code": "std:05176"
+              },
+              "state": {
+                "code": "IN-MN"
+              }
+            },
+            {
+              "id": "L2",
+              "city": {
+                "code": "std:0491"
+              },
+              "state": {
+                "code": "std:05735"
+              }
+            }
+          ],
+          "descriptor": {
+            "name": "Taggd",
+            "images": [
+              {
+                "url": "https://static-image.taggd.in/logonew.png"
+              }
+            ],
+            "short_desc": "Taggd"
+          },
+          "items": [
+            {
+              "id": "ITC/1234567782",
+              "descriptor": {
+                "name": "Test Java",
+                "media": [
+                  {
+                    "mimetype": "",
+                    "url": ""
+                  }
+                ],
+                "long_desc": "THis is a test job description"
+              },
+              "tags": [
+                {
+                  "descriptor": {
+                    "code": "NP_FEES"
+                  },
+                  "list": [
+                    {
+                      "value": "1",
+                      "code": "ID"
+                    },
+                    {
+                      "value": "percent",
+                      "code": "COMMERCIAL_TYPE"
+                    },
+                    {
+                      "value": "0",
+                      "code": "COMMERCIAL_VALUE"
+                    },
+                    {
+                      "value": "recruitment",
+                      "code": "COMMERCIAL_NAME"
+                    },
+                    {
+                      "value": "LPA",
+                      "code": "COMPENSATION_TYPE"
+                    },
+                    {
+                      "value": "P1M,P2M,P3M",
+                      "code": "COMPENSATION_TRANSFER_PERIOD"
+                    },
+                    {
+                      "value": "50,25,25",
+                      "code": "COMPENSATION_PERCENTAGE_SPLIT"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "TIMING"
+                  },
+                  "list": [
+                    {
+                      "value": "1",
+                      "code": "DAY_FROM"
+                    },
+                    {
+                      "value": "5",
+                      "code": "DAY_TO"
+                    },
+                    {
+                      "value": "0900",
+                      "code": "TIME_FROM"
+                    },
+                    {
+                      "value": "1800",
+                      "code": "TIME_TO"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "TIMING"
+                  },
+                  "list": [
+                    {
+                      "value": "6",
+                      "code": "DAY_FROM"
+                    },
+                    {
+                      "value": "6",
+                      "code": "DAY_TO"
+                    },
+                    {
+                      "value": "0900",
+                      "code": "TIME_FROM"
+                    },
+                    {
+                      "value": "1400",
+                      "code": "TIME_TO"
+                    }
+                  ]
+                }
+              ],
+              "quantity": {
+                "available": {
+                  "count": 5
+                }
+              },
+              "location_ids": [
+                "L1"
+              ],
+              "category_ids": [
+                "IT"
+              ],
+              "fulfillment_ids": [
+                "F1"
+              ],
+              "time": {
+                "range": {
+                  "start": "2024-12-10T06:40:00.000Z",
+                  "end": "2024-12-10T06:40:00.000Z"
+                },
+                "label": "enable",
+                "timestamp": "2024-12-10T06:40:00.000Z"
+              },
+              "creator": {
+                "descriptor": {
+                  "code": "Taggd_01",
+                  "name": "Taggd",
+                  "media": [
+                    {
+                      "mimetype": "image/jpeg",
+                      "url": "https://marketplace.com/logo.jpg"
+                    }
+                  ],
+                  "images": [
+                    {
+                      "url": "https://static-image.taggd.in/logonew.png"
+                    }
+                  ],
+                  "short_desc": "Digital Recruitment Platform",
+                  "long_desc": "Taggd is one of India's best digital recruitment platforms powered by AI, offering talent acquisition to ease the hiring process for employers & job-seekers!"
+                },
+                "address": "A-10, Infocity, Sector 34, Gurugram, Haryana, India - 122001",
+                "state": {
+                  "code": "HR"
+                },
+                "city": {
+                  "code": "GUR"
+                },
+                "contact": {
+                  "phone": "+91255XXXXX",
+                  "email": "analytics@taggd.in"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "1150"
+              }
+            },
+            {
+              "id": "DEVJ2024",
+              "descriptor": {
+                "name": "Java Developer",
+                "media": [
+                  {
+                    "mimetype": "",
+                    "url": ""
+                  }
+                ],
+                "long_desc": "We are looking for an experienced Java Developer to join our team."
+              },
+              "tags": [
+                {
+                  "descriptor": {
+                    "code": "NP_FEES"
+                  },
+                  "list": [
+                    {
+                      "value": "1",
+                      "code": "ID"
+                    },
+                    {
+                      "value": "percent",
+                      "code": "COMMERCIAL_TYPE"
+                    },
+                    {
+                      "value": "0",
+                      "code": "COMMERCIAL_VALUE"
+                    },
+                    {
+                      "value": "recruitment",
+                      "code": "COMMERCIAL_NAME"
+                    },
+                    {
+                      "value": "LPA",
+                      "code": "COMPENSATION_TYPE"
+                    },
+                    {
+                      "value": "P1M,P2M,P3M",
+                      "code": "COMPENSATION_TRANSFER_PERIOD"
+                    },
+                    {
+                      "value": "50,25,25",
+                      "code": "COMPENSATION_PERCENTAGE_SPLIT"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "TIMING"
+                  },
+                  "list": [
+                    {
+                      "value": "1",
+                      "code": "DAY_FROM"
+                    },
+                    {
+                      "value": "5",
+                      "code": "DAY_TO"
+                    },
+                    {
+                      "value": "0900",
+                      "code": "TIME_FROM"
+                    },
+                    {
+                      "value": "1800",
+                      "code": "TIME_TO"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "TIMING"
+                  },
+                  "list": [
+                    {
+                      "value": "6",
+                      "code": "DAY_FROM"
+                    },
+                    {
+                      "value": "6",
+                      "code": "DAY_TO"
+                    },
+                    {
+                      "value": "0900",
+                      "code": "TIME_FROM"
+                    },
+                    {
+                      "value": "1400",
+                      "code": "TIME_TO"
+                    }
+                  ]
+                }
+              ],
+              "quantity": {
+                "available": {
+                  "count": 4
+                }
+              },
+              "location_ids": [
+                "L2"
+              ],
+              "category_ids": [
+                "IT"
+              ],
+              "fulfillment_ids": [
+                "F1"
+              ],
+              "time": {
+                "range": {
+                  "start": "2024-12-18T05:21:27.767Z",
+                  "end": "2024-12-18T05:21:27.767Z"
+                },
+                "label": "enable",
+                "timestamp": "2024-12-18T05:21:27.767Z"
+              },
+              "creator": {
+                "descriptor": {
+                  "code": "Taggd_01",
+                  "name": "Taggd",
+                  "media": [
+                    {
+                      "mimetype": "image/jpeg",
+                      "url": "https://marketplace.com/logo.jpg"
+                    }
+                  ],
+                  "images": [
+                    {
+                      "url": "https://static-image.taggd.in/logonew.png"
+                    }
+                  ],
+                  "short_desc": "Digital Recruitment Platform",
+                  "long_desc": "Taggd is one of India's best digital recruitment platforms powered by AI, offering talent acquisition to ease the hiring process for employers & job-seekers!"
+                },
+                "address": "A-10, Infocity, Sector 34, Gurugram, Haryana, India - 122001",
+                "state": {
+                  "code": "HR"
+                },
+                "city": {
+                  "code": "GUR"
+                },
+                "contact": {
+                  "phone": "+91255XXXXX",
+                  "email": "analytics@taggd.in"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "1150"
+              }
+            }
+          ],
+          "fulfillments": [
+            {
+              "id": "F3",
+              "type": "lead & recruitment"
+            },
+            {
+              "id": "F1",
+              "type": "lead"
+            },
+            {
+              "id": "F2",
+              "type": "recruitment"
+            }
+          ],
+          "tags": {
+            "descriptor": {
+              "code": "LOCATION"
+            },
+            "list": [
+              {
+                "value": "A-10, Infocity, Sector 34, Gurugram, Haryana, India - 122001",
+                "code": "ADDRESS"
+              }
+            ]
+          }
+        }
+      ],
+      "descriptor": {
+        "name": "Taggd job"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "select",
+    "version": "2.0.0",
+    "transaction_id": "7fe581b7-76d3-416c-8484-17cd97e0118e",
+    "message_id": "ac8018d3-44d3-4571-b980-d34051438945",
+    "location": {
+      "city": {
+        "code": "std:080"
+      },
+      "country": {
+        "code": "IND"
+      }
+    },
+    "timestamp": "2025-03-27T10:17:40.511Z",
+    "ttl": "PT30S",
+    "bap_id": "onest-mock-service.ondc.org",
+    "bap_uri": "https://onest-mock-service.ondc.org/api/onest/bap",
+    "bpp_id": "ondc-qa.taggd.ai",
+    "bpp_uri": "https://ondc-qa.taggd.ai/api"
+  },
+  "message": {
+    "order": {
+      "provider": {
+        "id": "ondc-qa.taggd.ai"
+      },
+      "fulfillments": [
+        {
+          "id": "F1",
+          "type": "lead"
+        }
+      ],
+      "items": [
+        {
+          "id": "ITC/1234567782",
+          "tags": [
+            {
+              "descriptor": {
+                "code": "NP_FEES"
+              },
+              "list": [
+                {
+                  "value": "1",
+                  "code": "ID"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
