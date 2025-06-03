@@ -1,0 +1,2913 @@
+{
+    "context":
+    {
+        "domain": "ONDC:ONEST10",
+        "action": "on_search",
+        "version": "2.0.0",
+        "bap_id": "bap-preprod-ondc.hamarajobs.ai",
+        "bap_uri": "https://bap-preprod-ondc.hamarajobs.ai/bap",
+        "bpp_id": "preprod-ondc.hamarajobs.ai",
+        "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
+        "transaction_id": "5136994c-6e9e-481e-b58a-fe8cd6906163",
+        "message_id": "06c14749-d1c0-499d-b71c-98c450930c23",
+        "timestamp": "2025-06-03T11:33:27.831Z",
+        "ttl": "PT30S",
+        "location":
+        {
+            "city":
+            {
+                "code": "std:080"
+            },
+            "country":
+            {
+                "code": "IND"
+            }
+        }
+    },
+    "message":
+    {
+        "catalog":
+        {
+            "descriptor":
+            {
+                "name": "Quess Jobs"
+            },
+            "providers":
+            [
+                {
+                    "descriptor":
+                    {
+                        "name": "Quess Jobs",
+                        "short_desc": "Quess",
+                        "images":
+                        [
+                            {
+                                "url": "https://www.quesscorp.com/wp-content/uploads/2022/11/quessbluesvg.svg"
+                            }
+                        ]
+                    },
+                    "fulfillments":
+                    [
+                        {
+                            "type": "lead",
+                            "id": "F1"
+                        },
+                        {
+                            "type": "recruitment",
+                            "id": "F2"
+                        }
+                    ],
+                    "locations":
+                    [
+                        {
+                            "city":
+                            {
+                                "code": "std:0422"
+                            },
+                            "state":
+                            {
+                                "code": "TN"
+                            },
+                            "area_code":
+                            {
+                                "code": "530068"
+                            },
+                            "id": "L1"
+                        }
+                    ],
+                    "items":
+                    [
+                        {
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Accountant",
+                                "long_desc": "Responsibilities:\n- Prepare financial statements and reports for review by management\n- Handle accounts payable and accounts receivable\n- Maintain accurate records of financial transactions\n- Assist in budgeting and forecasting processes\n- Reconcile bank statements and general ledger accounts\n- Assist with tax preparation and compliance\n- Identify and resolve discrepancies in financial records",
+                                "short_desc": "Responsibilities:\n- Prepare financial statements and reports for review by management\n- Handle accounts payable and accounts receivable\n- Maintain accurate records of financial transactions\n- Assist in budgeting and forecasting processes\n- Reconcile bank statements and general ledger accounts\n- Assist with tax preparation and compliance\n- Identify and resolve discrepancies in financial records",
+                                "images":
+                                [
+                                    {
+                                        "url": "https://d39rd9v7wil94y.cloudfront.net/category_list/Retail_Countersales.png"
+                                    }
+                                ],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 1
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-05-09T04:51:30.000Z",
+                                "range":
+                                {
+                                    "start": "2025-05-08T18:30:00.000Z",
+                                    "end": "2025-06-08T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    [
+                                        {
+                                            "url": "https://www.quesscorp.com/wp-content/uploads/2022/11/quessbluesvg.svg"
+                                        }
+                                    ]
+                                },
+                                "address": "Quess House,/3/2 Bellandur Gate, Sarjapur Road, Bengaluru 560103,Karnataka, India",
+                                "state":
+                                {
+                                    "code": "KA"
+                                },
+                                "city":
+                                {
+                                    "code": "BANGALORE"
+                                },
+                                "contact":
+                                {
+                                    "phone": "+91-8147968533",
+                                    "email": "sales@billioncareers.in"
+                                }
+                            },
+                            "tags":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "ACADEMIC_QUALIFICATIONS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "COURSE_LEVEL"
+                                            },
+                                            "value": "Graduation"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MANDATORY_ELIGIBILITY"
+                                            },
+                                            "value": "true"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_REQUIREMENT"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_EXPERIENCE"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_GENDER"
+                                            },
+                                            "value": "both"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_DETAILS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_ROLE"
+                                            },
+                                            "value": "Accountant"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_TYPE"
+                                            },
+                                            "value": "Full-time"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "GENDER_PREFERENCE"
+                                            },
+                                            "value": "both"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "COMPENSATION"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "TYPE"
+                                            },
+                                            "value": "ctc"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MIN"
+                                            },
+                                            "value": "133332"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MAX"
+                                            },
+                                            "value": "266664"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "NP_FEES"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "code": "ID",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TYPE",
+                                            "value": "amount"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_VALUE",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_NAME",
+                                            "value": "lead"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TRIGGERING_STATE",
+                                            "value": "APPLICATION_SUBMITTED"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TYPE",
+                                            "value": "CTC"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TRANSFER_PERIOD",
+                                            "value": "P1M"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_PERCENTAGE_SPLIT",
+                                            "value": "100"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            },
+                            "id": "bb310760-3e9e-45ed-b3dd-fd589bff8ba9"
+                        },
+                        {
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Ac Technician",
+                                "long_desc": "Responsibilities:\n- Install, maintain, and repair air conditioning systems\n- Troubleshoot and diagnose issues with AC units\n- Perform routine maintenance on HVAC equipment\n- Ensure compliance with safety and environmental regulations\n- Provide excellent customer service and communication \n- Keep accurate records of work performed",
+                                "short_desc": "Responsibilities:\n- Install, maintain, and repair air conditioning systems\n- Troubleshoot and diagnose issues with AC units\n- Perform routine maintenance on HVAC equipment\n- Ensure compliance with safety and environmental regulations\n- Provide excellent customer service and communication \n- Keep accurate records of work performed",
+                                "images":
+                                [
+                                    {
+                                        "url": "https://d39rd9v7wil94y.cloudfront.net/category_list/Retail_Countersales.png"
+                                    }
+                                ],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 1
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-05-09T04:53:25.000Z",
+                                "range":
+                                {
+                                    "start": "2025-05-08T18:30:00.000Z",
+                                    "end": "2025-06-08T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    [
+                                        {
+                                            "url": "https://www.quesscorp.com/wp-content/uploads/2022/11/quessbluesvg.svg"
+                                        }
+                                    ]
+                                },
+                                "address": "Quess House,/3/2 Bellandur Gate, Sarjapur Road, Bengaluru 560103,Karnataka, India",
+                                "state":
+                                {
+                                    "code": "KA"
+                                },
+                                "city":
+                                {
+                                    "code": "BANGALORE"
+                                },
+                                "contact":
+                                {
+                                    "phone": "+91-8147968533",
+                                    "email": "sales@billioncareers.in"
+                                }
+                            },
+                            "tags":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "ACADEMIC_QUALIFICATIONS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "COURSE_LEVEL"
+                                            },
+                                            "value": "Graduation"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MANDATORY_ELIGIBILITY"
+                                            },
+                                            "value": "true"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_REQUIREMENT"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_EXPERIENCE"
+                                            },
+                                            "value": "5"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_GENDER"
+                                            },
+                                            "value": "male"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_DETAILS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_ROLE"
+                                            },
+                                            "value": "Ac Technician"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_TYPE"
+                                            },
+                                            "value": "Full-time"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "GENDER_PREFERENCE"
+                                            },
+                                            "value": "male"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "COMPENSATION"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "TYPE"
+                                            },
+                                            "value": "ctc"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MIN"
+                                            },
+                                            "value": "159996"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MAX"
+                                            },
+                                            "value": "173328"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "NP_FEES"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "code": "ID",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TYPE",
+                                            "value": "amount"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_VALUE",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_NAME",
+                                            "value": "lead"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TRIGGERING_STATE",
+                                            "value": "APPLICATION_SUBMITTED"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TYPE",
+                                            "value": "CTC"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TRANSFER_PERIOD",
+                                            "value": "P1M"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_PERCENTAGE_SPLIT",
+                                            "value": "100"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            },
+                            "id": "0c3ab344-9310-43e5-ba74-99bfb130645e"
+                        },
+                        {
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Delivery Boy ",
+                                "long_desc": "Responsibilities:\n- Deliver packages to customers in a timely manner\n- Follow delivery schedules and routes provided by the company\n- Maintain communication with the dispatch team on any delays or issues\n- Ensure the safe and careful handling of packages during transport\n- Collect payments from customers if required\n- Provide excellent customer service at all times",
+                                "short_desc": "Responsibilities:\n- Deliver packages to customers in a timely manner\n- Follow delivery schedules and routes provided by the company\n- Maintain communication with the dispatch team on any delays or issues\n- Ensure the safe and careful handling of packages during transport\n- Collect payments from customers if required\n- Provide excellent customer service at all times",
+                                "images":
+                                [
+                                    {
+                                        "url": "https://d39rd9v7wil94y.cloudfront.net/category_list/Retail_Countersales.png"
+                                    }
+                                ],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 1
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-05-09T04:56:45.000Z",
+                                "range":
+                                {
+                                    "start": "2025-05-08T18:30:00.000Z",
+                                    "end": "2025-06-08T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    [
+                                        {
+                                            "url": "https://www.quesscorp.com/wp-content/uploads/2022/11/quessbluesvg.svg"
+                                        }
+                                    ]
+                                },
+                                "address": "Quess House,/3/2 Bellandur Gate, Sarjapur Road, Bengaluru 560103,Karnataka, India",
+                                "state":
+                                {
+                                    "code": "KA"
+                                },
+                                "city":
+                                {
+                                    "code": "BANGALORE"
+                                },
+                                "contact":
+                                {
+                                    "phone": "+91-8147968533",
+                                    "email": "sales@billioncareers.in"
+                                }
+                            },
+                            "tags":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "ACADEMIC_QUALIFICATIONS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "COURSE_LEVEL"
+                                            },
+                                            "value": "Graduation"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MANDATORY_ELIGIBILITY"
+                                            },
+                                            "value": "true"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_REQUIREMENT"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_EXPERIENCE"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_GENDER"
+                                            },
+                                            "value": "both"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_DETAILS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_ROLE"
+                                            },
+                                            "value": "Delivery Boy "
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_TYPE"
+                                            },
+                                            "value": "Full-time"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "GENDER_PREFERENCE"
+                                            },
+                                            "value": "both"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "COMPENSATION"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "TYPE"
+                                            },
+                                            "value": "ctc"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MIN"
+                                            },
+                                            "value": "186660"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MAX"
+                                            },
+                                            "value": "199992"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "NP_FEES"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "code": "ID",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TYPE",
+                                            "value": "amount"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_VALUE",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_NAME",
+                                            "value": "lead"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TRIGGERING_STATE",
+                                            "value": "APPLICATION_SUBMITTED"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TYPE",
+                                            "value": "CTC"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TRANSFER_PERIOD",
+                                            "value": "P1M"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_PERCENTAGE_SPLIT",
+                                            "value": "100"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            },
+                            "id": "4de3b2c1-2f13-4dd8-a568-766756b557c2"
+                        },
+                        {
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Retail Sales Executive",
+                                "long_desc": "- Engage with customers in a friendly and professional manner\n- Offer product knowledge and assistance in making purchasing decisions\n- Process transactions accurately and efficiently\n- Maintain a clean and organized sales floor\n- Assist in restocking and replenishing inventory\n- Meet and exceed sales targets\n- Provide excellent customer service to ensure satisfaction and repeat business",
+                                "short_desc": "- Engage with customers in a friendly and professional manner\n- Offer product knowledge and assistance in making purchasing decisions\n- Process transactions accurately and efficiently\n- Maintain a clean and organized sales floor\n- Assist in restocking and replenishing inventory\n- Meet and exceed sales targets\n- Provide excellent customer service to ensure satisfaction and repeat business",
+                                "images":
+                                [
+                                    {
+                                        "url": "https://d39rd9v7wil94y.cloudfront.net/category_list/Retail_Countersales.png"
+                                    }
+                                ],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 1
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-05-09T04:58:57.000Z",
+                                "range":
+                                {
+                                    "start": "2025-05-08T18:30:00.000Z",
+                                    "end": "2025-06-08T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    [
+                                        {
+                                            "url": "https://www.quesscorp.com/wp-content/uploads/2022/11/quessbluesvg.svg"
+                                        }
+                                    ]
+                                },
+                                "address": "Quess House,/3/2 Bellandur Gate, Sarjapur Road, Bengaluru 560103,Karnataka, India",
+                                "state":
+                                {
+                                    "code": "KA"
+                                },
+                                "city":
+                                {
+                                    "code": "BANGALORE"
+                                },
+                                "contact":
+                                {
+                                    "phone": "+91-8147968533",
+                                    "email": "sales@billioncareers.in"
+                                }
+                            },
+                            "tags":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "ACADEMIC_QUALIFICATIONS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "COURSE_LEVEL"
+                                            },
+                                            "value": "Graduation"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MANDATORY_ELIGIBILITY"
+                                            },
+                                            "value": "true"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_REQUIREMENT"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_EXPERIENCE"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_GENDER"
+                                            },
+                                            "value": "male"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_DETAILS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_ROLE"
+                                            },
+                                            "value": "Retail Sales Executive"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_TYPE"
+                                            },
+                                            "value": "Full-time"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "GENDER_PREFERENCE"
+                                            },
+                                            "value": "male"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "COMPENSATION"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "TYPE"
+                                            },
+                                            "value": "ctc"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MIN"
+                                            },
+                                            "value": "199992"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MAX"
+                                            },
+                                            "value": "213324"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "NP_FEES"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "code": "ID",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TYPE",
+                                            "value": "amount"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_VALUE",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_NAME",
+                                            "value": "lead"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TRIGGERING_STATE",
+                                            "value": "APPLICATION_SUBMITTED"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TYPE",
+                                            "value": "CTC"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TRANSFER_PERIOD",
+                                            "value": "P1M"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_PERCENTAGE_SPLIT",
+                                            "value": "100"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            },
+                            "id": "48f72d01-4a53-4312-bb93-527e180b1b66"
+                        },
+                        {
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Accountant",
+                                "long_desc": "Responsibilities:\n1. Prepare financial statements and reports for management review.\n2. Manage accounts payable and accounts receivable processes.\n3. Perform monthly bank reconciliations.\n4. Ensure compliance with tax regulations and filing requirements.\n5. Assist with budgeting and forecasting processes.\n6. Analyze financial data and provide recommendations for improvements.\n7. Handle day-to-day accounting tasks and administrative duties.\n8. Work closely with the finance team to support financial decision-making",
+                                "short_desc": "Responsibilities:\n1. Prepare financial statements and reports for management review.\n2. Manage accounts payable and accounts receivable processes.\n3. Perform monthly bank reconciliations.\n4. Ensure compliance with tax regulations and filing requirements.\n5. Assist with budgeting and forecasting processes.\n6. Analyze financial data and provide recommendations for improvements.\n7. Handle day-to-day accounting tasks and administrative duties.\n8. Work closely with the finance team to support financial decision-making",
+                                "images":
+                                [
+                                    {
+                                        "url": "https://d39rd9v7wil94y.cloudfront.net/category_list/Retail_Countersales.png"
+                                    }
+                                ],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 1
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-05-09T05:02:24.000Z",
+                                "range":
+                                {
+                                    "start": "2025-05-08T18:30:00.000Z",
+                                    "end": "2025-06-08T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    [
+                                        {
+                                            "url": "https://www.quesscorp.com/wp-content/uploads/2022/11/quessbluesvg.svg"
+                                        }
+                                    ]
+                                },
+                                "address": "Quess House,/3/2 Bellandur Gate, Sarjapur Road, Bengaluru 560103,Karnataka, India",
+                                "state":
+                                {
+                                    "code": "KA"
+                                },
+                                "city":
+                                {
+                                    "code": "BANGALORE"
+                                },
+                                "contact":
+                                {
+                                    "phone": "+91-8147968533",
+                                    "email": "sales@billioncareers.in"
+                                }
+                            },
+                            "tags":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "ACADEMIC_QUALIFICATIONS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "COURSE_LEVEL"
+                                            },
+                                            "value": "Graduation"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MANDATORY_ELIGIBILITY"
+                                            },
+                                            "value": "true"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_REQUIREMENT"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_EXPERIENCE"
+                                            },
+                                            "value": "4"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_GENDER"
+                                            },
+                                            "value": "male"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_DETAILS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_ROLE"
+                                            },
+                                            "value": "Accountant"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_TYPE"
+                                            },
+                                            "value": "Full-time"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "GENDER_PREFERENCE"
+                                            },
+                                            "value": "male"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "COMPENSATION"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "TYPE"
+                                            },
+                                            "value": "ctc"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MIN"
+                                            },
+                                            "value": "226656"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MAX"
+                                            },
+                                            "value": "239988"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "NP_FEES"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "code": "ID",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TYPE",
+                                            "value": "amount"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_VALUE",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_NAME",
+                                            "value": "lead"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TRIGGERING_STATE",
+                                            "value": "APPLICATION_SUBMITTED"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TYPE",
+                                            "value": "CTC"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TRANSFER_PERIOD",
+                                            "value": "P1M"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_PERCENTAGE_SPLIT",
+                                            "value": "100"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            },
+                            "id": "c04df431-8a0c-4d49-b00d-ac8a077f20b0"
+                        },
+                        {
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "AC-HVAC Technician",
+                                "long_desc": "Responsibilities:\n- Install, maintain, and repair heating, ventilation, and air conditioning systems\n- Inspect and troubleshoot HVAC equipment to identify issues and recommend solutions\n- Perform routine maintenance tasks such as cleaning, adjusting, and replacing parts as needed\n- Ensure all work is completed according to safety standards and regulations\n- Keep accurate records of work performed and parts used\n- Provide excellent customer service by answering questions and addressing concerns in a professional manner",
+                                "short_desc": "Responsibilities:\n- Install, maintain, and repair heating, ventilation, and air conditioning systems\n- Inspect and troubleshoot HVAC equipment to identify issues and recommend solutions\n- Perform routine maintenance tasks such as cleaning, adjusting, and replacing parts as needed\n- Ensure all work is completed according to safety standards and regulations\n- Keep accurate records of work performed and parts used\n- Provide excellent customer service by answering questions and addressing concerns in a professional manner",
+                                "images":
+                                [
+                                    {
+                                        "url": "https://d39rd9v7wil94y.cloudfront.net/category_list/Retail_Countersales.png"
+                                    }
+                                ],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 1
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-05-09T05:03:21.000Z",
+                                "range":
+                                {
+                                    "start": "2025-05-08T18:30:00.000Z",
+                                    "end": "2025-06-08T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    [
+                                        {
+                                            "url": "https://www.quesscorp.com/wp-content/uploads/2022/11/quessbluesvg.svg"
+                                        }
+                                    ]
+                                },
+                                "address": "Quess House,/3/2 Bellandur Gate, Sarjapur Road, Bengaluru 560103,Karnataka, India",
+                                "state":
+                                {
+                                    "code": "KA"
+                                },
+                                "city":
+                                {
+                                    "code": "BANGALORE"
+                                },
+                                "contact":
+                                {
+                                    "phone": "+91-8147968533",
+                                    "email": "sales@billioncareers.in"
+                                }
+                            },
+                            "tags":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "ACADEMIC_QUALIFICATIONS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "COURSE_LEVEL"
+                                            },
+                                            "value": "Graduation"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MANDATORY_ELIGIBILITY"
+                                            },
+                                            "value": "true"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_REQUIREMENT"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_EXPERIENCE"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_GENDER"
+                                            },
+                                            "value": "male"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_DETAILS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_ROLE"
+                                            },
+                                            "value": "AC-HVAC Technician"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_TYPE"
+                                            },
+                                            "value": "Full-time"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "GENDER_PREFERENCE"
+                                            },
+                                            "value": "male"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "COMPENSATION"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "TYPE"
+                                            },
+                                            "value": "ctc"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MIN"
+                                            },
+                                            "value": "239988"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MAX"
+                                            },
+                                            "value": "240000"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "NP_FEES"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "code": "ID",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TYPE",
+                                            "value": "amount"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_VALUE",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_NAME",
+                                            "value": "lead"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TRIGGERING_STATE",
+                                            "value": "APPLICATION_SUBMITTED"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TYPE",
+                                            "value": "CTC"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TRANSFER_PERIOD",
+                                            "value": "P1M"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_PERCENTAGE_SPLIT",
+                                            "value": "100"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            },
+                            "id": "fd895a50-8c8a-495b-8587-8da593cdbe35"
+                        },
+                        {
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Counter Sales Executive",
+                                "long_desc": "- Greet and assist customers in a professional and friendly manner\n- Provide product information, pricing, and availability to customers\n- Process customer orders accurately and efficiently\n- Handle cash and credit card transactions\n- Maintain a clean and organized work area\n- Assist in inventory management and restocking of products\n- Respond to customer inquiries and resolve any complaints or issues\n- Collaborate with team members to achieve sales targets and provide excellent customer service",
+                                "short_desc": "- Greet and assist customers in a professional and friendly manner\n- Provide product information, pricing, and availability to customers\n- Process customer orders accurately and efficiently\n- Handle cash and credit card transactions\n- Maintain a clean and organized work area\n- Assist in inventory management and restocking of products\n- Respond to customer inquiries and resolve any complaints or issues\n- Collaborate with team members to achieve sales targets and provide excellent customer service",
+                                "images":
+                                [
+                                    {
+                                        "url": "https://d39rd9v7wil94y.cloudfront.net/category_list/Retail_Countersales.png"
+                                    }
+                                ],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 1
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-05-09T05:04:32.000Z",
+                                "range":
+                                {
+                                    "start": "2025-05-08T18:30:00.000Z",
+                                    "end": "2025-06-08T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    [
+                                        {
+                                            "url": "https://www.quesscorp.com/wp-content/uploads/2022/11/quessbluesvg.svg"
+                                        }
+                                    ]
+                                },
+                                "address": "Quess House,/3/2 Bellandur Gate, Sarjapur Road, Bengaluru 560103,Karnataka, India",
+                                "state":
+                                {
+                                    "code": "KA"
+                                },
+                                "city":
+                                {
+                                    "code": "BANGALORE"
+                                },
+                                "contact":
+                                {
+                                    "phone": "+91-8147968533",
+                                    "email": "sales@billioncareers.in"
+                                }
+                            },
+                            "tags":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "ACADEMIC_QUALIFICATIONS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "COURSE_LEVEL"
+                                            },
+                                            "value": "Graduation"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MANDATORY_ELIGIBILITY"
+                                            },
+                                            "value": "true"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_REQUIREMENT"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_EXPERIENCE"
+                                            },
+                                            "value": "5"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_GENDER"
+                                            },
+                                            "value": "male"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_DETAILS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_ROLE"
+                                            },
+                                            "value": "Counter Sales Executive"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_TYPE"
+                                            },
+                                            "value": "Full-time"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "GENDER_PREFERENCE"
+                                            },
+                                            "value": "male"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "COMPENSATION"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "TYPE"
+                                            },
+                                            "value": "ctc"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MIN"
+                                            },
+                                            "value": "240000"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MAX"
+                                            },
+                                            "value": "253332"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "NP_FEES"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "code": "ID",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TYPE",
+                                            "value": "amount"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_VALUE",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_NAME",
+                                            "value": "lead"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TRIGGERING_STATE",
+                                            "value": "APPLICATION_SUBMITTED"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TYPE",
+                                            "value": "CTC"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TRANSFER_PERIOD",
+                                            "value": "P1M"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_PERCENTAGE_SPLIT",
+                                            "value": "100"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            },
+                            "id": "b8fa65ec-6c4f-4526-88cd-1cb51d52e99d"
+                        },
+                        {
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Delivery Executive",
+                                "long_desc": "- Deliver orders promptly to customers in designated areas\n- Ensure the safe transportation of goods to the specified destination\n- Maintain cleanliness and organization of delivery vehicle\n- Collect payments and issue receipts as needed\n- Communicate with customers in a professional and courteous manner\n- Assist in loading and unloading of goods as required\n- Follow all traffic laws and safety regulations\n- Report any incidents or issues to the supervisor promptly",
+                                "short_desc": "- Deliver orders promptly to customers in designated areas\n- Ensure the safe transportation of goods to the specified destination\n- Maintain cleanliness and organization of delivery vehicle\n- Collect payments and issue receipts as needed\n- Communicate with customers in a professional and courteous manner\n- Assist in loading and unloading of goods as required\n- Follow all traffic laws and safety regulations\n- Report any incidents or issues to the supervisor promptly",
+                                "images":
+                                [
+                                    {
+                                        "url": "https://d39rd9v7wil94y.cloudfront.net/category_list/Retail_Countersales.png"
+                                    }
+                                ],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 1
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-05-09T05:06:00.000Z",
+                                "range":
+                                {
+                                    "start": "2025-05-08T18:30:00.000Z",
+                                    "end": "2025-06-08T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    [
+                                        {
+                                            "url": "https://www.quesscorp.com/wp-content/uploads/2022/11/quessbluesvg.svg"
+                                        }
+                                    ]
+                                },
+                                "address": "Quess House,/3/2 Bellandur Gate, Sarjapur Road, Bengaluru 560103,Karnataka, India",
+                                "state":
+                                {
+                                    "code": "KA"
+                                },
+                                "city":
+                                {
+                                    "code": "BANGALORE"
+                                },
+                                "contact":
+                                {
+                                    "phone": "+91-8147968533",
+                                    "email": "sales@billioncareers.in"
+                                }
+                            },
+                            "tags":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "ACADEMIC_QUALIFICATIONS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "COURSE_LEVEL"
+                                            },
+                                            "value": "Graduation"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MANDATORY_ELIGIBILITY"
+                                            },
+                                            "value": "true"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_REQUIREMENT"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_EXPERIENCE"
+                                            },
+                                            "value": "5"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_GENDER"
+                                            },
+                                            "value": "both"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_DETAILS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_ROLE"
+                                            },
+                                            "value": "Delivery Executive"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_TYPE"
+                                            },
+                                            "value": "Full-time"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "GENDER_PREFERENCE"
+                                            },
+                                            "value": "both"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "COMPENSATION"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "TYPE"
+                                            },
+                                            "value": "ctc"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MIN"
+                                            },
+                                            "value": "266664"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MAX"
+                                            },
+                                            "value": "279996"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "NP_FEES"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "code": "ID",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TYPE",
+                                            "value": "amount"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_VALUE",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_NAME",
+                                            "value": "lead"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TRIGGERING_STATE",
+                                            "value": "APPLICATION_SUBMITTED"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TYPE",
+                                            "value": "CTC"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TRANSFER_PERIOD",
+                                            "value": "P1M"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_PERCENTAGE_SPLIT",
+                                            "value": "100"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            },
+                            "id": "40a7e0b4-f602-4db1-8226-3489f768f025"
+                        },
+                        {
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Customer Care Executive",
+                                "long_desc": "Responsibilities:\n- Answering customer inquiries via phone, email, and live chat\n- Providing information about products, services, and promotions\n- Handling and resolving customer complaints and issues\n- Processing orders, returns, and exchanges\n- Documenting customer interactions and maintaining records\n- Collaborating with other departments to ensure customer satisfaction\n\nAdditional duties may include providing feedback to management on customer trends and contributing to the development of customer service processes",
+                                "short_desc": "Responsibilities:\n- Answering customer inquiries via phone, email, and live chat\n- Providing information about products, services, and promotions\n- Handling and resolving customer complaints and issues\n- Processing orders, returns, and exchanges\n- Documenting customer interactions and maintaining records\n- Collaborating with other departments to ensure customer satisfaction\n\nAdditional duties may include providing feedback to management on customer trends and contributing to the development of customer service processes",
+                                "images":
+                                [
+                                    {
+                                        "url": "https://d39rd9v7wil94y.cloudfront.net/category_list/Retail_Countersales.png"
+                                    }
+                                ],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 1
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-05-09T05:32:38.000Z",
+                                "range":
+                                {
+                                    "start": "2025-05-08T18:30:00.000Z",
+                                    "end": "2025-06-08T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    [
+                                        {
+                                            "url": "https://www.quesscorp.com/wp-content/uploads/2022/11/quessbluesvg.svg"
+                                        }
+                                    ]
+                                },
+                                "address": "Quess House,/3/2 Bellandur Gate, Sarjapur Road, Bengaluru 560103,Karnataka, India",
+                                "state":
+                                {
+                                    "code": "KA"
+                                },
+                                "city":
+                                {
+                                    "code": "BANGALORE"
+                                },
+                                "contact":
+                                {
+                                    "phone": "+91-8147968533",
+                                    "email": "sales@billioncareers.in"
+                                }
+                            },
+                            "tags":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "ACADEMIC_QUALIFICATIONS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "COURSE_LEVEL"
+                                            },
+                                            "value": "Graduation"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MANDATORY_ELIGIBILITY"
+                                            },
+                                            "value": "true"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_REQUIREMENT"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_EXPERIENCE"
+                                            },
+                                            "value": "5"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_GENDER"
+                                            },
+                                            "value": "both"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_DETAILS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_ROLE"
+                                            },
+                                            "value": "Customer Care Executive"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_TYPE"
+                                            },
+                                            "value": "Full-time"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "GENDER_PREFERENCE"
+                                            },
+                                            "value": "both"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "COMPENSATION"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "TYPE"
+                                            },
+                                            "value": "ctc"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MIN"
+                                            },
+                                            "value": "292800"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MAX"
+                                            },
+                                            "value": "306000"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "NP_FEES"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "code": "ID",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TYPE",
+                                            "value": "amount"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_VALUE",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_NAME",
+                                            "value": "lead"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TRIGGERING_STATE",
+                                            "value": "APPLICATION_SUBMITTED"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TYPE",
+                                            "value": "CTC"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TRANSFER_PERIOD",
+                                            "value": "P1M"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_PERCENTAGE_SPLIT",
+                                            "value": "100"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            },
+                            "id": "68084340-d352-4e04-b088-a0ebdc1599e0"
+                        },
+                        {
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Customer Relationship Executive",
+                                "long_desc": "Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*",
+                                "short_desc": "Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*Job Description*",
+                                "images":
+                                [
+                                    {
+                                        "url": "https://d39rd9v7wil94y.cloudfront.net/category_list/Retail_Countersales.png"
+                                    }
+                                ],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 1
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-05-09T05:36:46.000Z",
+                                "range":
+                                {
+                                    "start": "2025-05-08T18:30:00.000Z",
+                                    "end": "2025-06-08T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    [
+                                        {
+                                            "url": "https://www.quesscorp.com/wp-content/uploads/2022/11/quessbluesvg.svg"
+                                        }
+                                    ]
+                                },
+                                "address": "Quess House,/3/2 Bellandur Gate, Sarjapur Road, Bengaluru 560103,Karnataka, India",
+                                "state":
+                                {
+                                    "code": "KA"
+                                },
+                                "city":
+                                {
+                                    "code": "BANGALORE"
+                                },
+                                "contact":
+                                {
+                                    "phone": "+91-8147968533",
+                                    "email": "sales@billioncareers.in"
+                                }
+                            },
+                            "tags":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "ACADEMIC_QUALIFICATIONS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "COURSE_LEVEL"
+                                            },
+                                            "value": "Graduation"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MANDATORY_ELIGIBILITY"
+                                            },
+                                            "value": "true"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_REQUIREMENT"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_EXPERIENCE"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_GENDER"
+                                            },
+                                            "value": "both"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_DETAILS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_ROLE"
+                                            },
+                                            "value": "Customer Relationship Executive"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_TYPE"
+                                            },
+                                            "value": "Full-time"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "GENDER_PREFERENCE"
+                                            },
+                                            "value": "both"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "COMPENSATION"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "TYPE"
+                                            },
+                                            "value": "ctc"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MIN"
+                                            },
+                                            "value": "319200"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MAX"
+                                            },
+                                            "value": "332400"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "NP_FEES"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "code": "ID",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TYPE",
+                                            "value": "amount"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_VALUE",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_NAME",
+                                            "value": "lead"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TRIGGERING_STATE",
+                                            "value": "APPLICATION_SUBMITTED"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TYPE",
+                                            "value": "CTC"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TRANSFER_PERIOD",
+                                            "value": "P1M"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_PERCENTAGE_SPLIT",
+                                            "value": "100"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            },
+                            "id": "965700a0-6bc2-491f-92ae-ea9ddd91702c"
+                        },
+                        {
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "Academic Counsellor",
+                                "long_desc": "Responsibilities:\n- Provide academic guidance and support to students\n- Help students set and achieve academic goals\n- Assist students in selecting appropriate courses\n- Monitor students' progress and offer advice on study strategies\n- Address any concerns or challenges students may face in their academic journey\n- Collaborate with faculty and staff to ensure student success",
+                                "short_desc": "Responsibilities:\n- Provide academic guidance and support to students\n- Help students set and achieve academic goals\n- Assist students in selecting appropriate courses\n- Monitor students' progress and offer advice on study strategies\n- Address any concerns or challenges students may face in their academic journey\n- Collaborate with faculty and staff to ensure student success",
+                                "images":
+                                [
+                                    {
+                                        "url": "https://d39rd9v7wil94y.cloudfront.net/category_list/Retail_Countersales.png"
+                                    }
+                                ],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 1
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-05-26T08:41:45.000Z",
+                                "range":
+                                {
+                                    "start": "2025-05-25T18:30:00.000Z",
+                                    "end": "2025-06-25T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    [
+                                        {
+                                            "url": "https://www.quesscorp.com/wp-content/uploads/2022/11/quessbluesvg.svg"
+                                        }
+                                    ]
+                                },
+                                "address": "Quess House,/3/2 Bellandur Gate, Sarjapur Road, Bengaluru 560103,Karnataka, India",
+                                "state":
+                                {
+                                    "code": "KA"
+                                },
+                                "city":
+                                {
+                                    "code": "BANGALORE"
+                                },
+                                "contact":
+                                {
+                                    "phone": "+91-8147968533",
+                                    "email": "sales@billioncareers.in"
+                                }
+                            },
+                            "tags":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "ACADEMIC_QUALIFICATIONS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "COURSE_LEVEL"
+                                            },
+                                            "value": "Graduation"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MANDATORY_ELIGIBILITY"
+                                            },
+                                            "value": "true"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_REQUIREMENT"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_EXPERIENCE"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_GENDER"
+                                            },
+                                            "value": "both"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_DETAILS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_ROLE"
+                                            },
+                                            "value": "Academic Counsellor"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_TYPE"
+                                            },
+                                            "value": "Full-time"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "GENDER_PREFERENCE"
+                                            },
+                                            "value": "both"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "COMPENSATION"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "TYPE"
+                                            },
+                                            "value": "ctc"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MIN"
+                                            },
+                                            "value": "133200"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MAX"
+                                            },
+                                            "value": "266400"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "NP_FEES"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "code": "ID",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TYPE",
+                                            "value": "amount"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_VALUE",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_NAME",
+                                            "value": "lead"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TRIGGERING_STATE",
+                                            "value": "APPLICATION_SUBMITTED"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TYPE",
+                                            "value": "CTC"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TRANSFER_PERIOD",
+                                            "value": "P1M"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_PERCENTAGE_SPLIT",
+                                            "value": "100"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            },
+                            "id": "4583d803-36a1-41e4-9aa1-4c1147dad421"
+                        },
+                        {
+                            "category_ids":
+                            [
+                                "Administration"
+                            ],
+                            "descriptor":
+                            {
+                                "name": "IT Support",
+                                "long_desc": "Responsibilities:\n- Provide technical support to internal staff on IT issues\n- Troubleshoot and resolve hardware and software problems\n- Setup and configure computer systems and peripherals\n- Install and update software applications\n- Manage user accounts and permissions\n- Identify and escalate complex IT issues to senior staff\n- Maintain inventory of hardware and software resources\n- Assist with network maintenance and troubleshooting\n- Provide training to staff on IT systems and applications",
+                                "short_desc": "Responsibilities:\n- Provide technical support to internal staff on IT issues\n- Troubleshoot and resolve hardware and software problems\n- Setup and configure computer systems and peripherals\n- Install and update software applications\n- Manage user accounts and permissions\n- Identify and escalate complex IT issues to senior staff\n- Maintain inventory of hardware and software resources\n- Assist with network maintenance and troubleshooting\n- Provide training to staff on IT systems and applications",
+                                "images":
+                                [
+                                    {
+                                        "url": "https://d39rd9v7wil94y.cloudfront.net/category_list/Retail_Countersales.png"
+                                    }
+                                ],
+                                "media":
+                                []
+                            },
+                            "quantity":
+                            {
+                                "available":
+                                {
+                                    "count": 1
+                                }
+                            },
+                            "time":
+                            {
+                                "label": "enable",
+                                "timestamp": "2025-05-27T08:57:21.000Z",
+                                "range":
+                                {
+                                    "start": "2025-05-26T18:30:00.000Z",
+                                    "end": "2025-06-26T18:29:59.000Z"
+                                }
+                            },
+                            "location_ids":
+                            [
+                                "L1"
+                            ],
+                            "fulfillment_ids":
+                            [
+                                "F1"
+                            ],
+                            "creator":
+                            {
+                                "descriptor":
+                                {
+                                    "name": "Quess",
+                                    "code": "Q",
+                                    "short_desc": "Quesscorp",
+                                    "long_desc": "Quesscorp",
+                                    "media":
+                                    [],
+                                    "images":
+                                    [
+                                        {
+                                            "url": "https://www.quesscorp.com/wp-content/uploads/2022/11/quessbluesvg.svg"
+                                        }
+                                    ]
+                                },
+                                "address": "Quess House,/3/2 Bellandur Gate, Sarjapur Road, Bengaluru 560103,Karnataka, India",
+                                "state":
+                                {
+                                    "code": "KA"
+                                },
+                                "city":
+                                {
+                                    "code": "BANGALORE"
+                                },
+                                "contact":
+                                {
+                                    "phone": "+91-8147968533",
+                                    "email": "sales@billioncareers.in"
+                                }
+                            },
+                            "tags":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "ACADEMIC_QUALIFICATIONS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "COURSE_LEVEL"
+                                            },
+                                            "value": "12th Standard / PUC"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MANDATORY_ELIGIBILITY"
+                                            },
+                                            "value": "true"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_REQUIREMENT"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_EXPERIENCE"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "REQ_GENDER"
+                                            },
+                                            "value": "both"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_DETAILS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_ROLE"
+                                            },
+                                            "value": "IT Support"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "JOB_TYPE"
+                                            },
+                                            "value": "Full-time"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "GENDER_PREFERENCE"
+                                            },
+                                            "value": "both"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "COMPENSATION"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "TYPE"
+                                            },
+                                            "value": "ctc"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MIN"
+                                            },
+                                            "value": "120000"
+                                        },
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "MAX"
+                                            },
+                                            "value": "240000"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "NP_FEES"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "code": "ID",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TYPE",
+                                            "value": "amount"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_VALUE",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_NAME",
+                                            "value": "lead"
+                                        },
+                                        {
+                                            "code": "COMMERCIAL_TRIGGERING_STATE",
+                                            "value": "APPLICATION_SUBMITTED"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TYPE",
+                                            "value": "CTC"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_TRANSFER_PERIOD",
+                                            "value": "P1M"
+                                        },
+                                        {
+                                            "code": "COMPENSATION_PERCENTAGE_SPLIT",
+                                            "value": "100"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0",
+                                "maximum_value": "0"
+                            },
+                            "id": "1eb3a3e6-bfbe-40d4-899c-d4405f981bb8"
+                        }
+                    ],
+                    "tags":
+                    [
+                        {
+                            "descriptor":
+                            {
+                                "code": "LOCATION"
+                            },
+                            "list":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "ADDRESS"
+                                    },
+                                    "value": "Quess House,/3/2 Bellandur Gate, Sarjapur Road, Bengaluru 560103,Karnataka, India"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "1"
+                }
+            ]
+        }
+    }
+}
