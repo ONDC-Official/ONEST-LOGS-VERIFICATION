@@ -1,0 +1,39 @@
+{
+        "context": {
+          "domain": "ONDC:ONEST10",
+          "location": {
+            "country": {
+              "code": "IND"
+            },
+            "city": {
+              "code": "*"
+            }
+          },
+          "version": "2.0.0",
+          "action": "settle",
+          "bap_id": "bap-preprod-ondc.hamarajobs.ai",
+          "bap_uri": "https://bap-preprod-ondc.hamarajobs.ai/bap",
+          "bpp_id": "rsf-mock-service.ondc.org/seller_protocol_server_preprod",
+          "bpp_uri": "https://rsf-mock-service.ondc.org/seller_protocol_server_preprod/ondc",
+          "transaction_id": "13bd5a43-b2a6-478a-b8c0-734c2d8da156",
+          "message_id": "e9b25937-b550-492d-9a70-78b58e7582de",
+          "timestamp": "2025-06-04T08:37:25.544960Z",
+          "ttl": "P1D"
+        },
+        "message": {
+          "settlement": {
+            "type": "MISC",
+            "id": "07d23f69-778c-4a2d-bfef-5ecaecb1f1f0",
+            "orders": [
+              {
+                "self": {
+                  "amount": {
+                    "currency": "INR",
+                    "value": "0.00"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
