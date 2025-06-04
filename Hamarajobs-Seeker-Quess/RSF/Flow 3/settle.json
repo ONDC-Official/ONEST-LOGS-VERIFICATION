@@ -12,7 +12,7 @@
     "version": "2.0.0",
     "action": "settle",
     "bap_id": "bap-preprod-ondc.hamarajobs.ai",
-   "bap_uri": "https://bap-preprod-ondc.hamarajobs.ai/bap",
+    "bap_uri": "https://bap-preprod-ondc.hamarajobs.ai/bap",
     "bpp_id": "rsf-mock-service.ondc.org/seller_protocol_server_preprod",
     "bpp_uri": "https://rsf-mock-service.ondc.org/seller_protocol_server_preprod/ondc",
     "transaction_id": "77bff1d9-02e3-4b44-940b-fd96f7a37734",
@@ -30,6 +30,10 @@
         {
           "id": "0c2be58d-4bfe-41f0-9811-13d5c756be12",
           "inter_participant": {
+            "settled_amount": {
+              "currency": "INR",
+              "value": "0"
+            },
             "amount": {
               "currency": "INR",
               "value": 0

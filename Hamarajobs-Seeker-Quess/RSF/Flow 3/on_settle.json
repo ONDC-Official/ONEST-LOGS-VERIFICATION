@@ -14,7 +14,7 @@
     },
     "transaction_id": "77bff1d9-02e3-4b44-940b-fd96f7a37734",
     "message_id": "c4deef92-3d72-4252-b405-d001ba59d125",
-    "timestamp": "2025-06-04T08:04:07.779Z",
+    "timestamp": "2025-06-04T08:13:11.624Z",
     "domain": "ONDC:ONEST10",
     "version": "2.0.0",
     "ttl": "PT10M",
@@ -29,12 +29,39 @@
       "orders": [
         {
           "id": "0c2be58d-4bfe-41f0-9811-13d5c756be12",
+          "collector": {
+            "amount": {
+              "currency": "INR",
+              "value": "0"
+            }
+          },
           "self": {
-            "status": "SETTLED",
-            "reference_no": "1238683618634"
+            "amount": {
+              "currency": "INR",
+              "value": "0"
+            },
+            "status": "NOT_SETTLED",
+            "reference_no": "1238683618634",
+            "error": {
+              "code": "70024",
+              "message": "Interparticipant value mismatch"
+            }
           },
           "inter_participant": {
-            "status": "SETTLED"
+            "amount": {
+              "currency": "INR",
+              "value": "0"
+            },
+            "reference_no": "1238683618634",
+            "settled_amount": {
+              "currency": "INR",
+              "value": "0"
+            },
+            "error": {
+              "code": "70024",
+              "message": "Interparticipant value mismatch"
+            },
+            "status": "NOT_SETTLED"
           }
         }
       ]

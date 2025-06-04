@@ -33,6 +33,10 @@
             "amount": {
               "currency": "INR",
               "value": 0
+            },
+            "settled_amount": {
+              "currency": "INR",
+              "value": "0"
             }
           },
           "collector": {

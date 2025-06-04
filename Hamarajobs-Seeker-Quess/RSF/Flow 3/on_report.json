@@ -13,12 +13,12 @@
       }
     },
     "transaction_id": "77bff1d9-02e3-4b44-940b-fd96f7a37734",
-    "message_id": "c4deef92-3d72-4252-b405-d001ba59d125",
-    "timestamp": "22025-06-04T08:13:11.624Z",
+    "message_id": "fc1233fd-9cf9-4607-ba27-9bbb553438fe",
+    "timestamp": "2025-06-04T08:42:14.387Z",
     "domain": "ONDC:ONEST10",
     "version": "2.0.0",
     "ttl": "PT10M",
-    "action": "on_settle"
+    "action": "on_report"
   },
   "message": {
     "collector_app_id": "bap-preprod-ondc.hamarajobs.ai",
@@ -29,20 +29,39 @@
       "orders": [
         {
           "id": "0c2be58d-4bfe-41f0-9811-13d5c756be12",
-          "self": {
-            "status": "NOT_SETTLED",
-            "reference_no": "1238683618634",
-            "error": {
-              "code": "70024",
-              "message": "Interparticipant value mismatch"
+          "collector": {
+            "amount": {
+              "currency": "INR",
+              "value": "0"
             }
           },
+          "self": {
+            "amount": {
+              "currency": "INR",
+              "value": "0"
+            },
+            "status": "NOT_SETTLED",
+            "reference_no": "1238683618634"
+          },
           "inter_participant": {
-            "error": {
-              "code": "70024",
-              "message": "Interparticipant value mismatch"
+            "amount": {
+              "currency": "INR",
+              "value": "0"
+            },
+            "reference_no": "1238683618634",
+            "settled_amount": {
+              "currency": "INR",
+              "value": "0"
             },
             "status": "NOT_SETTLED"
+          },
+          "provider": {
+            "reference_no": "1238683618634",
+            "status": "NOT_SETTLED"
+          },
+          "error": {
+            "code": "70024",
+            "message": "Interparticipant value mismatch"
           }
         }
       ]
