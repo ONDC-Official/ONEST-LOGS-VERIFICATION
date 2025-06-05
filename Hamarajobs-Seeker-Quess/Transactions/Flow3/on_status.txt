@@ -1,0 +1,419 @@
+{
+    "context":
+    {
+        "domain": "ONDC:ONEST10",
+        "action": "on_update",
+        "version": "2.0.0",
+        "bap_id": "bap-preprod-ondc.hamarajobs.ai",
+        "bap_uri": "https://bap-preprod-ondc.hamarajobs.ai/bap",
+        "bpp_id": "preprod-ondc.hamarajobs.ai",
+        "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
+        "transaction_id": "0f2080fd-6be3-4799-b496-09fee8ac548d",
+        "message_id": "4332d7e8-079c-47dd-93b7-7a9d9c55f0f2",
+        "timestamp": "2025-06-03T13:20:19.523Z",
+        "ttl": "PT30S",
+        "location":
+        {
+            "city":
+            {
+                "code": "std:080"
+            },
+            "country":
+            {
+                "code": "IND"
+            }
+        }
+    },
+    "message":
+    {
+        "order":
+        {
+            "status": "Completed",
+            "provider":
+            {
+                "descriptor":
+                {
+                    "name": "Quess Jobs"
+                },
+                "id": "1"
+            },
+            "items":
+            [
+                {
+                    "fulfillment_ids":
+                    [
+                        "F1"
+                    ],
+                    "tags":
+                    [
+                        {
+                            "descriptor":
+                            {
+                                "code": "ACADEMIC_QUALIFICATIONS"
+                            },
+                            "list":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "COURSE_LEVEL"
+                                    },
+                                    "value": "Graduation"
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "MANDATORY_ELIGIBILITY"
+                                    },
+                                    "value": "true"
+                                }
+                            ]
+                        },
+                        {
+                            "descriptor":
+                            {
+                                "code": "JOB_REQUIREMENT"
+                            },
+                            "list":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "REQ_EXPERIENCE"
+                                    },
+                                    "value": "0"
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "REQ_GENDER"
+                                    },
+                                    "value": "both"
+                                }
+                            ]
+                        },
+                        {
+                            "descriptor":
+                            {
+                                "code": "JOB_DETAILS"
+                            },
+                            "list":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_ROLE"
+                                    },
+                                    "value": "Academic Counsellor"
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_TYPE"
+                                    },
+                                    "value": "Full-time"
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "GENDER_PREFERENCE"
+                                    },
+                                    "value": "both"
+                                }
+                            ]
+                        },
+                        {
+                            "descriptor":
+                            {
+                                "code": "COMPENSATION"
+                            },
+                            "list":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "TYPE"
+                                    },
+                                    "value": "ctc"
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "MIN"
+                                    },
+                                    "value": "11100"
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "MAX"
+                                    },
+                                    "value": "22200"
+                                }
+                            ]
+                        },
+                        {
+                            "descriptor":
+                            {
+                                "code": "NP_FEES"
+                            },
+                            "list":
+                            [
+                                {
+                                    "code": "ID",
+                                    "value": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "4583d803-36a1-41e4-9aa1-4c1147dad421"
+                }
+            ],
+            "quote":
+            {
+                "price":
+                {
+                    "currency": "INR",
+                    "value": "0"
+                },
+                "breakup":
+                [
+                    {
+                        "item":
+                        {
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0"
+                            },
+                            "title": "item",
+                            "id": "4583d803-36a1-41e4-9aa1-4c1147dad421"
+                        }
+                    },
+                    {
+                        "item":
+                        {
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0"
+                            },
+                            "title": "tax",
+                            "id": "487697f5-3225-463e-9a5c-5c60db156b9f"
+                        }
+                    }
+                ],
+                "ttl": "P1D"
+            },
+            "fulfillments":
+            [
+                {
+                    "type": "lead",
+                    "state":
+                    {
+                        "descriptor":
+                        {
+                            "code": "OFFER_REJECTED"
+                        },
+                        "updated_at": "2025-06-03T13:20:03.372Z"
+                    },
+                    "customer":
+                    {
+                        "person":
+                        {
+                            "name": "Vinothvipin",
+                            "gender": "Male",
+                            "age": 35,
+                            "skills":
+                            [
+                                {
+                                    "name": "sales"
+                                },
+                                {
+                                    "name": "javascript"
+                                },
+                                {
+                                    "name": "java"
+                                },
+                                {
+                                    "name": "python"
+                                },
+                                {
+                                    "name": "react js"
+                                }
+                            ],
+                            "languages":
+                            [
+                                {
+                                    "name": "en"
+                                }
+                            ],
+                            "creds":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "name": "Driving License",
+                                        "short_desc": "Driving License",
+                                        "long_desc": "1234567890"
+                                    },
+                                    "url": "https://reqruit-dev.s3.ap-south-1.amazonaws.com/bap-backend/development/images/8eaac685-1260-4afd-9118-b1a56d852e8e/230fc505-a6f2-4912-aa6d-4c6c06fabc50.png",
+                                    "type": "Driving License",
+                                    "id": "D1"
+                                }
+                            ],
+                            "tags":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "EMP_DETAILS"
+                                    },
+                                    "list":
+                                    [
+                                        {
+                                            "descriptor":
+                                            {
+                                                "code": "TOTAL_EXPERIENCE"
+                                            },
+                                            "value": "4"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "ACADEMIC_QUALIFICATIONS"
+                                    },
+                                    "list":
+                                    [
+                                        [
+                                            {
+                                                "descriptor":
+                                                {
+                                                    "code": "COURSE_NAME"
+                                                },
+                                                "value": "12th pass"
+                                            },
+                                            {
+                                                "descriptor":
+                                                {
+                                                    "code": "COLLEGE_NAME"
+                                                },
+                                                "value": "Govt school"
+                                            },
+                                            {
+                                                "descriptor":
+                                                {
+                                                    "code": "YEAR_OF_COMPLETION"
+                                                },
+                                                "value": "2010"
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "descriptor":
+                                                {
+                                                    "code": "COURSE_NAME"
+                                                },
+                                                "value": "Graduate"
+                                            },
+                                            {
+                                                "descriptor":
+                                                {
+                                                    "code": "COLLEGE_NAME"
+                                                },
+                                                "value": "STC"
+                                            },
+                                            {
+                                                "descriptor":
+                                                {
+                                                    "code": "YEAR_OF_COMPLETION"
+                                                },
+                                                "value": "2020"
+                                            }
+                                        ]
+                                    ]
+                                }
+                            ]
+                        },
+                        "contact":
+                        {
+                            "phone": "9095551000",
+                            "email": null
+                        }
+                    },
+                    "id": "F1"
+                }
+            ],
+            "payments":
+            [
+                {
+                    "status": "NOT-PAID",
+                    "type": "ON-ORDER",
+                    "collected_by": "BAP",
+                    "tags":
+                    {
+                        "descriptor":
+                        {
+                            "code": "SETTLEMENT_DETAILS"
+                        },
+                        "list":
+                        [
+                            {
+                                "descriptor":
+                                {
+                                    "code": "SETTLEMENT_COUNTERPARTY"
+                                },
+                                "value": "seller-app"
+                            },
+                            {
+                                "descriptor":
+                                {
+                                    "code": "SETTLEMENT_BANK_ACCOUNT_NO"
+                                },
+                                "value": "XXXXXXXXXX"
+                            },
+                            {
+                                "descriptor":
+                                {
+                                    "code": "SETTLEMENT_IFSC_CODE"
+                                },
+                                "value": "XXXXXXXXX"
+                            },
+                            {
+                                "descriptor":
+                                {
+                                    "code": "BENEFICIARY_NAME"
+                                },
+                                "value": "xxxxx"
+                            },
+                            {
+                                "descriptor":
+                                {
+                                    "code": "BANK_NAME"
+                                },
+                                "value": "xxxx"
+                            },
+                            {
+                                "descriptor":
+                                {
+                                    "code": "BRANCH_NAME"
+                                },
+                                "value": "xxxx"
+                            }
+                        ]
+                    },
+                    "params":
+                    {
+                        "amount": 0
+                    }
+                }
+            ],
+            "updated_at": "2025-06-03T13:20:03.372Z",
+            "documents":
+            [],
+            "id": "4583d803-36a1-41e4-9aa1-4c1147dad421-1748956799825"
+        }
+    }
+}

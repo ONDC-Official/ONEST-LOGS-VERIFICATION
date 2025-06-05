@@ -1,0 +1,106 @@
+{
+    "context":
+    {
+        "domain": "ONDC:ONEST10",
+        "action": "on_select",
+        "version": "2.0.0",
+        "bap_id": "bap-preprod-ondc.hamarajobs.ai",
+        "bap_uri": "https://bap-preprod-ondc.hamarajobs.ai/bap",
+        "bpp_id": "preprod-ondc.hamarajobs.ai",
+        "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
+        "transaction_id": "5136994c-6e9e-481e-b58a-fe8cd6906163",
+        "message_id": "a3f4aa62-f0f4-4114-b9bc-dc6532931f3d",
+        "timestamp": "2025-06-03T11:51:05.211Z",
+        "ttl": "PT30S",
+        "location":
+        {
+            "city":
+            {
+                "code": "std:080"
+            },
+            "country":
+            {
+                "code": "IND"
+            }
+        }
+    },
+    "message":
+    {
+        "order":
+        {
+            "provider":
+            {
+                "id": "1"
+            },
+            "fulfillments":
+            [
+                {
+                    "type": "lead",
+                    "id": "F1"
+                }
+            ],
+            "items":
+            [
+                {
+                    "fulfillment_ids":
+                    [
+                        "F1"
+                    ],
+                    "tags":
+                    [
+                        {
+                            "descriptor":
+                            {
+                                "code": "NP_FEES"
+                            },
+                            "list":
+                            [
+                                {
+                                    "code": "ID",
+                                    "value": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "0c3ab344-9310-43e5-ba74-99bfb130645e"
+                }
+            ],
+            "quote":
+            {
+                "price":
+                {
+                    "currency": "INR",
+                    "value": "0"
+                },
+                "breakup":
+                [
+                    {
+                        "item":
+                        {
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0"
+                            },
+                            "title": "item",
+                            "id": "0c3ab344-9310-43e5-ba74-99bfb130645e"
+                        }
+                    },
+                    {
+                        "item":
+                        {
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0"
+                            },
+                            "title": "tax",
+                            "id": "1f9eef99-5e0e-44b4-939a-314f2e4a139f"
+                        }
+                    }
+                ],
+                "ttl": "P1D"
+            }
+        }
+    }
+}

@@ -1,0 +1,212 @@
+{
+        "context" : {
+            "domain" : "ONDC:ONEST10",
+            "action" : "init",
+            "version" : "2.0.0",
+            "bap_id" : "bap-preprod-ondc.hamarajobs.ai",
+            "bap_uri" : "https://bap-preprod-ondc.hamarajobs.ai/bap",
+            "bpp_id" : "preprod-ondc.hamarajobs.ai",
+            "bpp_uri" : "https://preprod-ondc.hamarajobs.ai/bpp",
+            "transaction_id" : "5136994c-6e9e-481e-b58a-fe8cd6906163",
+            "message_id" : "9b174e72-542d-487b-8fd6-857a615dcb0e",
+            "timestamp" : "2025-06-03T11:51:06.893Z",
+            "ttl" : "PT30S",
+            "location" : {
+                "city" : {
+                    "code" : "std:080"
+                },
+                "country" : {
+                    "code" : "IND"
+                }
+            }
+        },
+        "message" : {
+            "order" : {
+                "provider" : {
+                    "id" : 1
+                },
+                "fulfillments" : [ 
+                    {
+                        "type" : "lead",
+                        "customer" : {
+                            "person" : {
+                                "name" : "Vinothvipin",
+                                "gender" : "Male",
+                                "age" : 35,
+                                "skills" : [ 
+                                    {
+                                        "name" : "sales"
+                                    }, 
+                                    {
+                                        "name" : "javascript"
+                                    }, 
+                                    {
+                                        "name" : "java"
+                                    }, 
+                                    {
+                                        "name" : "python"
+                                    }, 
+                                    {
+                                        "name" : "react js"
+                                    }
+                                ],
+                                "languages" : [ 
+                                    {
+                                        "name" : "en"
+                                    }
+                                ],
+                                "creds" : [ 
+                                    {
+                                        "descriptor" : {
+                                            "name" : "Driving License",
+                                            "short_desc" : "Driving License",
+                                            "long_desc" : "1234567890"
+                                        },
+                                        "url" : "https://reqruit-dev.s3.ap-south-1.amazonaws.com/bap-backend/development/images/8eaac685-1260-4afd-9118-b1a56d852e8e/230fc505-a6f2-4912-aa6d-4c6c06fabc50.png",
+                                        "type" : "Driving License",
+                                        "id" : "D1"
+                                    }
+                                ],
+                                "tags" : [ 
+                                    {
+                                        "descriptor" : {
+                                            "code" : "EMP_DETAILS"
+                                        },
+                                        "list" : [ 
+                                            {
+                                                "descriptor" : {
+                                                    "code" : "TOTAL_EXPERIENCE"
+                                                },
+                                                "value" : "4"
+                                            }
+                                        ]
+                                    }, 
+                                    {
+                                        "descriptor" : {
+                                            "code" : "ACADEMIC_QUALIFICATIONS"
+                                        },
+                                        "list" : [ 
+                                            [ 
+                                                {
+                                                    "descriptor" : {
+                                                        "code" : "COURSE_NAME"
+                                                    },
+                                                    "value" : "12th pass"
+                                                }, 
+                                                {
+                                                    "descriptor" : {
+                                                        "code" : "COLLEGE_NAME"
+                                                    },
+                                                    "value" : "Govt school"
+                                                }, 
+                                                {
+                                                    "descriptor" : {
+                                                        "code" : "YEAR_OF_COMPLETION"
+                                                    },
+                                                    "value" : "2010"
+                                                }
+                                            ], 
+                                            [ 
+                                                {
+                                                    "descriptor" : {
+                                                        "code" : "COURSE_NAME"
+                                                    },
+                                                    "value" : "Graduate"
+                                                }, 
+                                                {
+                                                    "descriptor" : {
+                                                        "code" : "COLLEGE_NAME"
+                                                    },
+                                                    "value" : "STC"
+                                                }, 
+                                                {
+                                                    "descriptor" : {
+                                                        "code" : "YEAR_OF_COMPLETION"
+                                                    },
+                                                    "value" : "2020"
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            "contact" : {
+                                "phone" : "9095551000",
+                                "email" : null
+                            }
+                        },
+                        "id" : "F1"
+                    }
+                ],
+                "items" : [ 
+                    {
+                        "fulfillment_ids" : [ 
+                            "F1"
+                        ],
+                        "tags" : {
+                            "descriptor" : {
+                                "code" : "NP_FEES"
+                            },
+                            "list" : [ 
+                                {
+                                    "code" : "ID",
+                                    "value" : "1"
+                                }
+                            ]
+                        },
+                        "id" : "0c3ab344-9310-43e5-ba74-99bfb130645e"
+                    }
+                ],
+                "payments" : [ 
+                    {
+                        "status" : "NOT-PAID",
+                        "type" : "ON-ORDER",
+                        "collected_by" : "BAP",
+                        "tags" : {
+                            "descriptor" : {
+                                "code" : "SETTLEMENT_DETAILS"
+                            },
+                            "list" : [ 
+                                {
+                                    "descriptor" : {
+                                        "code" : "SETTLEMENT_COUNTERPARTY"
+                                    },
+                                    "value" : "seller-app"
+                                }, 
+                                {
+                                    "descriptor" : {
+                                        "code" : "SETTLEMENT_BANK_ACCOUNT_NO"
+                                    },
+                                    "value" : "XXXXXXXXXX"
+                                }, 
+                                {
+                                    "descriptor" : {
+                                        "code" : "SETTLEMENT_IFSC_CODE"
+                                    },
+                                    "value" : "XXXXXXXXX"
+                                }, 
+                                {
+                                    "descriptor" : {
+                                        "code" : "BENEFICIARY_NAME"
+                                    },
+                                    "value" : "xxxxx"
+                                }, 
+                                {
+                                    "descriptor" : {
+                                        "code" : "BANK_NAME"
+                                    },
+                                    "value" : "xxxx"
+                                }, 
+                                {
+                                    "descriptor" : {
+                                        "code" : "BRANCH_NAME"
+                                    },
+                                    "value" : "xxxx"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }

@@ -1,0 +1,78 @@
+{
+        "context" : {
+            "domain" : "ONDC:ONEST10",
+            "action" : "search",
+            "version" : "2.0.0",
+            "bap_id" : "bap-preprod-ondc.hamarajobs.ai",
+            "bap_uri" : "https://bap-preprod-ondc.hamarajobs.ai/bap",
+            "transaction_id" : "5136994c-6e9e-481e-b58a-fe8cd6906163",
+            "message_id" : "06c14749-d1c0-499d-b71c-98c450930c23",
+            "timestamp" : "2025-06-03T11:33:26.854Z",
+            "location" : {
+                "city" : {
+                    "code" : "std:080"
+                },
+                "country" : {
+                    "code" : "IND"
+                }
+            },
+            "ttl" : "PT30S"
+        },
+        "message" : {
+            "intent" : {
+                "payment" : {
+                    "descriptor" : {
+                        "code" : "NP_FEES"
+                    },
+                    "list" : [ 
+                        {
+                            "code" : "ID",
+                            "value" : "1"
+                        }
+                    ]
+                },
+                "provider" : {
+                    "locations" : [ 
+                        {
+                            "city" : {
+                                "code" : "std:0422"
+                            },
+                            "state" : {
+                                "code" : "IN-TN"
+                            },
+                            "country" : {
+                                "code" : "IN"
+                            }
+                        }
+                    ]
+                },
+                "tags" : [ 
+                    {
+                        "descriptor" : {
+                            "code" : "BAP_TERMS"
+                        },
+                        "list" : [ 
+                            {
+                                "descriptor" : {
+                                    "code" : "STATIC_TERMS"
+                                },
+                                "value" : "static_terms_value"
+                            }, 
+                            {
+                                "descriptor" : {
+                                    "code" : "STATIC_TERMS_NEW"
+                                },
+                                "value" : "static_terms_new_value"
+                            }, 
+                            {
+                                "descriptor" : {
+                                    "code" : "EFFECTIVE_DATE"
+                                },
+                                "value" : "2025-06-03T11:33:26.854Z"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }

@@ -104,7 +104,11 @@
                                     "short_desc": "Quesscorp",
                                     "long_desc": "Quesscorp",
                                     "media": [],
-                                    "images": []
+                                    "images": [
+                                        {
+                                            "url": "https://www.quesscorp.com/wp-content/uploads/2022/11/quessbluesvg.svg"
+                                        }
+                                    ]
                                 },
                                 "address": "Quess House,/3/2 Bellandur Gate, Sarjapur Road, Bengaluru 560103,Karnataka, India",
                                 "state": {

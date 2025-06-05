@@ -1,0 +1,27 @@
+{
+    "context": {
+        "domain": "ONDC:ONEST10",
+        "action": "cancel",
+        "version": "2.0.0",
+        "bap_id": "bap-preprod-ondc.hamarajobs.ai",
+        "bap_uri": "https://bap-preprod-ondc.hamarajobs.ai/bap",
+        "bpp_id": "preprod-ondc.hamarajobs.ai",
+        "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
+        "transaction_id": "0f2080fd-6be3-4799-b496-09fee8ac548d",
+        "message_id": "4332d7e8-079c-47dd-93b7-7a9d9c55f0f2",
+        "timestamp": "2025-06-03T13:20:19.523Z",
+        "ttl": "PT30S",
+        "location": {
+            "city": {
+                "code": "std:080"
+            },
+            "country": {
+                "code": "IND"
+            }
+        }
+    },
+    "message": {
+        "order_id": "446c26ca-b379-47df-8bca-540f1beb7bbc",
+        "cancellation_reason_id": "001"
+    }
+}
