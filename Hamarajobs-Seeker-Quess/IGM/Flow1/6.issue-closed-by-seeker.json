@@ -1,0 +1,171 @@
+{
+    "context": {
+        "bap_id": "bap-preprod-ondc.hamarajobs.ai",
+        "bap_uri": "https://bap-preprod-ondc.hamarajobs.ai/bap",
+        "bpp_id": "preprod-ondc.hamarajobs.ai",
+        "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
+        "transaction_id": "5136994c-6e9e-481efe8cd6906163",
+        "message_id": "a3f4aa62-f0f4-4114dc6532931f3d",
+        "location": {
+            "country": {
+                "code": "IND"
+            },
+            "city": {
+                "code": "*"
+            }
+        },        
+        "timestamp": "2025-06-03T12:00:09.211Z",
+        "domain": "ONDC:ONEST10",
+        "core_version": "2.0.0",
+        "ttl": "PT10M",
+        "action": "issue"
+    },
+    "message": {
+        "issue": {
+            "level": "ISSUE",
+            "status": "CLOSED",
+            "expected_response_time": {
+                "duration": "PT2H"
+            },
+            "expected_resolution_time": {
+                "duration": "P1D"
+            },
+            "refs": [
+                {
+                    "ref_id": "O1",
+                    "ref_type": "ORDER"
+                }
+            ],
+            "actors": [
+                {
+                    "info": {
+                        "org": {
+                            "name": "buyerapp.com::ONDC:ONEST10"
+                        },
+                        "person": {
+                            "name": "Sam Manuel"
+                        },
+                        "contact": {
+                            "phone": "9879879870",
+                            "email": "sam@yahoo.com"
+                        }
+                    },
+                    "id": "CUST1"
+                },
+                {
+                    "info": {
+                        "org": {
+                            "name": "buyerapp.com::ONDC:ONEST10"
+                        },
+                        "contact": {
+                            "phone": "9450394039",
+                            "email": "buyerapp@interface.com"
+                        },
+                        "person": {
+                            "name": "John Doe"
+                        }
+                    },
+                    "id": "NP1"
+                },
+                {
+                    "type": "COUNTER_NP",
+                    "info": {
+                        "org": {
+                            "name": "hamarajobs.ai::ONDC:ONEST10"
+                        },
+                        "contact": {
+                            "phone": "9450394140",
+                            "email": "reply@hamarajobs.ai"
+                        },
+                        "person": {
+                            "name": "Sidharth"
+                        }
+                    },
+                    "id": "NP2"
+                }
+            ],
+            "source_id": "CUST1",
+            "complainant_id": "NP1",
+            "description": {
+                "code": "ORD01",
+                "short_desc": "Issue with product quality",
+                "long_desc": "Product quality is not correct. facing issues while using the product",
+                "additional_desc": {
+                    "url": "https://buyerapp.com/additonal-details/desc.txt",
+                    "content_type": "text/plain"
+                },
+                "images": [
+                    "http://buyerapp.com/addtional-details/img1.png",
+                    "http://buyerapp.com/addtional-details/img2.png"
+                ]
+            },
+            "last_action_id": "A6",
+            "actions": [
+                {
+                    "description": {
+                        "code": "OPEN",
+                        "short_desc": "OPEN"
+                    },
+                    "updated_at": "2025-06-03T11:51:07.211Z",
+                    "action_by": "NP2",
+                    "actor_details": {
+                        "name": "Sam Manuel"
+                    },
+                    "id": "A1"
+                },
+                {
+                    "description": {
+                        "code": "PROCESSING",
+                        "short_desc": "Complaint created"
+                    },
+                    "updated_at": "2025-06-03T11:51:07.211Z",
+                    "action_by": "NP2",
+                    "actor_details": {
+                        "name": "Sam Manuel"
+                    },
+                    "id": "A2"
+                },
+                {
+                    "description": {
+                        "code": "RESOLUTION_PROPOSED"
+                    },
+                    "updated_at": "2025-06-03T11:51:09.211Z",
+                    "action_by": "NP2",
+                    "actor_details": {
+                        "name": "Sam Manuel"
+                    },
+                    "ref_id": "R_PARENT",
+                    "ref_type": "RESOLUTIONS",
+                    "id": "A3"
+                },
+                {
+                    "description": {
+                        "code": "RESOLUTION_ACCEPTED",
+                        "short_desc": "Resolution"
+                    },
+                    "updated_at": "2025-06-03T11:52:11.211Z",
+                    "action_by": "NP2",
+                    "actor_details": {
+                        "name": "Sam Manuel"
+                    },
+                    "id": "A4"
+                },
+                {
+                    "description": {
+                        "code": "CLOSED",
+                        "short_desc": "closed"
+                    },
+                    "updated_at": "2025-06-03T12:00:09.211Z",
+                    "action_by": "NP2",
+                    "actor_details": {
+                        "name": "Sam Manuel"
+                    },
+                    "id": "A6"
+                }
+            ],
+            "created_at": "2025-06-03T11:51:07.211Z",
+            "updated_at": "2025-06-03T12:00:09.211Z",
+            "id": "ISSUE-1"
+        }
+    }
+}

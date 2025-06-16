@@ -1,0 +1,367 @@
+{
+    "context":
+    {
+        "domain": "ONDC:ONEST10",
+        "action": "on_init",
+        "version": "2.0.0",
+        "bap_id": "bap-preprod-ondc.hamarajobs.ai",
+        "bap_uri": "https://bap-preprod-ondc.hamarajobs.ai/bap",
+        "bpp_id": "preprod-ondc.hamarajobs.ai",
+        "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
+        "transaction_id": "5136994c-6e9e-481e-b58a-fe8cd6906163",
+        "message_id": "9b174e72-542d-487b-8fd6-857a615dcb0e",
+        "timestamp": "2025-06-03T11:51:45.931Z",
+        "ttl": "PT30S",
+        "location":
+        {
+            "city":
+            {
+                "code": "std:080"
+            },
+            "country":
+            {
+                "code": "IND"
+            }
+        }
+    },
+    "message":
+    {
+        "order":
+        {
+            "provider":
+            {
+                "descriptor":
+                {
+                    "name": "Quess Jobs"
+                },
+                "locations":
+                [
+                    {
+                        "city":
+                        {
+                            "code": "std:0422"
+                        },
+                        "state":
+                        {
+                            "code": "TN"
+                        },
+                        "id": "L1"
+                    }
+                ],
+                "id": "1"
+            },
+            "items":
+            [
+                {
+                    "descriptor":
+                    {
+                        "name": "Ac Technician",
+                        "long_desc": "Responsibilities:\n- Install, maintain, and repair air conditioning systems\n- Troubleshoot and diagnose issues with AC units\n- Perform routine maintenance on HVAC equipment\n- Ensure compliance with safety and environmental regulations\n- Provide excellent customer service and communication \n- Keep accurate records of work performed"
+                    },
+                    "fulfillment_ids":
+                    [
+                        "F1"
+                    ],
+                    "location_ids":
+                    [
+                        "L1"
+                    ],
+                    "time":
+                    {
+                        "range":
+                        {
+                            "start": "2025-05-08T18:30:00.000Z",
+                            "end": "2025-06-08T18:29:59.000Z"
+                        }
+                    },
+                    "tags":
+                    [
+                        {
+                            "descriptor":
+                            {
+                                "code": "ACADEMIC_QUALIFICATIONS"
+                            },
+                            "list":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "COURSE_LEVEL"
+                                    },
+                                    "value": "Graduation"
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "MANDATORY_ELIGIBILITY"
+                                    },
+                                    "value": "true"
+                                }
+                            ]
+                        },
+                        {
+                            "descriptor":
+                            {
+                                "code": "JOB_REQUIREMENT"
+                            },
+                            "list":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "REQ_EXPERIENCE"
+                                    },
+                                    "value": "5"
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "REQ_GENDER"
+                                    },
+                                    "value": "male"
+                                }
+                            ]
+                        },
+                        {
+                            "descriptor":
+                            {
+                                "code": "JOB_DETAILS"
+                            },
+                            "list":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_ROLE"
+                                    },
+                                    "value": "Ac Technician"
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "JOB_TYPE"
+                                    },
+                                    "value": "Full-time"
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "GENDER_PREFERENCE"
+                                    },
+                                    "value": "male"
+                                }
+                            ]
+                        },
+                        {
+                            "descriptor":
+                            {
+                                "code": "COMPENSATION"
+                            },
+                            "list":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "TYPE"
+                                    },
+                                    "value": "ctc"
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "MIN"
+                                    },
+                                    "value": "13300"
+                                },
+                                {
+                                    "descriptor":
+                                    {
+                                        "code": "MAX"
+                                    },
+                                    "value": "14400"
+                                }
+                            ]
+                        },
+                        {
+                            "descriptor":
+                            {
+                                "code": "NP_FEES"
+                            },
+                            "list":
+                            [
+                                {
+                                    "code": "ID",
+                                    "value": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "0c3ab344-9310-43e5-ba74-99bfb130645e"
+                }
+            ],
+            "quote":
+            {
+                "price":
+                {
+                    "currency": "INR",
+                    "value": "0"
+                },
+                "breakup":
+                [
+                    {
+                        "item":
+                        {
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0"
+                            },
+                            "title": "item",
+                            "id": "0c3ab344-9310-43e5-ba74-99bfb130645e"
+                        }
+                    },
+                    {
+                        "item":
+                        {
+                            "price":
+                            {
+                                "currency": "INR",
+                                "value": "0"
+                            },
+                            "title": "tax",
+                            "id": "10a00caf-e02a-4aef-bded-d2dad4ad10f0"
+                        }
+                    }
+                ],
+                "ttl": "P1D"
+            },
+            "fulfillments":
+            [
+                {
+                    "type": "lead",
+                    "state":
+                    {
+                        "descriptor":
+                        {
+                            "code": "APPLICATION_FILLED"
+                        },
+                        "updated_at": "2025-06-03T11:51:45.980Z"
+                    },
+                    "customer":
+                    {
+                        "person":
+                        {
+                            "name": "Vinothvipin",
+                            "gender": "Male",
+                            "age": 35,
+                            "skills":
+                            [
+                                {
+                                    "name": "sales"
+                                },
+                                {
+                                    "name": "javascript"
+                                },
+                                {
+                                    "name": "java"
+                                },
+                                {
+                                    "name": "python"
+                                },
+                                {
+                                    "name": "react js"
+                                }
+                            ],
+                            "languages":
+                            [
+                                {
+                                    "name": "en"
+                                }
+                            ],
+                            "creds":
+                            [
+                                {
+                                    "descriptor":
+                                    {
+                                        "name": "Driving License",
+                                        "short_desc": "Driving License",
+                                        "long_desc": "1234567890"
+                                    },
+                                    "url": "https://reqruit-dev.s3.ap-south-1.amazonaws.com/bap-backend/development/images/8eaac685-1260-4afd-9118-b1a56d852e8e/230fc505-a6f2-4912-aa6d-4c6c06fabc50.png",
+                                    "type": "Driving License",
+                                    "id": "D1"
+                                }
+                            ]
+                        },
+                        "contact":
+                        {
+                            "phone": "9095551000",
+                            "email": null
+                        }
+                    },
+                    "id": "F1"
+                }
+            ],
+            "payments":
+            [
+                {
+                    "status": "NOT-PAID",
+                    "type": "ON-ORDER",
+                    "collected_by": "BAP",
+                    "tags":
+                    {
+                        "descriptor":
+                        {
+                            "code": "SETTLEMENT_DETAILS"
+                        },
+                        "list":
+                        [
+                            {
+                                "descriptor":
+                                {
+                                    "code": "SETTLEMENT_COUNTERPARTY"
+                                },
+                                "value": "seller-app"
+                            },
+                            {
+                                "descriptor":
+                                {
+                                    "code": "SETTLEMENT_BANK_ACCOUNT_NO"
+                                },
+                                "value": "XXXXXXXXXX"
+                            },
+                            {
+                                "descriptor":
+                                {
+                                    "code": "SETTLEMENT_IFSC_CODE"
+                                },
+                                "value": "XXXXXXXXX"
+                            },
+                            {
+                                "descriptor":
+                                {
+                                    "code": "BENEFICIARY_NAME"
+                                },
+                                "value": "xxxxx"
+                            },
+                            {
+                                "descriptor":
+                                {
+                                    "code": "BANK_NAME"
+                                },
+                                "value": "xxxx"
+                            },
+                            {
+                                "descriptor":
+                                {
+                                    "code": "BRANCH_NAME"
+                                },
+                                "value": "xxxx"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
